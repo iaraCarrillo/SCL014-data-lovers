@@ -1,0 +1,159 @@
+/*Log in*/
+body {
+background-image: url("images/backgroundLog.png");
+background-position: center;
+background-attachment: fixed;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.contenido {
+position: absolute;
+width: 750px;
+height: 100%;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(180deg, #0080B6 0%, rgba(160, 207, 196, 0.53) 100%);
+mix-blend-mode: normal;
+
+}
+
+#logo {
+position: absolute;
+width: 154px;
+height: 154px;
+left: 298px;
+top: 105px;
+}
+
+.contenido h1 {
+position: absolute;
+width: 311px;
+height: 44px;
+left: 220px;
+top: 265px;
+    
+font-family: Encode Sans Expanded;
+font-style: normal;
+font-weight: bold;
+font-size: 41.17px;
+line-height: 51px;
+    
+color: #FFFFFF;
+}
+
+#botonGo {
+position: absolute;
+width: 510px;
+height: 52px;
+left: 120px;
+top: 380px;
+background: #0080B6;
+mix-blend-mode: normal;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+}
+
+#botonGo:hover {
+background-color: #015B81;
+}
+
+#botonGo a {
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 32px;
+text-align: center;
+color: #FFFFFF;
+text-decoration: none;
+}
+
+.contenido h3 {
+position: absolute;
+width: 342px;
+height: 26px;
+left: 204px;
+top: 450px;
+
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 19.9px;
+line-height: 24px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.contenido input {
+position: absolute;
+width: 510px;
+height: 52px;
+left: 120px;
+top: 520px;
+
+background: #FFFFFF;
+mix-blend-mode: normal;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+}
+
+.contenido input::placeholder {
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 19.9px;
+line-height: 24px;
+}
+
+.password input{
+position: absolute;
+width: 510px;
+height: 52px;
+left: 120px;
+top: 590px;
+}
+
+.password input::placeholder {
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 19.9px;
+line-height: 24px;
+}
+
+#botonContinuar {
+position: absolute;
+width: 510px;
+height: 52px;
+left: 120px;
+top: 680px;
+
+background: #0080B6;
+mix-blend-mode: normal;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+}
+
+#botonContinuar:hover {
+background-color: #015B81;
+}
+    
+#botonContinuar a {
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 32px;
+text-align: center;
+color: #FFFFFF;
+text-decoration: none;
+}
+
+
+
+
+
+
+
