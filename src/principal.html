@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokéGo Dex</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="/images/logoprincipal.png">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded:wght@700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="menu">
+        <div class="logo">
+            <img src="images/logoblanco.png" alt="">
+            <h1>POKÉGO DEX</h1>
+        </div>
+        <div class="buscadorPokemon">
+            <input type="text" placeholder="Busca a tu Pokémon!">
+            <img src="images/lupa.png" alt="">
+            <div class="fondolupa"></div>
+            <div class="valoracion">
+                <button>
+                  <label for="radio1">★</label>
+              </button>
+            </div>
+        </div>
+        <div class="filtros">
+        <select id="generation">
+            <option selected="" disabled="">Generación</option>
+            <option value="gn1">Generación 1</option>
+            <option value="gn2">Generación 2</option>
+            <option value="gn3">Generación 3</option>
+            <option value="gn4">Generación 4</option>
+            <option value="gn5">Generación 5</option>
+            <option value="gn6">Generación 6</option>
+            <option value="gn7">Generación 7</option>
+            <option value="gn8">Generación 8</option>    
+        </select>
+        <select id="type">
+            <option selected="" disabled="">Tipo</option>
+            <option value="Fire">Fuego</option>
+            <option value="Water">Agua</option>
+            <option value="Grass">Planta</option>
+            <option value="Electric">Eléctrico</option>
+            <option value="Ice">Hielo</option>
+            <option value="Fighting">Lucha</option>
+            <option value="Poison">Veneno</option>
+            <option value="Ground">Tierra</option>
+            <option value="Flying">Volador</option>
+            <option value="Psychic">Psíquico</option>
+            <option value="Bug">Bicho</option>
+            <option value="Rock">Roca</option>
+            <option value="Ghost">Fantasma</option>
+            <option value="Dragon">Dragón</option>   
+        </select>
+        <select id="evolution">
+            <option selected="" disabled="">Evolución</option>
+            <option value="Fire">25 Huevos</option>
+            <option value="Water">50 Huevos</option>
+            <option value="Water">100 Huevos</option>
+            <option value="Water">400 Huevos</option>
+            
+        </select>
+        </div>
+    </header>
+    <aside class="actualizaciones">
+        <h2>Actualizaciones</h2>
+    </aside>
+
+
+    <div id="root"></div>
+    <script src="main.js" type="module"></script>
+  </body>
+</html>

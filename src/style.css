@@ -1,5 +1,5 @@
 /*Log in*/
-body {
+.index {
 background-image: url("images/backgroundLog.png");
 background-position: center;
 background-attachment: fixed;
@@ -16,7 +16,6 @@ top: 0px;
 
 background: linear-gradient(180deg, #0080B6 0%, rgba(160, 207, 196, 0.53) 100%);
 mix-blend-mode: normal;
-
 }
 
 #logo {
@@ -68,6 +67,15 @@ line-height: 32px;
 text-align: center;
 color: #FFFFFF;
 text-decoration: none;
+}
+
+#botonGo img {
+position: absolute;
+width: 33px;
+height: 34px;
+left: 40px;
+top: 7px;
+    
 }
 
 .contenido h3 {
@@ -150,6 +158,188 @@ text-align: center;
 color: #FFFFFF;
 text-decoration: none;
 }
+
+/*Página Principal*/
+.menu {
+position: absolute;
+width: 100%;
+height: 152px;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(90deg, #0080B6 0%, rgba(160, 207, 196, 0.53) 100%);
+}
+
+.logo img{
+position: absolute;
+width: 99px;
+height: 96px;
+left: 41px;
+top: 31px;
+}
+
+.logo h1 {
+position: absolute;
+width: 395px;
+height: 42px;
+left: 153px;
+top: 16px;
+    
+font-family: Encode Sans Semi Expanded;
+font-style: normal;
+font-weight: 800;
+font-size: 50px;
+line-height: 62px;
+    
+color: #FFFFFF;
+}
+
+.buscadorPokemon input {
+position: absolute;
+width: 514px;
+height: 52px;
+left: 955px;
+top: 48px;
+background-color: transparent;
+border: 2px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 15px;
+}
+
+.buscadorPokemon input::placeholder {
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 19.9px;
+line-height: 24px;
+color: white;
+}
+
+.fondolupa {
+position: absolute;
+width: 61px;
+height: 48px;
+left: 1406px;
+top: 50px;
+    
+background: #0080B6;
+border-radius: 14px;
+}
+
+.buscadorPokemon img {
+position: absolute;
+width: 35px;
+height: 35px;
+left: 1423px;
+top: 58px;
+z-index: 1;
+}
+
+/*Estrella Favoritos*/
+:root {
+    --color-inactivo: #FFFFFF;
+    --color-hover: #FFE600;
+}
+
+.valoracion {
+    display: flex;
+    flex-direction: row-reverse;
+    position: absolute;
+    left: 881px;
+    top: 40px;
+}
+
+.valoracion button {
+    background-color: initial;
+    border: 0;
+    color: var(--color-inactivo);
+    transition: 1s all;
+}
+
+.valoracion button label {
+    font-size: 50px;
+     
+} 
+
+.valoracion button:hover {
+    cursor: pointer;
+    color: var(--color-hover);
+    transform: rotate(360deg);
+}
+
+button:nth-child(1):hover ~ button {
+    color: var(--color-hover);
+    transform: rotate(360deg);
+}
+
+/*Filtros*/
+.filtros {
+position: absolute;
+width: 100%;
+height: 60px;
+left: 0px;
+top: 150px;
+background: #0080B6;
+}
+
+#generation,
+#type,
+#evolution {
+display: inline-flex;
+float: right;
+margin-right: 4%;
+margin-top: 12px;
+border: transparent;
+background-color: #0080B6;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 32px;
+text-align: center;
+color: #FFFFFF;
+}
+
+#generation:hover,
+#type:hover,
+#evolution:hover {
+background-color: #015B81;
+}
+
+/*Aside (Actualizaciones)*/
+
+.actualizaciones {
+cursor: pointer;
+position: absolute;
+width: 99px;
+height: 100%;
+left: 0px;
+top: 152px;
+
+background: #0080B6;
+}
+
+.actualizaciones h2 {
+position: absolute;
+width: 253px;
+height: 38px;
+top: 451px;
+
+font-family: Encode Sans Semi Expanded;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 37px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+transform: rotate(-90deg);
+}
+
+
+
 
 
 
