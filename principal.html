@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded:wght@700&display=swap" rel="stylesheet">
   </head>
-  <body>
+  <body onload="setData()">
     <header class="menu">
         <div class="logo">
             <img src="images/logoblanco.png" alt="">
@@ -28,14 +28,14 @@
         <div class="filtros">
         <select id="generation">
             <option selected="" disabled="">Generación</option>
-            <option value="gn1">Generación 1</option>
-            <option value="gn2">Generación 2</option>
-            <option value="gn3">Generación 3</option>
-            <option value="gn4">Generación 4</option>
-            <option value="gn5">Generación 5</option>
-            <option value="gn6">Generación 6</option>
-            <option value="gn7">Generación 7</option>
-            <option value="gn8">Generación 8</option>    
+            <option value="gn1">1: Kanto</option>
+            <option value="gn2">2: Johto</option>
+            <option value="gn3">3: Hoenn</option>
+            <option value="gn4">4: Sinnoh</option>
+            <option value="gn5">5: Teselia</option>
+            <option value="gn6">6: Kalos</option>
+            <option value="gn7">7: Alola</option>
+            <option value="gn8">8: Galar</option>    
         </select>
         <select id="type">
             <option selected="" disabled="">Tipo</option>
@@ -65,11 +65,31 @@
         </div>
     </header>
     <aside class="actualizaciones">
-        <h2>Actualizaciones</h2>
+        <input type="checkbox" id="abrir-cerrar" name="abrir-cerrar" value="">
+        <label for="abrir-cerrar">
+          <span class="abrir">▲ Actualizaciones</span>
+          <span class="cerrar">▼ Actualizaciones</span>
+        </label>
+        <div id="sidebar" class="sidebar">
+            <h1>HOLA <span id="writeName"></span> </h1>
+            <h2>SOY LAPRAS,</h2>
+            <h3>Mira las últimas actualizaciones de Pokémon Go!</h3>
+            <div class="mensaje">
+                <img src="images/laprasmensaje.png" />
+                <div class="actualizacion1">
+                    <h3>2/7/20</h3>
+                    <a href="https://pokemongolive.com/es/post/communityday-july20/">¡El Pokémon destacado del Día de la Comunidad de julio es Gastly!</a>
+                </div>
+                <div class="actualizacion2">
+                    <h3>2/7/20</h3>
+                    <a href="https://pokemongolive.com/es/post/willowreport-strangescraps/">Informe del Profesor Willow: Recortes extraños</a>
+                </div>
+            </div>
+        </div>
     </aside>
 
-
+    <!--Tarjeta Pokémon-->
     <div id="root"></div>
-    <script src="main.js" type="module"></script>
+    <script src="main.js" type="text/javascript"></script>
   </body>
 </html>
