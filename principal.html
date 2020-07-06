@@ -9,14 +9,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded:wght@700&display=swap" rel="stylesheet">
   </head>
-  <body onload="setData()">
+  <body>
     <header class="menu">
         <div class="logo">
             <img src="images/logoblanco.png" alt="">
             <h1>POKÉGO DEX</h1>
         </div>
         <div class="buscadorPokemon">
-            <input type="text" placeholder="Busca a tu Pokémon!">
+            <input type="search" class="search-box" id="search-pokemon" placeholder="Busca a tu Pokémon!">
             <img src="images/lupa.png" alt="">
             <div class="fondolupa"></div>
             <div class="valoracion">
@@ -56,10 +56,10 @@
         </select>
         <select id="evolution">
             <option selected="" disabled="">Evolución</option>
-            <option value="Fire">25 Huevos</option>
-            <option value="Water">50 Huevos</option>
-            <option value="Water">100 Huevos</option>
-            <option value="Water">400 Huevos</option>
+            <option value="25egg">25 Huevos</option>
+            <option value="50egg">50 Huevos</option>
+            <option value="100egg">100 Huevos</option>
+            <option value="400egg">400 Huevos</option>
             
         </select>
         </div>
@@ -89,7 +89,11 @@
     </aside>
 
     <!--Tarjeta Pokémon-->
-    <div id="root"></div>
-    <script src="main.js" type="text/javascript"></script>
+    <div id="root" class="all-pokemones"></div>
+    <div id="modal" class="modal"></div>
+    
+    <!--<script src="main.js" type="text/javascript"></script>-->
+    <script src="main.js" type="module"></script>
+    <script src="data.js" type="module"></script>
   </body>
 </html>
