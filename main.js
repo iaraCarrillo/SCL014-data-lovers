@@ -66,14 +66,14 @@ function toPage() {
             <img src=${pokemonEncotrado.img} class="foto">
               <p>Número: ${pokemonEncotrado.num}<p>
               <p>Nombre de Pokemón: ${pokemonEncotrado.name}<p>
-              <p>Generación: ${pokemonEncotrado.generation}<p>
+              <p>Generación: ${pokemonEncotrado.generation["name"]}<p>
               <p>Resistencia: ${pokemonEncotrado.resistant}<p>
               <p>Debilidad: ${pokemonEncotrado.weaknesses}<p>
-              
+              <p>Ejemplo: ${pokemonEncotrado.stats["base-attack"]}<p>
               <p>Movimientos rápidos: ${pokemonEncotrado.quickmove}<p>
               <p>Ataques especiales: ${pokemonEncotrado.specialattack}<p>
               <p>Tipo: ${pokemonEncotrado.type}<p>
-              <p>Huevos: ${pokemonEncotrado.candycost}<p>  
+              <p>Huevos: ${pokemonEncotrado.next-evolution["candy-cost"]}<p>  
             </section>
         </section>
         </div>`
