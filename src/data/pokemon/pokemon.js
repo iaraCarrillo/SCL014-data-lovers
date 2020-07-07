@@ -42,7 +42,7 @@ export default {
       "flying",
       "psychic"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "vine whip",
         "type": "grass",
@@ -58,7 +58,7 @@ export default {
         "move-duration-seg": "0.5"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "sludge bomb",
         "type": "poison",
@@ -140,7 +140,7 @@ export default {
       "flying",
       "psychic"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "razor leaf",
         "type": "grass",
@@ -156,7 +156,7 @@ export default {
         "move-duration-seg": "0.6"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "sludge bomb",
         "type": "poison",
@@ -238,7 +238,7 @@ export default {
       "flying",
       "psychic"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "razor leaf",
         "type": "grass",
@@ -254,7 +254,7 @@ export default {
         "move-duration-seg": "0.6"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "sludge bomb",
         "type": "poison",
@@ -334,7 +334,7 @@ export default {
       "ground",
       "rock"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "ember",
         "type": "fire",
@@ -350,7 +350,7 @@ export default {
         "move-duration-seg": "0.5"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "flame charge",
         "type": "fire",
@@ -430,7 +430,7 @@ export default {
       "ground",
       "rock"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "ember",
         "type": "fire",
@@ -453,7 +453,7 @@ export default {
         "move-duration-seg": "0.5"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "fire punch",
         "type": "fire",
@@ -534,7 +534,7 @@ export default {
       "electric",
       "rock"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "fire spin",
         "type": "fire",
@@ -564,7 +564,7 @@ export default {
         "move-duration-seg": "0.8"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "fire blast",
         "type": "fire",
@@ -649,7 +649,7 @@ export default {
       "electric",
       "grass"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "bubble",
         "type": "water",
@@ -665,7 +665,7 @@ export default {
         "move-duration-seg": "0.5"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "aqua jet",
         "type": "water",
@@ -743,7 +743,7 @@ export default {
       "electric",
       "grass"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "water gun",
         "type": "water",
@@ -759,7 +759,7 @@ export default {
         "move-duration-seg": "0.5"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "aqua jet",
         "type": "water",
@@ -837,7 +837,7 @@ export default {
       "electric",
       "grass"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "water gun",
         "type": "water",
@@ -853,7 +853,7 @@ export default {
         "move-duration-seg": "0.5"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "flash cannon",
         "type": "steel",
@@ -931,7 +931,7 @@ export default {
       "flying",
       "rock"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "bug bite",
         "type": "bug",
@@ -947,7 +947,7 @@ export default {
         "move-duration-seg": "0.5"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
       "name": "struggle",
       "type": "normal",
@@ -1010,7 +1010,7 @@ export default {
       "flying",
       "rock"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "bug bite",
         "type": "bug",
@@ -1026,7 +1026,7 @@ export default {
         "move-duration-seg": "0.5"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
       "name": "struggle",
       "type": "normal",
@@ -1093,7 +1093,7 @@ export default {
       "flying",
       "rock"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "confusion",
         "type": "psychic",
@@ -1116,7 +1116,7 @@ export default {
         "move-duration-seg": "0.5"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "bug buzz",
         "type": "bug",
@@ -1198,7 +1198,7 @@ export default {
       "psychic",
       "rock"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "bug bite",
         "type": "bug",
@@ -1214,7 +1214,7 @@ export default {
         "move-duration-seg": "0.6"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
       "name": "struggle",
       "type": "normal",
@@ -1281,7 +1281,7 @@ export default {
       "psychic",
       "rock"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "bug bite",
         "type": "bug",
@@ -1297,7 +1297,7 @@ export default {
         "move-duration-seg": "0.6"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
       "name": "struggle",
       "type": "normal",
@@ -1364,7 +1364,7 @@ export default {
       "psychic",
       "rock"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "poison jab",
         "type": "poison",
@@ -1387,7 +1387,7 @@ export default {
         "move-duration-seg": "0.5"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "sludge bomb",
         "type": "poison",
@@ -1466,7 +1466,7 @@ export default {
       "electric",
       "rock"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "quick attack",
         "type": "normal",
@@ -1482,7 +1482,7 @@ export default {
         "move-duration-seg": "0.5"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "twister",
         "type": "dragon",
@@ -1561,7 +1561,7 @@ export default {
       "electric",
       "rock"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "wing attack",
         "type": "flying",
@@ -1577,7 +1577,7 @@ export default {
         "move-duration-seg": "0.8"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "twister",
         "type": "dragon",
@@ -1656,7 +1656,7 @@ export default {
       "electric",
       "rock"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "steel wing",
         "type": "steel",
@@ -1679,7 +1679,7 @@ export default {
         "move-duration-seg": "0.8"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "hurricane",
         "type": "flying",
@@ -1760,7 +1760,7 @@ export default {
     "weaknesses": [
       "fighting"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "tackle",
         "type": "normal",
@@ -1776,7 +1776,7 @@ export default {
         "move-duration-seg": "0.8"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "dig",
         "type": "ground",
@@ -1845,7 +1845,7 @@ export default {
     "weaknesses": [
       "fighting"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "bite",
         "type": "dark",
@@ -1861,7 +1861,7 @@ export default {
         "move-duration-seg": "0.8"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "dig",
         "type": "ground",
@@ -1935,7 +1935,7 @@ export default {
       "electric",
       "rock"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "peck",
         "type": "flying",
@@ -1951,7 +1951,7 @@ export default {
         "move-duration-seg": "0.8"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "aerial ace",
         "type": "flying",
@@ -2032,7 +2032,7 @@ export default {
       "electric",
       "rock"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "peck",
         "type": "flying",
@@ -2048,7 +2048,7 @@ export default {
         "move-duration-seg": "0.8"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "aerial ace",
         "type": "flying",
@@ -2129,7 +2129,7 @@ export default {
       "ground",
       "psychic"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "poison sting",
         "type": "poison",
@@ -2145,7 +2145,7 @@ export default {
         "move-duration-seg": "0.8"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "wrap",
         "type": "normal",
@@ -2226,7 +2226,7 @@ export default {
       "ground",
       "psychic"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "bite",
         "type": "dark",
@@ -2242,7 +2242,7 @@ export default {
         "move-duration-seg": "0.8"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "dark pulse",
         "type": "dark",
@@ -2313,7 +2313,7 @@ export default {
     "weaknesses": [
       "ground"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "thunder shock",
         "type": "electric",
@@ -2329,7 +2329,7 @@ export default {
         "move-duration-seg": "0.8"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "discharge",
         "type": "electric",
@@ -2412,7 +2412,7 @@ export default {
     "weaknesses": [
       "ground"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "spark",
         "type": "electric",
@@ -2435,7 +2435,7 @@ export default {
         "move-duration-seg": "0.6"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "brick break",
         "type": "fight",
@@ -2520,7 +2520,7 @@ export default {
       "grass",
       "ice"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "scratch",
         "type": "normal",
@@ -2536,7 +2536,7 @@ export default {
         "move-duration-seg": "0.6"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "dig",
         "type": "ground",
@@ -2616,7 +2616,7 @@ export default {
       "grass",
       "ice"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "metal claw",
         "type": "steel",
@@ -2632,7 +2632,7 @@ export default {
         "move-duration-seg": "0.6"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "earthquake",
         "type": "ground",
@@ -2706,7 +2706,7 @@ export default {
       "ground",
       "psychic"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "bite",
         "type": "dark",
@@ -2722,7 +2722,7 @@ export default {
         "move-duration-seg": "0.6"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "poison fang",
         "type": "poison",
@@ -2801,7 +2801,7 @@ export default {
       "ground",
       "psychic"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "bite",
         "type": "dark",
@@ -2817,7 +2817,7 @@ export default {
         "move-duration-seg": "0.6"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "poison fang",
         "type": "poison",
@@ -2899,7 +2899,7 @@ export default {
       "ground",
       "psychic"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "poison jab",
         "type": "poison",
@@ -2915,7 +2915,7 @@ export default {
         "move-duration-seg": "0.5"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "earthquake",
         "type": "ground",
@@ -2994,7 +2994,7 @@ export default {
       "ground",
       "psychic"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "peck",
         "type": "flying",
@@ -3010,7 +3010,7 @@ export default {
         "move-duration-seg": "0.6"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "horn attack",
         "type": "normal",
@@ -3089,7 +3089,7 @@ export default {
       "ground",
       "psychic"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "poison jab",
         "type": "poison",
@@ -3105,7 +3105,7 @@ export default {
         "move-duration-seg": "0.6"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "horn attack",
         "type": "normal",
@@ -3187,7 +3187,7 @@ export default {
       "ground",
       "psychic"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "poison jab",
         "type": "poison",
@@ -3210,7 +3210,7 @@ export default {
         "move-duration-seg": "0.4"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "earthquake",
         "type": "ground",
@@ -3287,7 +3287,7 @@ export default {
     "weaknesses": [
       "fighting"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "pound",
         "type": "normal",
@@ -3303,7 +3303,7 @@ export default {
         "move-duration-seg": "1.1"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "disarming voice",
         "type": "fairy",
@@ -3380,7 +3380,7 @@ export default {
     "weaknesses": [
       "fighting"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "zen headbutt",
         "type": "psychic",
@@ -3403,7 +3403,7 @@ export default {
         "move-duration-seg": "0.6"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "dazzling gleam",
         "type": "fairy",
@@ -3483,7 +3483,7 @@ export default {
       "ground",
       "rock"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "quick attack",
         "type": "normal",
@@ -3499,7 +3499,7 @@ export default {
         "move-duration-seg": "1"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "body slam",
         "type": "normal",
@@ -3574,7 +3574,7 @@ export default {
       "ground",
       "rock"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "feint attack",
         "type": "dark",
@@ -3597,7 +3597,7 @@ export default {
         "move-duration-seg": "1"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "heat wave",
         "type": "fire",
@@ -3683,7 +3683,7 @@ export default {
     "weaknesses": [
       "fighting"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "pound",
         "type": "normal",
@@ -3699,7 +3699,7 @@ export default {
         "move-duration-seg": "0.9"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "disarming voice",
         "type": "fairy",
@@ -3790,7 +3790,7 @@ export default {
     "weaknesses": [
       "fighting"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "pound",
         "type": "normal",
@@ -3806,7 +3806,7 @@ export default {
         "move-duration-seg": "0.9"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "dazzling gleam",
         "type": "fairy",
@@ -3888,7 +3888,7 @@ export default {
       "psychic",
       "rock"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "quick attack",
         "type": "normal",
@@ -3904,7 +3904,7 @@ export default {
         "move-duration-seg": "0.5"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "poison fang",
         "type": "poison",
@@ -3993,7 +3993,7 @@ export default {
       "psychic",
       "rock"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "wing attack",
         "type": "flying",
@@ -4009,7 +4009,7 @@ export default {
         "move-duration-seg": "0.5"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "poison fang",
         "type": "poison",
@@ -4097,7 +4097,7 @@ export default {
       "flying",
       "psychic"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "razor leaf",
         "type": "grass",
@@ -4113,7 +4113,7 @@ export default {
         "move-duration-seg": "0.8"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "seed bomb",
         "type": "grass",
@@ -4206,7 +4206,7 @@ export default {
       "flying",
       "psychic"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "razor leaf",
         "type": "grass",
@@ -4222,7 +4222,7 @@ export default {
         "move-duration-seg": "0.8"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "petal blizzard",
         "type": "grass",
@@ -4315,7 +4315,7 @@ export default {
       "flying",
       "psychic"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "razor leaf",
         "type": "grass",
@@ -4331,7 +4331,7 @@ export default {
         "move-duration-seg": "0.8"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "petal blizzard",
         "type": "grass",
@@ -4415,7 +4415,7 @@ export default {
       "bug",
       "rock"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "scratch",
         "type": "normal",
@@ -4431,7 +4431,7 @@ export default {
         "move-duration-seg": "0.5"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "cross poison",
         "type": "poison",
@@ -4510,7 +4510,7 @@ export default {
       "bug",
       "rock"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "fury cutter",
         "type": "bug",
@@ -4533,7 +4533,7 @@ export default {
         "move-duration-seg": "0.5"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "cross poison",
         "type": "poison",
@@ -4610,7 +4610,7 @@ export default {
       "psychic",
       "rock"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "bug bite",
         "type": "bug",
@@ -4626,7 +4626,7 @@ export default {
         "move-duration-seg": "1.6"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "psybeam",
         "type": "psychic",
@@ -4703,7 +4703,7 @@ export default {
       "psychic",
       "rock"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "confusion",
         "type": "psychic",
@@ -4726,7 +4726,7 @@ export default {
         "move-duration-seg": "0.5"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "psychic",
         "type": "psychic",
@@ -4806,7 +4806,7 @@ export default {
       "grass",
       "ice"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "mud slap",
         "type": "ground",
@@ -4829,7 +4829,7 @@ export default {
         "move-duration-seg": "0.6"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "dig",
         "type": "ground",
@@ -4902,7 +4902,7 @@ export default {
       "grass",
       "ice"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "sucker punch",
         "type": "dark",
@@ -4925,7 +4925,7 @@ export default {
         "move-duration-seg": "0.6"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "earthquake",
         "type": "ground",
@@ -4994,7 +4994,7 @@ export default {
     "weaknesses": [
       "fighting"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "scratch",
         "type": "normal",
@@ -5010,7 +5010,7 @@ export default {
         "move-duration-seg": "0.5"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "night slash",
         "type": "dark",
@@ -5086,7 +5086,7 @@ export default {
     "weaknesses": [
       "fighting"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "scratch",
         "type": "normal",
@@ -5102,7 +5102,7 @@ export default {
         "move-duration-seg": "0.9"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "power gem",
         "type": "rock",
@@ -5182,7 +5182,7 @@ export default {
       "electric",
       "grass"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "water gun",
         "type": "water",
@@ -5198,7 +5198,7 @@ export default {
         "move-duration-seg": "1.1"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "psybeam",
         "type": "psychic",
@@ -5271,7 +5271,7 @@ export default {
       "electric",
       "grass"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "water gun",
         "type": "water",
@@ -5287,7 +5287,7 @@ export default {
         "move-duration-seg": "1.6"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "psychic",
         "type": "psychic",
@@ -5360,7 +5360,7 @@ export default {
       "psychic",
       "fairy"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "karate chop",
         "type": "fight",
@@ -5376,7 +5376,7 @@ export default {
         "move-duration-seg": "0.5"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "cross chop",
         "type": "fight",
@@ -5449,7 +5449,7 @@ export default {
       "psychic",
       "fairy"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "low kick",
         "type": "fight",
@@ -5472,7 +5472,7 @@ export default {
         "move-duration-seg": "0.8"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "low sweep",
         "type": "fight",
@@ -5554,7 +5554,7 @@ export default {
       "ground",
       "rock"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "ember",
         "type": "fire",
@@ -5570,7 +5570,7 @@ export default {
         "move-duration-seg": "0.5"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "flame wheel",
         "type": "fire",
@@ -5645,7 +5645,7 @@ export default {
       "ground",
       "rock"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "fire fang",
         "type": "fire",
@@ -5668,7 +5668,7 @@ export default {
         "move-duration-seg": "0.5"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "fire blast",
         "type": "fire",
@@ -5755,7 +5755,7 @@ export default {
       "electric",
       "grass"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "bubble",
         "type": "water",
@@ -5771,7 +5771,7 @@ export default {
         "move-duration-seg": "0.6"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "bubble beam",
         "type": "water",
@@ -5860,7 +5860,7 @@ export default {
       "electric",
       "grass"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "bubble",
         "type": "water",
@@ -5876,7 +5876,7 @@ export default {
         "move-duration-seg": "0.6"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "mud bomb",
         "type": "ground",
@@ -5977,7 +5977,7 @@ export default {
       "psychic",
       "fairy"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "bubble",
         "type": "water",
@@ -6000,7 +6000,7 @@ export default {
         "move-duration-seg": "0.6"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "hydro pump",
         "type": "water",
@@ -6084,7 +6084,7 @@ export default {
       "ghost",
       "dark"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "zen headbutt",
         "type": "psychic",
@@ -6100,7 +6100,7 @@ export default {
         "move-duration-seg": "1.1"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "psyshock",
         "type": "psychic",
@@ -6177,7 +6177,7 @@ export default {
       "ghost",
       "dark"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "psycho cut",
         "type": "psychic",
@@ -6193,7 +6193,7 @@ export default {
         "move-duration-seg": "1.6"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "psybeam",
         "type": "psychic",
@@ -6270,7 +6270,7 @@ export default {
       "ghost",
       "dark"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "psycho cut",
         "type": "psychic",
@@ -6286,7 +6286,7 @@ export default {
         "move-duration-seg": "1.6"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "shadow ball",
         "type": "ghost",
@@ -6378,7 +6378,7 @@ export default {
       "psychic",
       "fairy"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "karate chop",
         "type": "fight",
@@ -6401,7 +6401,7 @@ export default {
         "move-duration-seg": "0.6"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "low sweep",
         "type": "fight",
@@ -6479,7 +6479,7 @@ export default {
       "psychic",
       "fairy"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "low kick",
         "type": "fight",
@@ -6495,7 +6495,7 @@ export default {
         "move-duration-seg": "0.8"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "submission",
         "type": "fight",
@@ -6580,7 +6580,7 @@ export default {
       "psychic",
       "fairy"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "bullet punch",
         "type": "steel",
@@ -6603,7 +6603,7 @@ export default {
         "move-duration-seg": "0.8"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "heavy slam",
         "type": "steel",
@@ -6706,7 +6706,7 @@ export default {
       "flying",
       "psychic"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "vine whip",
         "type": "grass",
@@ -6722,7 +6722,7 @@ export default {
         "move-duration-seg": "0.8"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "power whip",
         "type": "grass",
@@ -6804,7 +6804,7 @@ export default {
       "flying",
       "psychic"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "acid",
         "type": "poison",
@@ -6827,7 +6827,7 @@ export default {
         "move-duration-seg": "1"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "power whip",
         "type": "grass",
@@ -6909,7 +6909,7 @@ export default {
       "flying",
       "psychic"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "razor leaf",
         "type": "grass",
@@ -6925,7 +6925,7 @@ export default {
         "move-duration-seg": "0.8"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "leaf blade",
         "type": "grass",
@@ -7006,7 +7006,7 @@ export default {
       "ground",
       "psychic"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "bubble",
         "type": "water",
@@ -7022,7 +7022,7 @@ export default {
         "move-duration-seg": "0.6"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "bubble beam",
         "type": "water",
@@ -7098,7 +7098,7 @@ export default {
       "ground",
       "psychic"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "acid",
         "type": "poison",
@@ -7114,7 +7114,7 @@ export default {
         "move-duration-seg": "0.8"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "hydro pump",
         "type": "water",
@@ -7193,7 +7193,7 @@ export default {
       "ground",
       "steel"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "rock throw",
         "type": "rock",
@@ -7209,7 +7209,7 @@ export default {
         "move-duration-seg": "0.5"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "rock slide",
         "type": "rock",
@@ -7293,7 +7293,7 @@ export default {
       "ground",
       "steel"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "rock throw",
         "type": "rock",
@@ -7316,7 +7316,7 @@ export default {
         "move-duration-seg": "0.6"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "dig",
         "type": "ground",
@@ -7407,7 +7407,7 @@ export default {
       "ground",
       "steel"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "rock throw",
         "type": "rock",
@@ -7430,7 +7430,7 @@ export default {
         "move-duration-seg": "0.6"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "stone edge",
         "type": "rock",
@@ -7517,7 +7517,7 @@ export default {
       "ground",
       "rock"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "tackle",
         "type": "normal",
@@ -7533,7 +7533,7 @@ export default {
         "move-duration-seg": "1"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "flame charge",
         "type": "fire",
@@ -7615,7 +7615,7 @@ export default {
       "ground",
       "rock"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "low kick",
         "type": "fight",
@@ -7638,7 +7638,7 @@ export default {
         "move-duration-seg": "1"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "fire blast",
         "type": "fire",
@@ -7716,7 +7716,7 @@ export default {
       "ghost",
       "dark"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "water gun",
         "type": "water",
@@ -7732,7 +7732,7 @@ export default {
         "move-duration-seg": "1.6"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "water pulse",
         "type": "water",
@@ -7821,7 +7821,7 @@ export default {
       "ghost",
       "dark"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "water gun",
         "type": "water",
@@ -7837,7 +7837,7 @@ export default {
         "move-duration-seg": "1.6"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "water pulse",
         "type": "water",
@@ -7912,7 +7912,7 @@ export default {
       "water",
       "ground"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "spark",
         "type": "electric",
@@ -7928,7 +7928,7 @@ export default {
         "move-duration-seg": "0.6"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "discharge",
         "type": "electric",
@@ -8003,7 +8003,7 @@ export default {
       "water",
       "ground"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "spark",
         "type": "electric",
@@ -8026,7 +8026,7 @@ export default {
         "move-duration-seg": "0.6"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "magnet bomb",
         "type": "steel",
@@ -8108,7 +8108,7 @@ export default {
       "electric",
       "rock"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "fury cutter",
         "type": "bug",
@@ -8131,7 +8131,7 @@ export default {
         "move-duration-seg": "0.5"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "aerial ace",
         "type": "flying",
@@ -8200,7 +8200,7 @@ export default {
       "electric",
       "rock"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "peck",
         "type": "flying",
@@ -8216,7 +8216,7 @@ export default {
         "move-duration-seg": "0.8"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "drill peck",
         "type": "flying",
@@ -8297,7 +8297,7 @@ export default {
       "electric",
       "rock"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "feint attack",
         "type": "dark",
@@ -8313,7 +8313,7 @@ export default {
         "move-duration-seg": "0.8"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "drill peck",
         "type": "flying",
@@ -8393,7 +8393,7 @@ export default {
       "electric",
       "grass"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "ice shard",
         "type": "ice",
@@ -8416,7 +8416,7 @@ export default {
         "move-duration-seg": "0.5"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "icy wind",
         "type": "ice",
@@ -8497,7 +8497,7 @@ export default {
       "fighting",
       "rock"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "frost breath",
         "type": "ice",
@@ -8520,7 +8520,7 @@ export default {
         "move-duration-seg": "1.2"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "icy wind",
         "type": "ice",
@@ -8608,7 +8608,7 @@ export default {
       "ground",
       "psychic"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "poison jab",
         "type": "poison",
@@ -8631,7 +8631,7 @@ export default {
         "move-duration-seg": "0.8"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "sludge",
         "type": "poison",
@@ -8705,7 +8705,7 @@ export default {
       "ground",
       "psychic"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "poison jab",
         "type": "poison",
@@ -8735,7 +8735,7 @@ export default {
         "move-duration-seg": "0.5"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "dark pulse",
         "type": "dark",
@@ -8808,7 +8808,7 @@ export default {
       "electric",
       "grass"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "ice shard",
         "type": "ice",
@@ -8824,7 +8824,7 @@ export default {
         "move-duration-seg": "0.5"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "bubble beam",
         "type": "water",
@@ -8898,7 +8898,7 @@ export default {
       "fighting",
       "rock"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "frost breath",
         "type": "ice",
@@ -8914,7 +8914,7 @@ export default {
         "move-duration-seg": "1.2"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "hydro pump",
         "type": "water",
@@ -9005,7 +9005,7 @@ export default {
       "ghost",
       "dark"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "lick",
         "type": "ghost",
@@ -9028,7 +9028,7 @@ export default {
         "move-duration-seg": "0.7"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "dark pulse",
         "type": "dark",
@@ -9117,7 +9117,7 @@ export default {
       "ghost",
       "dark"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "shadow claw",
         "type": "ghost",
@@ -9140,7 +9140,7 @@ export default {
         "move-duration-seg": "0.5"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "dark pulse",
         "type": "dark",
@@ -9229,7 +9229,7 @@ export default {
       "ghost",
       "dark"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "sucker punch",
         "type": "dark",
@@ -9252,7 +9252,7 @@ export default {
         "move-duration-seg": "0.7"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "shadow ball",
         "type": "ghost",
@@ -9350,7 +9350,7 @@ export default {
       "ground",
       "steel"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "rock throw",
         "type": "rock",
@@ -9366,7 +9366,7 @@ export default {
         "move-duration-seg": "0.5"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "stone edge",
         "type": "rock",
@@ -9456,7 +9456,7 @@ export default {
       "ghost",
       "dark"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "pound",
         "type": "normal",
@@ -9472,7 +9472,7 @@ export default {
         "move-duration-seg": "1.6"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "psybeam",
         "type": "psychic",
@@ -9544,7 +9544,7 @@ export default {
       "ghost",
       "dark"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "zen headbutt",
         "type": "psychic",
@@ -9560,7 +9560,7 @@ export default {
         "move-duration-seg": "1.6"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "psychic",
         "type": "psychic",
@@ -9647,7 +9647,7 @@ export default {
       "electric",
       "grass"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "bubble",
         "type": "water",
@@ -9663,7 +9663,7 @@ export default {
         "move-duration-seg": "0.6"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "vice grip",
         "type": "normal",
@@ -9736,7 +9736,7 @@ export default {
       "electric",
       "grass"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "metal claw",
         "type": "steel",
@@ -9759,7 +9759,7 @@ export default {
         "move-duration-seg": "0.6"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "vice grip",
         "type": "normal",
@@ -9830,7 +9830,7 @@ export default {
     "weaknesses": [
       "ground"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "spark",
         "type": "electric",
@@ -9846,7 +9846,7 @@ export default {
         "move-duration-seg": "0.5"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "discharge",
         "type": "electric",
@@ -9924,7 +9924,7 @@ export default {
     "weaknesses": [
       "ground"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "spark",
         "type": "electric",
@@ -9947,7 +9947,7 @@ export default {
         "move-duration-seg": "0.5"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "discharge",
         "type": "electric",
@@ -10027,7 +10027,7 @@ export default {
       "ghost",
       "dark"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "confusion",
         "type": "psychic",
@@ -10043,7 +10043,7 @@ export default {
         "move-duration-seg": "1.1"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "seed bomb",
         "type": "grass",
@@ -10123,7 +10123,7 @@ export default {
       "ghost",
       "dark"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "bullet seed",
         "type": "grass",
@@ -10153,7 +10153,7 @@ export default {
         "move-duration-seg": "1.1"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "seed bomb",
         "type": "grass",
@@ -10226,7 +10226,7 @@ export default {
       "grass",
       "ice"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "mud slap",
         "type": "ground",
@@ -10242,7 +10242,7 @@ export default {
         "move-duration-seg": "1.3"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "bone club",
         "type": "ground",
@@ -10315,7 +10315,7 @@ export default {
       "grass",
       "ice"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "mud slap",
         "type": "ground",
@@ -10331,7 +10331,7 @@ export default {
         "move-duration-seg": "1.3"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "bone club",
         "type": "ground",
@@ -10404,7 +10404,7 @@ export default {
       "psychic",
       "fairy"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "low kick",
         "type": "fight",
@@ -10420,7 +10420,7 @@ export default {
         "move-duration-seg": "1.3"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "low sweep",
         "type": "fight",
@@ -10507,7 +10507,7 @@ export default {
       "psychic",
       "fairy"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "bullet punch",
         "type": "steel",
@@ -10530,7 +10530,7 @@ export default {
         "move-duration-seg": "1.3"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "fire punch",
         "type": "fire",
@@ -10613,7 +10613,7 @@ export default {
     "weaknesses": [
       "fighting"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "lick",
         "type": "ghost",
@@ -10629,7 +10629,7 @@ export default {
         "move-duration-seg": "1.1"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "hyper beam",
         "type": "normal",
@@ -10698,7 +10698,7 @@ export default {
       "ground",
       "psychic"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "tackle",
         "type": "normal",
@@ -10721,7 +10721,7 @@ export default {
         "move-duration-seg": "0.8"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "sludge",
         "type": "poison",
@@ -10795,7 +10795,7 @@ export default {
       "ground",
       "psychic"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "tackle",
         "type": "normal",
@@ -10818,7 +10818,7 @@ export default {
         "move-duration-seg": "0.8"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "sludge bomb",
         "type": "poison",
@@ -10897,7 +10897,7 @@ export default {
       "ground",
       "steel"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "mud slap",
         "type": "ground",
@@ -10913,7 +10913,7 @@ export default {
         "move-duration-seg": "1.3"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "bulldoze",
         "type": "ground",
@@ -11001,7 +11001,7 @@ export default {
       "ground",
       "steel"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "mud slap",
         "type": "ground",
@@ -11017,7 +11017,7 @@ export default {
         "move-duration-seg": "1.3"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "megahorn",
         "type": "bug",
@@ -11095,7 +11095,7 @@ export default {
     "weaknesses": [
       "fighting"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "pound",
         "type": "normal",
@@ -11111,7 +11111,7 @@ export default {
         "move-duration-seg": "1.1"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "psychic",
         "type": "psychic",
@@ -11198,7 +11198,7 @@ export default {
       "flying",
       "bug"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "vine whip",
         "type": "grass",
@@ -11214,7 +11214,7 @@ export default {
         "move-duration-seg": "1.1"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "sludge bomb",
         "type": "poison",
@@ -11286,7 +11286,7 @@ export default {
     "weaknesses": [
       "fighting"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "mud slap",
         "type": "ground",
@@ -11302,7 +11302,7 @@ export default {
         "move-duration-seg": "0.6"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "earthquake",
         "type": "ground",
@@ -11384,7 +11384,7 @@ export default {
       "electric",
       "grass"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "water gun",
         "type": "water",
@@ -11400,7 +11400,7 @@ export default {
         "move-duration-seg": "1.2"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "bubble beam",
         "type": "water",
@@ -11482,7 +11482,7 @@ export default {
       "electric",
       "grass"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "water gun",
         "type": "water",
@@ -11498,7 +11498,7 @@ export default {
         "move-duration-seg": "0.5"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "dragon pulse",
         "type": "dragon",
@@ -11587,7 +11587,7 @@ export default {
       "electric",
       "grass"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "peck",
         "type": "flying",
@@ -11603,7 +11603,7 @@ export default {
         "move-duration-seg": "0.6"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "water pulse",
         "type": "water",
@@ -11676,7 +11676,7 @@ export default {
       "electric",
       "grass"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "peck",
         "type": "flying",
@@ -11692,7 +11692,7 @@ export default {
         "move-duration-seg": "0.8"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "megahorn",
         "type": "bug",
@@ -11779,7 +11779,7 @@ export default {
       "electric",
       "grass"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "water gun",
         "type": "water",
@@ -11802,7 +11802,7 @@ export default {
         "move-duration-seg": "0.8"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "swift",
         "type": "normal",
@@ -11880,7 +11880,7 @@ export default {
       "ghost",
       "dark"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "water gun",
         "type": "water",
@@ -11910,7 +11910,7 @@ export default {
         "move-duration-seg": "0.5"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "hydro pump",
         "type": "water",
@@ -11991,7 +11991,7 @@ export default {
       "ghost",
       "dark"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "confusion",
         "type": "psychic",
@@ -12007,7 +12007,7 @@ export default {
         "move-duration-seg": "1.1"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "psybeam",
         "type": "psychic",
@@ -12084,7 +12084,7 @@ export default {
       "flying",
       "rock"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "fury cutter",
         "type": "bug",
@@ -12107,7 +12107,7 @@ export default {
         "move-duration-seg": "0.8"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "night slash",
         "type": "dark",
@@ -12194,7 +12194,7 @@ export default {
       "dark",
       "steel"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "frost breath",
         "type": "ice",
@@ -12217,7 +12217,7 @@ export default {
         "move-duration-seg": "0.6"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "draining kiss",
         "type": "fairy",
@@ -12295,7 +12295,7 @@ export default {
     "weaknesses": [
       "ground"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "thunder shock",
         "type": "electric",
@@ -12311,7 +12311,7 @@ export default {
         "move-duration-seg": "0.6"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "thunder punch",
         "type": "electric",
@@ -12395,7 +12395,7 @@ export default {
       "ground",
       "rock"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "ember",
         "type": "fire",
@@ -12411,7 +12411,7 @@ export default {
         "move-duration-seg": "0.8"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "fire blast",
         "type": "fire",
@@ -12493,7 +12493,7 @@ export default {
       "flying",
       "rock"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "rock smash",
         "type": "fight",
@@ -12516,7 +12516,7 @@ export default {
         "move-duration-seg": "0.4"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "vice grip",
         "type": "normal",
@@ -12588,7 +12588,7 @@ export default {
     "weaknesses": [
       "fighting"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "tackle",
         "type": "normal",
@@ -12604,7 +12604,7 @@ export default {
         "move-duration-seg": "1.1"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "horn attack",
         "type": "normal",
@@ -12672,7 +12672,7 @@ export default {
       "electric",
       "grass"
     ],
-    "quick-move": [
+    "quickmove": [
       {
       "name": "splash",
       "type": "water",
@@ -12680,7 +12680,7 @@ export default {
       "energy": "0",
       "move-duration-seg": "1.73"
     }],
-    "special-attack": [
+    "specialattack": [
       {
       "name": "struggle",
       "type": "normal",
@@ -12740,7 +12740,7 @@ export default {
       "electric",
       "rock"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "bite",
         "type": "dark",
@@ -12763,7 +12763,7 @@ export default {
         "move-duration-seg": "0.5"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "hydro pump",
         "type": "water",
@@ -12851,7 +12851,7 @@ export default {
       "fighting",
       "rock"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "frost breath",
         "type": "ice",
@@ -12874,7 +12874,7 @@ export default {
         "move-duration-seg": "1.2"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "ice beam",
         "type": "ice",
@@ -12945,7 +12945,7 @@ export default {
     "weaknesses": [
       "fighting"
     ],
-    "quick-move": [
+    "quickmove": [
       {
       "name": "pound",
       "type": "normal",
@@ -12953,7 +12953,7 @@ export default {
       "energy": "6",
       "move-duration-seg": "0.6"
     }],
-    "special-attack": [
+    "specialattack": [
       {
       "name": "struggle",
       "type": "normal",
@@ -13002,7 +13002,7 @@ export default {
     "weaknesses": [
       "fighting"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "quick attack",
         "type": "normal",
@@ -13018,7 +13018,7 @@ export default {
         "move-duration-seg": "0.5"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "dig",
         "type": "ground",
@@ -13123,7 +13123,7 @@ export default {
       "electric",
       "grass"
     ],
-    "quick-move": [
+    "quickmove": [
       {
       "name": "water gun",
       "type": "water",
@@ -13131,7 +13131,7 @@ export default {
       "energy": "5",
       "move-duration-seg": "0.5"
     }],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "water pulse",
         "type": "water",
@@ -13202,7 +13202,7 @@ export default {
     "weaknesses": [
       "ground"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "thunder shock",
         "type": "electric",
@@ -13218,7 +13218,7 @@ export default {
         "move-duration-seg": "2.3"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "discharge",
         "type": "electric",
@@ -13293,7 +13293,7 @@ export default {
       "ground",
       "rock"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "ember",
         "type": "fire",
@@ -13309,7 +13309,7 @@ export default {
         "move-duration-seg": "1.1"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "fire blast",
         "type": "fire",
@@ -13385,7 +13385,7 @@ export default {
     "weaknesses": [
       "fighting"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "charge beam",
         "type": "electric",
@@ -13422,7 +13422,7 @@ export default {
         "move-duration-seg": "1.1"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "solar beam",
         "type": "grass",
@@ -13533,7 +13533,7 @@ export default {
       "fighting",
       "ground"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "water gun",
         "type": "water",
@@ -13549,7 +13549,7 @@ export default {
         "move-duration-seg": "0.6"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "ancient power",
         "type": "rock",
@@ -13640,7 +13640,7 @@ export default {
       "fighting",
       "ground"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "mud shot",
         "type": "ground",
@@ -13663,7 +13663,7 @@ export default {
         "move-duration-seg": "0.9"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "ancient power",
         "type": "rock",
@@ -13747,7 +13747,7 @@ export default {
       "fighting",
       "ground"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "scratch",
         "type": "normal",
@@ -13763,7 +13763,7 @@ export default {
         "move-duration-seg": "0.6"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "ancient power",
         "type": "rock",
@@ -13840,7 +13840,7 @@ export default {
       "fighting",
       "ground"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "mud shot",
         "type": "ground",
@@ -13863,7 +13863,7 @@ export default {
         "move-duration-seg": "0.4"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "ancient power",
         "type": "rock",
@@ -13941,7 +13941,7 @@ export default {
       "rock",
       "steel"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "steel wing",
         "type": "steel",
@@ -13957,7 +13957,7 @@ export default {
         "move-duration-seg": "0.5"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "ancient power",
         "type": "rock",
@@ -14021,7 +14021,7 @@ export default {
     "weaknesses": [
       "fighting"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "zen headbutt",
         "type": "psychic",
@@ -14037,7 +14037,7 @@ export default {
         "move-duration-seg": "0.5"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "hyper beam",
         "type": "normal",
@@ -14119,7 +14119,7 @@ export default {
       "rock",
       "steel"
     ],
-    "quick-move": [
+    "quickmove": [
       {
       "name": "frost breath",
       "type": "ice",
@@ -14127,7 +14127,7 @@ export default {
       "energy": "8",
       "move-duration-seg": "0.9"
     }],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "ice beam",
         "type": "ice",
@@ -14197,7 +14197,7 @@ export default {
       "ice",
       "rock"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "charge beam",
         "type": "electric",
@@ -14213,7 +14213,7 @@ export default {
         "move-duration-seg": "2.3"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "zap cannon",
         "type": "electric",
@@ -14284,7 +14284,7 @@ export default {
       "electric",
       "rock"
     ],
-    "quick-move": [
+    "quickmove": [
       {
       "name": "fire spin",
       "type": "fire",
@@ -14292,7 +14292,7 @@ export default {
       "energy": "10",
       "move-duration-seg": "1.1"
     }],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "fire blast",
         "type": "fire",
@@ -14361,7 +14361,7 @@ export default {
       "dragon",
       "fairy"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "dragon breath",
         "type": "dragon",
@@ -14377,7 +14377,7 @@ export default {
         "move-duration-seg": "1.1"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "wrap",
         "type": "normal",
@@ -14456,7 +14456,7 @@ export default {
       "dragon",
       "fairy"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "dragon breath",
         "type": "dragon",
@@ -14472,7 +14472,7 @@ export default {
         "move-duration-seg": "1.1"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "wrap",
         "type": "normal",
@@ -14554,7 +14554,7 @@ export default {
       "dragon",
       "fairy"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "steel wing",
         "type": "steel",
@@ -14577,7 +14577,7 @@ export default {
         "move-duration-seg": "0.5"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "hyper beam",
         "type": "normal",
@@ -14668,7 +14668,7 @@ export default {
       "ghost",
       "dark"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "psycho cut",
         "type": "psychic",
@@ -14684,7 +14684,7 @@ export default {
         "move-duration-seg": "1.6"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "psychic",
         "type": "psychic",
@@ -14758,7 +14758,7 @@ export default {
       "ghost",
       "dark"
     ],
-    "quick-move": [
+    "quickmove": [
       {
       "name": "pound",
       "type": "normal",
@@ -14766,7 +14766,7 @@ export default {
       "energy": "6",
       "move-duration-seg": "0.6"
     }],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "blizzard",
         "type": "ice",
@@ -14871,7 +14871,7 @@ export default {
       "poison",
       "flying"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "vine whip",
         "type": "grass",
@@ -14887,7 +14887,7 @@ export default {
         "move-duration-seg": "0.5"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "energy ball",
         "type": "grass",
@@ -14967,7 +14967,7 @@ export default {
       "poison",
       "flying"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "razor leaf",
         "type": "grass",
@@ -14983,7 +14983,7 @@ export default {
         "move-duration-seg": "0.5"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "energy ball",
         "type": "grass",
@@ -15063,7 +15063,7 @@ export default {
       "poison",
       "flying"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "razor leaf",
         "type": "grass",
@@ -15079,7 +15079,7 @@ export default {
         "move-duration-seg": "0.6"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "petal blizzard",
         "type": "grass",
@@ -15159,7 +15159,7 @@ export default {
       "ground",
       "rock"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "ember",
         "type": "fire",
@@ -15175,7 +15175,7 @@ export default {
         "move-duration-seg": "0.5"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "flame charge",
         "type": "fire",
@@ -15255,7 +15255,7 @@ export default {
       "ground",
       "rock"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "ember",
         "type": "fire",
@@ -15271,7 +15271,7 @@ export default {
         "move-duration-seg": "0.5"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "flame charge",
         "type": "fire",
@@ -15351,7 +15351,7 @@ export default {
       "ground",
       "rock"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "ember",
         "type": "fire",
@@ -15367,7 +15367,7 @@ export default {
         "move-duration-seg": "0.7"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "fire blast",
         "type": "fire",
@@ -15445,7 +15445,7 @@ export default {
       "electric",
       "grass"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "water gun",
         "type": "water",
@@ -15461,7 +15461,7 @@ export default {
         "move-duration-seg": "0.5"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "crunch",
         "type": "dark",
@@ -15539,7 +15539,7 @@ export default {
       "electric",
       "grass"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "water gun",
         "type": "water",
@@ -15555,7 +15555,7 @@ export default {
         "move-duration-seg": "0.5"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "crunch",
         "type": "dark",
@@ -15633,7 +15633,7 @@ export default {
       "electric",
       "grass"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "water gun",
         "type": "water",
@@ -15649,7 +15649,7 @@ export default {
         "move-duration-seg": "0.5"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "crunch",
         "type": "dark",
@@ -15723,7 +15723,7 @@ export default {
     "weaknesses": [
       "fighting"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "scratch",
         "type": "normal",
@@ -15739,7 +15739,7 @@ export default {
         "move-duration-seg": "0.8"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "dig",
         "type": "ground",
@@ -15808,7 +15808,7 @@ export default {
     "weaknesses": [
       "fighting"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "quick attack",
         "type": "normal",
@@ -15824,7 +15824,7 @@ export default {
         "move-duration-seg": "0.7"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "dig",
         "type": "ground",
@@ -15899,7 +15899,7 @@ export default {
       "ice",
       "rock"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "feint attack",
         "type": "dark",
@@ -15915,7 +15915,7 @@ export default {
         "move-duration-seg": "1"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
       "name": "blizzard",
       "type": "ice",
@@ -15975,7 +15975,7 @@ export default {
       "ice",
       "rock"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "wing attack",
         "type": "flying",
@@ -15991,7 +15991,7 @@ export default {
         "move-duration-seg": "1.1"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "psychic",
         "type": "psychic",
@@ -16067,7 +16067,7 @@ export default {
       "ice",
       "flying"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "tackle",
         "type": "normal",
@@ -16083,7 +16083,7 @@ export default {
         "move-duration-seg": "0.5"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "silver wind",
         "type": "bug",
@@ -16159,7 +16159,7 @@ export default {
       "ice",
       "flying"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "struggle bug",
         "type": "bug",
@@ -16175,7 +16175,7 @@ export default {
         "move-duration-seg": "0.5"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "bug buzz",
         "type": "bug",
@@ -16252,7 +16252,7 @@ export default {
       "psychic",
       "rock"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "poison sting",
         "type": "poison",
@@ -16268,7 +16268,7 @@ export default {
         "move-duration-seg": "0.5"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "night slash",
         "type": "dark",
@@ -16345,7 +16345,7 @@ export default {
       "psychic",
       "rock"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "poison sting",
         "type": "poison",
@@ -16361,7 +16361,7 @@ export default {
         "move-duration-seg": "1.1"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "shadow sneak",
         "type": "ghost",
@@ -16438,7 +16438,7 @@ export default {
       "psychic",
       "rock"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "air slash",
         "type": "flying",
@@ -16454,7 +16454,7 @@ export default {
         "move-duration-seg": "0.5"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "shadow ball",
         "type": "ghost",
@@ -16534,7 +16534,7 @@ export default {
       "grass",
       "ground"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "bubble",
         "type": "water",
@@ -16550,7 +16550,7 @@ export default {
         "move-duration-seg": "0.7"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "water pulse",
         "type": "water",
@@ -16625,7 +16625,7 @@ export default {
       "grass",
       "ground"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "water gun",
         "type": "water",
@@ -16641,7 +16641,7 @@ export default {
         "move-duration-seg": "1.1"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "hydro pump",
         "type": "water",
@@ -16712,7 +16712,7 @@ export default {
     "weaknesses": [
       "ground"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "thunder shock",
         "type": "electric",
@@ -16728,7 +16728,7 @@ export default {
         "move-duration-seg": "0.8"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "thunderbolt",
         "type": "electric",
@@ -16806,7 +16806,7 @@ export default {
       "poison",
       "steel"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "pound",
         "type": "normal",
@@ -16822,7 +16822,7 @@ export default {
         "move-duration-seg": "1.1"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "grass knot",
         "type": "grass",
@@ -16915,7 +16915,7 @@ export default {
       "poison",
       "steel"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "pound",
         "type": "normal",
@@ -16931,7 +16931,7 @@ export default {
         "move-duration-seg": "0.9"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "wild charge",
         "type": "electric",
@@ -17016,7 +17016,7 @@ export default {
       "poison",
       "steel"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "hidden power",
         "type": "normal",
@@ -17039,7 +17039,7 @@ export default {
         "move-duration-seg": "1.1"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "ancient power",
         "type": "rock",
@@ -17125,7 +17125,7 @@ export default {
       "poison",
       "rock"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "extrasensory",
         "type": "psychic",
@@ -17141,7 +17141,7 @@ export default {
         "move-duration-seg": "1.5"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "ancient power",
         "type": "rock",
@@ -17226,7 +17226,7 @@ export default {
       "rock",
       "ghost"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "peck",
         "type": "flying",
@@ -17242,7 +17242,7 @@ export default {
         "move-duration-seg": "0.8"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "night shade",
         "type": "ghost",
@@ -17318,7 +17318,7 @@ export default {
       "rock",
       "ghost"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "air slash",
         "type": "flying",
@@ -17334,7 +17334,7 @@ export default {
         "move-duration-seg": "0.9"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "ominous wind",
         "type": "ghost",
@@ -17405,7 +17405,7 @@ export default {
     "weaknesses": [
       "ground"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "tackle",
         "type": "normal",
@@ -17421,7 +17421,7 @@ export default {
         "move-duration-seg": "0.6"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "body slam",
         "type": "normal",
@@ -17497,7 +17497,7 @@ export default {
     "weaknesses": [
       "ground"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "tackle",
         "type": "normal",
@@ -17513,7 +17513,7 @@ export default {
         "move-duration-seg": "1.1"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "power gem",
         "type": "rock",
@@ -17589,7 +17589,7 @@ export default {
     "weaknesses": [
       "ground"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "charge beam",
         "type": "electric",
@@ -17605,7 +17605,7 @@ export default {
         "move-duration-seg": "2.3"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "zap cannon",
         "type": "electric",
@@ -17685,7 +17685,7 @@ export default {
       "poison",
       "flying"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "razor leaf",
         "type": "grass",
@@ -17701,7 +17701,7 @@ export default {
         "move-duration-seg": "0.8"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "leaf blade",
         "type": "grass",
@@ -17786,7 +17786,7 @@ export default {
       "grass",
       "poison"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "tackle",
         "type": "normal",
@@ -17802,7 +17802,7 @@ export default {
         "move-duration-seg": "1.2"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "bubble beam",
         "type": "water",
@@ -17883,7 +17883,7 @@ export default {
       "grass",
       "poison"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "rock smash",
         "type": "fight",
@@ -17899,7 +17899,7 @@ export default {
         "move-duration-seg": "1.2"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "play rough",
         "type": "fairy",
@@ -17979,7 +17979,7 @@ export default {
       "fighting",
       "ground"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "rock throw",
         "type": "rock",
@@ -17995,7 +17995,7 @@ export default {
         "move-duration-seg": "0.9"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "stone edge",
         "type": "rock",
@@ -18068,7 +18068,7 @@ export default {
       "electric",
       "grass"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "mud shot",
         "type": "ground",
@@ -18084,7 +18084,7 @@ export default {
         "move-duration-seg": "1.2"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "hydro pump",
         "type": "water",
@@ -18169,7 +18169,7 @@ export default {
       "poison",
       "flying"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "tackle",
         "type": "normal",
@@ -18185,7 +18185,7 @@ export default {
         "move-duration-seg": "1.1"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "grass knot",
         "type": "grass",
@@ -18266,7 +18266,7 @@ export default {
       "poison",
       "flying"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "tackle",
         "type": "normal",
@@ -18282,7 +18282,7 @@ export default {
         "move-duration-seg": "1.1"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "grass knot",
         "type": "grass",
@@ -18363,7 +18363,7 @@ export default {
       "poison",
       "flying"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "infestation",
         "type": "bug",
@@ -18379,7 +18379,7 @@ export default {
         "move-duration-seg": "1.1"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "energy ball",
         "type": "grass",
@@ -18453,7 +18453,7 @@ export default {
     "weaknesses": [
       "fighting"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "scratch",
         "type": "normal",
@@ -18469,7 +18469,7 @@ export default {
         "move-duration-seg": "1.1"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "low sweep",
         "type": "fight",
@@ -18539,7 +18539,7 @@ export default {
       "poison",
       "flying"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "razor leaf",
         "type": "grass",
@@ -18555,7 +18555,7 @@ export default {
         "move-duration-seg": "0.5"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "energy ball",
         "type": "grass",
@@ -18634,7 +18634,7 @@ export default {
       "poison",
       "flying"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "razor leaf",
         "type": "grass",
@@ -18650,7 +18650,7 @@ export default {
         "move-duration-seg": "1.1"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "solar beam",
         "type": "grass",
@@ -18730,7 +18730,7 @@ export default {
       "ice",
       "flying"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "quick attack",
         "type": "normal",
@@ -18746,7 +18746,7 @@ export default {
         "move-duration-seg": "0.8"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "ancient power",
         "type": "rock",
@@ -18814,7 +18814,7 @@ export default {
     "weaknesses": [
       "grass"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "water gun",
         "type": "water",
@@ -18830,7 +18830,7 @@ export default {
         "move-duration-seg": "0.6"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "mud bomb",
         "type": "ground",
@@ -18903,7 +18903,7 @@ export default {
     "weaknesses": [
       "grass"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "water gun",
         "type": "water",
@@ -18919,7 +18919,7 @@ export default {
         "move-duration-seg": "0.6"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "sludge bomb",
         "type": "poison",
@@ -18991,7 +18991,7 @@ export default {
       "ghost",
       "dark"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "confusion",
         "type": "psychic",
@@ -19007,7 +19007,7 @@ export default {
         "move-duration-seg": "1.1"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "psybeam",
         "type": "psychic",
@@ -19080,7 +19080,7 @@ export default {
       "bug",
       "fairy"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "feint attack",
         "type": "dark",
@@ -19096,7 +19096,7 @@ export default {
         "move-duration-seg": "1.1"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "dark pulse",
         "type": "dark",
@@ -19166,7 +19166,7 @@ export default {
       "rock",
       "fairy"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "peck",
         "type": "flying",
@@ -19182,7 +19182,7 @@ export default {
         "move-duration-seg": "0.9"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "drill peck",
         "type": "flying",
@@ -19263,7 +19263,7 @@ export default {
       "bug",
       "ghost"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "water gun",
         "type": "water",
@@ -19279,7 +19279,7 @@ export default {
         "move-duration-seg": "1.6"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "blizzard",
         "type": "ice",
@@ -19356,7 +19356,7 @@ export default {
       "ghost",
       "dark"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "astonish",
         "type": "ghost",
@@ -19372,7 +19372,7 @@ export default {
         "move-duration-seg": "1.2"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "shadow sneak",
         "type": "ghost",
@@ -19448,7 +19448,7 @@ export default {
       "ghost",
       "dark"
     ],
-    "quick-move": [
+    "quickmove": [
       {
       "name": "hidden power",
       "type": "normal",
@@ -19456,7 +19456,7 @@ export default {
       "energy": "15",
       "move-duration-seg": "1.5"
     }],
-    "special-attack": [
+    "specialattack": [
       {
       "name": "struggle",
       "type": "normal",
@@ -19508,7 +19508,7 @@ export default {
       "ghost",
       "dark"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "counter",
         "type": "fight",
@@ -19524,7 +19524,7 @@ export default {
         "move-duration-seg": "1.73"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
       "name": "mirror coat",
       "type": "psychic",
@@ -19580,7 +19580,7 @@ export default {
       "bug",
       "dark"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "tackle",
         "type": "normal",
@@ -19596,7 +19596,7 @@ export default {
         "move-duration-seg": "1.6"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "psychic",
         "type": "psychic",
@@ -19664,7 +19664,7 @@ export default {
       "flying",
       "rock"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "tackle",
         "type": "normal",
@@ -19680,7 +19680,7 @@ export default {
         "move-duration-seg": "0.5"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "gyro ball",
         "type": "steel",
@@ -19754,7 +19754,7 @@ export default {
     "weaknesses": [
       "fire"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "bug bite",
         "type": "bug",
@@ -19770,7 +19770,7 @@ export default {
         "move-duration-seg": "1.5"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "heavy slam",
         "type": "steel",
@@ -19839,7 +19839,7 @@ export default {
     "weaknesses": [
       "fighting"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "bite",
         "type": "dark",
@@ -19855,7 +19855,7 @@ export default {
         "move-duration-seg": "1.1"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "dig",
         "type": "ground",
@@ -19924,7 +19924,7 @@ export default {
       "water",
       "ice"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "fury cutter",
         "type": "bug",
@@ -19940,7 +19940,7 @@ export default {
         "move-duration-seg": "0.8"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "dig",
         "type": "ground",
@@ -20021,7 +20021,7 @@ export default {
       "fighting",
       "ground"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "iron tail",
         "type": "steel",
@@ -20037,7 +20037,7 @@ export default {
         "move-duration-seg": "1.1"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "earthquake",
         "type": "ground",
@@ -20114,7 +20114,7 @@ export default {
       "poison",
       "steel"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "tackle",
         "type": "normal",
@@ -20130,7 +20130,7 @@ export default {
         "move-duration-seg": "0.5"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "crunch",
         "type": "dark",
@@ -20203,7 +20203,7 @@ export default {
       "poison",
       "steel"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "bite",
         "type": "dark",
@@ -20219,7 +20219,7 @@ export default {
         "move-duration-seg": "1.1"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "crunch",
         "type": "dark",
@@ -20295,7 +20295,7 @@ export default {
       "ground",
       "psychic"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "poison sting",
         "type": "poison",
@@ -20311,7 +20311,7 @@ export default {
         "move-duration-seg": "0.5"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "aqua tail",
         "type": "water",
@@ -20380,7 +20380,7 @@ export default {
     "weaknesses": [
       "fire"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "bullet punch",
         "type": "steel",
@@ -20396,7 +20396,7 @@ export default {
         "move-duration-seg": "0.4"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "x scissor",
         "type": "water",
@@ -20473,7 +20473,7 @@ export default {
       "rock",
       "steel"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "struggle bug",
         "type": "bug",
@@ -20489,7 +20489,7 @@ export default {
         "move-duration-seg": "0.9"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "rock blast",
         "type": "rock",
@@ -20561,7 +20561,7 @@ export default {
       "psychic",
       "fairy"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "counter",
         "type": "fight",
@@ -20577,7 +20577,7 @@ export default {
         "move-duration-seg": "1.5"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "megahorn",
         "type": "bug",
@@ -20648,7 +20648,7 @@ export default {
       "bug",
       "rock"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "ice shard",
         "type": "ice",
@@ -20664,7 +20664,7 @@ export default {
         "move-duration-seg": "0.9"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "avalanche",
         "type": "ice",
@@ -20737,7 +20737,7 @@ export default {
     "weaknesses": [
       "fighting"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "scratch",
         "type": "normal",
@@ -20753,7 +20753,7 @@ export default {
         "move-duration-seg": "0.5"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "cross chop",
         "type": "fight",
@@ -20822,7 +20822,7 @@ export default {
     "weaknesses": [
       "fighting"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "metal claw",
         "type": "steel",
@@ -20838,7 +20838,7 @@ export default {
         "move-duration-seg": "0.9"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "close combat",
         "type": "fight",
@@ -20913,7 +20913,7 @@ export default {
       "ground",
       "rock"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "ember",
         "type": "fire",
@@ -20929,7 +20929,7 @@ export default {
         "move-duration-seg": "0.9"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "flame burst",
         "type": "fire",
@@ -21006,7 +21006,7 @@ export default {
       "ground",
       "rock"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "ember",
         "type": "fire",
@@ -21022,7 +21022,7 @@ export default {
         "move-duration-seg": "0.9"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "heat wave",
         "type": "fire",
@@ -21096,7 +21096,7 @@ export default {
       "grass",
       "fighting"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "tackle",
         "type": "normal",
@@ -21112,7 +21112,7 @@ export default {
         "move-duration-seg": "1"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "icy wind",
         "type": "ice",
@@ -21186,7 +21186,7 @@ export default {
       "grass",
       "fighting"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "ice shard",
         "type": "ice",
@@ -21202,7 +21202,7 @@ export default {
         "move-duration-seg": "1"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "avalanche",
         "type": "ice",
@@ -21279,7 +21279,7 @@ export default {
       "fighting",
       "ground"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "tackle",
         "type": "normal",
@@ -21295,7 +21295,7 @@ export default {
         "move-duration-seg": "1.2"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "rock blast",
         "type": "rock",
@@ -21363,7 +21363,7 @@ export default {
       "electric",
       "grass"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "water gun",
         "type": "water",
@@ -21379,7 +21379,7 @@ export default {
         "move-duration-seg": "0.6"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "aurora beam",
         "type": "ice",
@@ -21452,7 +21452,7 @@ export default {
       "electric",
       "grass"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "water gun",
         "type": "water",
@@ -21468,7 +21468,7 @@ export default {
         "move-duration-seg": "0.6"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "gunk shot",
         "type": "poison",
@@ -21543,7 +21543,7 @@ export default {
       "rock",
       "steel"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "ice shard",
         "type": "ice",
@@ -21559,7 +21559,7 @@ export default {
         "move-duration-seg": "0.8"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "ice punch",
         "type": "ice",
@@ -21629,7 +21629,7 @@ export default {
       "electric",
       "rock"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "bubble",
         "type": "water",
@@ -21645,7 +21645,7 @@ export default {
         "move-duration-seg": "0.8"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "water pulse",
         "type": "water",
@@ -21720,7 +21720,7 @@ export default {
       "fire",
       "electric"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "steel wing",
         "type": "steel",
@@ -21736,7 +21736,7 @@ export default {
         "move-duration-seg": "1.2"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "brave bird",
         "type": "flying",
@@ -21808,7 +21808,7 @@ export default {
       "ground",
       "rock"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "feint attack",
         "type": "dark",
@@ -21824,7 +21824,7 @@ export default {
         "move-duration-seg": "1"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "crunch",
         "type": "dark",
@@ -21901,7 +21901,7 @@ export default {
       "ground",
       "rock"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "snarl",
         "type": "dark",
@@ -21917,7 +21917,7 @@ export default {
         "move-duration-seg": "0.9"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "crunch",
         "type": "dark",
@@ -21990,7 +21990,7 @@ export default {
       "dragon",
       "fairy"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "water gun",
         "type": "water",
@@ -22006,7 +22006,7 @@ export default {
         "move-duration-seg": "0.5"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "hydro pump",
         "type": "water",
@@ -22088,7 +22088,7 @@ export default {
       "grass",
       "ice"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "tackle",
         "type": "normal",
@@ -22104,7 +22104,7 @@ export default {
         "move-duration-seg": "1.3"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "bulldoze",
         "type": "ground",
@@ -22177,7 +22177,7 @@ export default {
       "grass",
       "ice"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "tackle",
         "type": "normal",
@@ -22193,7 +22193,7 @@ export default {
         "move-duration-seg": "0.9"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "earthquake",
         "type": "ground",
@@ -22262,7 +22262,7 @@ export default {
     "weaknesses": [
       "fighting"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "hidden power",
         "type": "normal",
@@ -22278,7 +22278,7 @@ export default {
         "move-duration-seg": "1.1"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "solar beam",
         "type": "grass",
@@ -22360,7 +22360,7 @@ export default {
     "weaknesses": [
       "fighting"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "tackle",
         "type": "normal",
@@ -22376,7 +22376,7 @@ export default {
         "move-duration-seg": "1.1"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "stomp",
         "type": "normal",
@@ -22440,7 +22440,7 @@ export default {
     "weaknesses": [
       "fighting"
     ],
-    "quick-move": [
+    "quickmove": [
       {
       "name": "tackle",
       "type": "normal",
@@ -22448,7 +22448,7 @@ export default {
       "energy": "5",
       "move-duration-seg": "0.5"
     }],
-    "special-attack": [
+    "specialattack": [
       {
       "name": "struggle",
       "type": "normal",
@@ -22501,7 +22501,7 @@ export default {
       "psychic",
       "fairy"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "rock smash",
         "type": "fight",
@@ -22517,7 +22517,7 @@ export default {
         "move-duration-seg": "0.5"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "brick break",
         "type": "fight",
@@ -22602,7 +22602,7 @@ export default {
       "psychic",
       "fairy"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "rock smash",
         "type": "fight",
@@ -22618,7 +22618,7 @@ export default {
         "move-duration-seg": "0.9"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "close combat",
         "type": "fight",
@@ -22692,7 +22692,7 @@ export default {
       "rock",
       "ghost"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "powder snow",
         "type": "ice",
@@ -22715,7 +22715,7 @@ export default {
         "move-duration-seg": "0.9"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "ice beam",
         "type": "ice",
@@ -22786,7 +22786,7 @@ export default {
     "weaknesses": [
       "ground"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "thunder shock",
         "type": "electric",
@@ -22802,7 +22802,7 @@ export default {
         "move-duration-seg": "0.6"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "thunder punch",
         "type": "electric",
@@ -22893,7 +22893,7 @@ export default {
       "ground",
       "rock"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "ember",
         "type": "fire",
@@ -22909,7 +22909,7 @@ export default {
         "move-duration-seg": "0.8"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "brick break",
         "type": "fight",
@@ -22994,7 +22994,7 @@ export default {
     "weaknesses": [
       "fighting"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "tackle",
         "type": "normal",
@@ -23010,7 +23010,7 @@ export default {
         "move-duration-seg": "1.1"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "stomp",
         "type": "normal",
@@ -23074,7 +23074,7 @@ export default {
     "weaknesses": [
       "fighting"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "pound",
         "type": "normal",
@@ -23090,7 +23090,7 @@ export default {
         "move-duration-seg": "1.1"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "psychic",
         "type": "psychic",
@@ -23166,7 +23166,7 @@ export default {
     "weaknesses": [
       "ground"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "thunder shock",
         "type": "electric",
@@ -23182,7 +23182,7 @@ export default {
         "move-duration-seg": "2.3"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "thunder",
         "type": "electric",
@@ -23252,7 +23252,7 @@ export default {
       "ground",
       "rock"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "fire spin",
         "type": "fire",
@@ -23268,7 +23268,7 @@ export default {
         "move-duration-seg": "0.9"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "flamethrower",
         "type": "fire",
@@ -23336,7 +23336,7 @@ export default {
       "electric",
       "grass"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "extrasensory",
         "type": "psychic",
@@ -23352,7 +23352,7 @@ export default {
         "move-duration-seg": "1.1"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "hydro pump",
         "type": "water",
@@ -23427,7 +23427,7 @@ export default {
       "steel",
       "fighting"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "bite",
         "type": "dark",
@@ -23443,7 +23443,7 @@ export default {
         "move-duration-seg": "1.3"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "stomp",
         "type": "normal",
@@ -23528,7 +23528,7 @@ export default {
       "steel",
       "fighting"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "bite",
         "type": "dark",
@@ -23544,7 +23544,7 @@ export default {
         "move-duration-seg": "1.3"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "dig",
         "type": "ground",
@@ -23631,7 +23631,7 @@ export default {
       "bug",
       "fairy"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "bite",
         "type": "dark",
@@ -23647,7 +23647,7 @@ export default {
         "move-duration-seg": "1.1"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "fire blast",
         "type": "fire",
@@ -23728,7 +23728,7 @@ export default {
       "rock",
       "ghost"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "extrasensory",
         "type": "psychic",
@@ -23744,7 +23744,7 @@ export default {
         "move-duration-seg": "1.1"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "sky attack",
         "type": "flying",
@@ -23817,7 +23817,7 @@ export default {
       "electric",
       "water"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "extrasensory",
         "type": "psychic",
@@ -23833,7 +23833,7 @@ export default {
         "move-duration-seg": "0.8"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "brave bird",
         "type": "flying",
@@ -23905,7 +23905,7 @@ export default {
       "poison",
       "flying"
     ],
-    "quick-move": [
+    "quickmove": [
       {
         "name": "confusion",
         "type": "psychic",
@@ -23921,7 +23921,7 @@ export default {
         "move-duration-seg": "1.1"
       }
     ],
-    "special-attack": [
+    "specialattack": [
       {
         "name": "hyper beam",
         "type": "normal",

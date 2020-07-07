@@ -587,29 +587,82 @@ color: var(--color-hover);
 
 /* MODAL */
 .card-modal {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    width: 100vw;
-    height: 100vh;
-    left: 0;
-    top: 0;
-    z-index: 1;
-    background: rgba(47, 49, 47, 0.719);
+display: flex;
+justify-content: center;
+align-items: center;
+position: fixed;
+width: 100vw;
+height: 100vh;
+left: 0;
+top: 0;
+z-index: 1;
+background: rgba(47, 49, 47, 0.719);
 }
 
-/* The Close Button */
+.imgPokemon {
+display: flex;
+flex-flow: column;
+color: white;
+font-family: Encode Sans Semi Expanded;
+font-style: normal;
+font-weight: bold;
+font-size: 23px;
+text-align: center;
+width: 250px;
+height: 50%;
+
+background: #F2EDEE;
+}
+
+.imgPokemon img {
+    width: 20%;
+    margin-top: 0%;
+}
+
+#cards {
+background: #0080B6;
+width: 250px;
+height: 20%;
+display: flex;
+flex-flow: column;
+}
+
+#letras {
+padding-left: 2%;
+color:#FFFFFF;
+font-family: Encode Sans Semi Expanded;
+font-style: normal;
+font-weight: bold;
+text-transform:uppercase;
+}
+
+.numeroNombre {
+font-size: 28pt;
+}
+
+.generacion {
+    font-size: 15pt
+}
+
+.especificaciones {
+    margin-top: 50px;
+    font-size: 10pt;
+    margin-right: 280px;
+}
+
+/* Botón cerrar Tarjeta*/
 .close {
     color: #aaaaaa;
     float: right;
+    margin-left: 580px;
+    margin-top: 10px;
     font-size: 28px;
     font-weight: bold;
   }
   
   .close:hover,
   .close:focus {
-    color: #000;
+    color: #0080B6;
     text-decoration: none;
     cursor: pointer;
   }
