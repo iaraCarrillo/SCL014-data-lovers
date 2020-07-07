@@ -182,15 +182,12 @@ Enlace de Prototipo de Baja Fidelidad InVision: https://iara298869.invisionapp.c
 
 ## Prototipos de alta fidelidad
 Con los feedback obtenidos por parte de los usuarios en la etapa anterior, decidimos tomar acciones que nos llevaran a seguir acercándonos a la solución que encaje en las necesidades y deseos del usuario. 
+
 Primero realizamos un moodboard para obtener la paleta de colores de nuestra página, inspirandonos en la naturaleza y paisajes donde se encuentran los animales de nuestro mundo, enfocándonos también en la aplicación de pokemon go, como su logo y tonalidades de su interfaz, para así obtener el complemento perfecto con el juego.
-(Agregar moodboard)
-(Agregar imagen de logo comparativo)
 
 PokéGo Dex al estar enfocada como una complemento de la app Pokémon Go y no como una asociación original, no contará exactamente con los mismos colores o tipografía. Para nuestra página decidimos utilizar una paleta de azules y verdes (#001F75, #557AAF, #9AC4BA9AC4BA) que engloban nuestro moodboard e inspiración del juego, y también utilizamos una paleta de rosados y morados (#A395B7,#D5A0B8) para asemejar la pokedex de pokemon go para nuestra sección de favoritos, como tipografía utilizamos Encode Sans Expanded para los títulos y Montserrat Regular para el contenido.
-(Agregar imagen de contenidos)
 
 Al igual que con el prototipo de baja fidelidad incorporamos las propuestas a Illustrator para así ir acotando la información que íbamos a utilizar para llevar nuestro prototipo de alta fidelidad.
-(Agregar imagen)
 
 Para imitar el aspecto de nuestro prototipo y ver el comportamiento de nuestra  interfaz utilizamos la herramiento Figma, donde añadimos los colores, iconos, tipografía y lo que queríamos que realizará nuestro usuario como objetivos. 
 Enlace de Prototipo de Alta Fidelidad Figma: https://www.figma.com/proto/66SnQRSfL2KGvUAbGCsEbk/Untitled?node-id=2%3A14&scaling=min-zoom
@@ -200,10 +197,8 @@ A diferencia del testeo anterior, esta vez quisimos testear otras funciones, com
 
 **Enlace de Maze:** https://maze.design/preview/mazes/13844573
 En ella les entregamos diferentes misiones al usuario, la primera era que de qué modo ingresarían a la página, si lo harían directamente con su cuenta de Pokemon Go u otra, donde 8 ingreso con su cuenta y 1 con otra.
-(Ingresar foto)
 
 La segunda tarea era que abrieran una de las tarjetas de pokémon, donde los 9 supieron cómo abrir una y así ver toda la información. La tercera misión era seleccionar un filtro, donde los 9 usuarios se inclinaron por presionar el de tipos. Luego, se les entregó la tarea de revisar la sección de actualizaciones y favoritos, donde todos lograron completar las tareas.
-(Ingresar foto)
 
 Como sexta misión, queríamos comprobar si el usuario relacionaba el logo con volver a inicio o si lo hacía por medio de la estrella como o había hecho anteriormente para ingresar, donde 2 usuarios apretaron la estrella y 5 el logo.
 
