@@ -16,11 +16,6 @@
 Durante este proyecto utilizamos diferentes herramientas para llegar a nuestro producto, donde en cada etapa del proceso exploramos junto con el usuario lo que precisa, anhela y necesita para para resolver sus necesidades, para hacerlo utilizamos la metodología Design Thinking, donde por medio de la empatía, ideación, prototipos y testeos pudimos obtener un diseño final.
 
 ## El proceso constó de 5 fases principales:
-* [Descubrimiento e investigación]
-* [Síntesis y definición]
-* [Ideación]
-* [Prototipado / Testeo con usuarios]
-* [Diseño]
 
 ![readme1](https://user-images.githubusercontent.com/66659886/86813011-a9ae2b00-c04d-11ea-9a19-ba91c997dd38.png)
 
@@ -29,10 +24,13 @@ Durante este proyecto utilizamos diferentes herramientas para llegar a nuestro p
 # Fase 1. Descubrimiento e investigación
 
 ## investigación contextual Pokémon GO
+![readme2](https://user-images.githubusercontent.com/66659886/86813020-aca91b80-c04d-11ea-9197-ca1369b01825.png)
+
 El equipo de desarrollo de Niantic, Inc. lanzó al mercado en el año 2016 Pokémon GO, videojuego gratuito que consiste en buscar y capturar personajes de la saga Pokémon escondidos en ubicaciones del mundo real mediante GPS. El jugador debe desplazarse físicamente para capturar un pokémon e ir progresando en la colección. Ya con más experiencia, puede entrar a modo competitivo y luchar con otros usuarios.
 
 ## Entrevistas con usuarios
-![readme2](https://user-images.githubusercontent.com/66659886/86813020-aca91b80-c04d-11ea-9197-ca1369b01825.png)
+
+![readme3](https://user-images.githubusercontent.com/66659886/86813026-adda4880-c04d-11ea-907b-0f81fa54df23.png)
 
 Como primer acercamiento al usuario, realizamos una encuesta a más de 20 jugadores de Pokémon Go activos. Nuestras preguntas iban enfocadas en conocer el perfil del entrenador, su nivel y constancia, su meta como jugador y con que data de Pokémon de las dos primeras generaciones debían contar para cumplirla. 
 
@@ -49,8 +47,6 @@ Como primer acercamiento al usuario, realizamos una encuesta a más de 20 jugado
 * No tienen metas, solo quieren divertirse
 * Completar la Pokédex
 * Competir y estar dentro de los 100 mejores a nivel nacional
-
-![readme3](https://user-images.githubusercontent.com/66659886/86813026-adda4880-c04d-11ea-907b-0f81fa54df23.png)
 
 ## Los resultados nos ayudaron a generar 3 perfiles de usuario:
 **Perfil 1: El turista**
