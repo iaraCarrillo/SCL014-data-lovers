@@ -22,6 +22,10 @@ Durante este proyecto utilizamos diferentes herramientas para llegar a nuestro p
 * [Prototipado / Testeo con usuarios]
 * [Diseño]
 
+![readme1](https://user-images.githubusercontent.com/66659886/86813011-a9ae2b00-c04d-11ea-9a19-ba91c997dd38.png)
+
+***
+
 # Fase 1. Descubrimiento e investigación
 
 ## investigación contextual Pokémon GO
@@ -29,6 +33,8 @@ El equipo de desarrollo de Niantic, Inc. lanzó al mercado en el año 2016 Poké
 
 ## Entrevistas con usuarios
 Como primer acercamiento al usuario, realizamos una encuesta a más de 20 jugadores de Pokémon Go activos. Nuestras preguntas iban enfocadas en conocer el perfil del entrenador, su nivel y constancia, su meta como jugador y con que data de Pokémon de las dos primeras generaciones debían contar para cumplirla. 
+
+![readme2](https://user-images.githubusercontent.com/66659886/86813020-aca91b80-c04d-11ea-9197-ca1369b01825.png)
 
 ## Moodboard del usuario (Explicar por medio de imágenes)
 
@@ -45,6 +51,8 @@ Como primer acercamiento al usuario, realizamos una encuesta a más de 20 jugado
 * No tienen metas, solo quieren divertirse
 * Completar la Pokédex
 * Competir y estar dentro de los 100 mejores a nivel nacional
+
+![readme3](https://user-images.githubusercontent.com/66659886/86813026-adda4880-c04d-11ea-907b-0f81fa54df23.png)
 
 ## Los resultados nos ayudaron a generar 3 perfiles de usuario a partir de sus características y deseos básicos
 **Perfil 1: El turista**
@@ -65,6 +73,10 @@ Como primer acercamiento al usuario, realizamos una encuesta a más de 20 jugado
 * Les gustaría ver las fortalezas y debilidades de cada Pokémon de forma rápida para saber si es útil capturarlo o no, además de los tipos de movimiento y ataque que poseen
 * Para él, las otras características del Pokémon son secundarias, busca compañeros para la batalla y aumentar de nivel
 * Revisamos el perfil de cada usuario que respondió la encuesta y el perfil 3: El competidor es el más representativo. Si bien está en un nivel avanzado, consideraría los demás perfiles pues es un nivel al que el turista o coleccionista pueden aspirar. Analizamos sus requerimientos para darle forma a PokéGo Dex.
+
+![readme4](https://user-images.githubusercontent.com/66659886/86813031-afa40c00-c04d-11ea-9c51-27310411f34e.png)
+
+***
 
 # Fase 2. Síntesis y definición
 
@@ -113,22 +125,23 @@ Criterios de aceptación: La página principal contará con un ítem de “Actua
 
 **Historia 9:** Datos curiosos
 *“Yo como entrenador quiero ver saber datos curiosos de los Pokémon para aumentar mi expertise”.*
+
 ***
 
 # Fase 3: Ideación
 
-## Benchmarking
-(Explicar por medio de imágenes)
-
 ## Primeros bocetos / Brainstorming
-(Explicar por medio de imágenes)
 
 Antes de comenzar con los primeros sketches de nuestra página, realizamos una observación e inmersión directa con el usuario, para así poder definir su perfil, infografía y moodboard, donde el formulario y los estudios de mercado realizados nos ayudaron a obtener datos de cómo se debería ver nuestra aplicación.
 
+![readme5](https://user-images.githubusercontent.com/66659886/86813060-b6cb1a00-c04d-11ea-824b-a53484eade65.png)
+
 En este proceso de ideación comenzamos primero con bocetos en papel como brainstorm para así determinar posibles contenidos, flujos y ubicación de los elementos.
 
-(Agregar imágenes de los bocetos)
 Finalmente, ya definidos los conceptos claves de cómo se vería nuestra página comenzamos la marcha hacia nuestro prototipado de baja fidelidad.
+
+## Moodboard. Paleta cromática. Inspiración
+![readme7](https://user-images.githubusercontent.com/66659886/86813080-baf73780-c04d-11ea-96f7-fb2bcae75f80.png)
 
 ***
 
@@ -136,13 +149,14 @@ Finalmente, ya definidos los conceptos claves de cómo se vería nuestra página
 
 ## Prototipos de baja fidelidad
 Una vez realizado el brainstorm recogimos la información más importante y comenzamos a plasmarla en un programa de diseño, en este caso Illustrator, en donde esbozamos diferentes propuestas para cada página, implementando aspectos del sistema sin entrar en detalles. 
-(Agregar imagen de propuestas)
 
 Luego de haber seleccionado nuestra guía a seguir realizamos el flujo que debería tomar nuestro prototipo de baja fidelidad (low-fi) respondiendo así a las historias de usuario. Comenzando con un registro (log in) en donde el jugador de pokémon go, puede elegir si ingresar con su cuenta oficial o su nombre, lo que lo llevará a nuestra página principal donde el usuario se encontrará con todos los pokemones y sus especificaciones, donde para poder interactuar con cada uno podrá elegir diferentes caminos, como utilizar el buscador, los filtros o navegar por la pagina hasta encontrar su pokémon, también añadimos una sección de favoritos para que así el usuario pueda guardar libremente esos pokemones que más le gusten, ya sea para combate o colección.
 
-(Agregar imagen de flujo)
 Para que este flujo se viera reflejado con movimiento lo llevamos a la herramienta InVision, programa que nos ayudó al diseño general de interface, la evaluación de múltiples conceptos del diseño y a realizar los testeos pertinentes para seguir avanzando. 
+
 Enlace de Prototipo de Baja Fidelidad InVision: https://iara298869.invisionapp.com/public/share/ST17XCJ9QW#/screens/478953585
+
+![readme6](https://user-images.githubusercontent.com/66659886/86813072-b92d7400-c04d-11ea-8707-0c512e8aa83f.png)
 
 ## Primer testeo remoto con usuarios
 **Estructura:**
@@ -195,9 +209,9 @@ Como sexta misión, queríamos comprobar si el usuario relacionaba el logo con v
 
 Finalmente, le hicimos una serie de preguntas a los usuarios para saber si les ayudaban los filtros, las tarjetas y la sección de favoritos para ser mejores jugadores.
 
-(Agregar imagen de los gráficos)
-
 Con toda esta información pudimos determinar que lo que ellos entendían como filtro de evolución lo relacionaban con la cantidad de huevos necesarios para evolucionar un pokémon y no por la cadena evolutiva, que los colores de las tarjetas en la página principal las relacionaban con los tipos y no por color de pokémon, y que le faltaba la especificación de ataques rápidos a la tarjeta. Todos estos cambios fueron incorporados al producto final
+
+![readme8](https://user-images.githubusercontent.com/66659886/86813091-bcc0fb00-c04d-11ea-9590-cb74c3aa7a79.png)
 
 ***
 
@@ -205,3 +219,14 @@ Con toda esta información pudimos determinar que lo que ellos entendían como f
 
 En base a un extenso proceso de investigación con usuarios reales de Pokémon GO, les presentamos PokéGo Dex, aplicación web complementaria a Pokémon Go que permite visualizar datos de 251 Pokémon, de la región de Kanto y Johto, con sus respectivas estadísticas usadas en el juego con el objetivo de fortalecer el entrenamiento del jugador y así llevar su experiencia a otro nivel.
 
+![readme10](https://user-images.githubusercontent.com/66659886/86813109-c185af00-c04d-11ea-962c-bf74b6d2bc30.png)
+
+![readme9](https://user-images.githubusercontent.com/66659886/86813097-bf235500-c04d-11ea-8de5-e9e9304a6fdd.png)
+
+![readme11](https://user-images.githubusercontent.com/66659886/86813113-c34f7280-c04d-11ea-967a-6b5f4d00d8cc.png)
+
+![readme12](https://user-images.githubusercontent.com/66659886/86813125-c8142680-c04d-11ea-9e2e-5777b5f17a64.png)
+
+![readme13](https://user-images.githubusercontent.com/66659886/86813136-ca768080-c04d-11ea-8a36-631a91a3c65d.png)
+
+![readme14](https://user-images.githubusercontent.com/66659886/86813151-cd717100-c04d-11ea-8ba4-2508159b7e09.png)
