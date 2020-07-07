@@ -36,8 +36,6 @@ Como primer acercamiento al usuario, realizamos una encuesta a más de 20 jugado
 
 ![readme2](https://user-images.githubusercontent.com/66659886/86813020-aca91b80-c04d-11ea-9197-ca1369b01825.png)
 
-## Moodboard del usuario (Explicar por medio de imágenes)
-
 * Nuestro jugador promedio tiene entre 20 y 30 años.
 * Juega hace 3 o 4 años.
 * El mayor porcentaje de usuario juega entre 5 a 7 veces por semana. 
