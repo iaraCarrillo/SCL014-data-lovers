@@ -52,7 +52,7 @@ Como primer acercamiento al usuario, realizamos una encuesta a más de 20 jugado
 
 ![readme3](https://user-images.githubusercontent.com/66659886/86813026-adda4880-c04d-11ea-907b-0f81fa54df23.png)
 
-## Los resultados nos ayudaron a generar 3 perfiles de usuario a partir de sus características y deseos básicos
+## Los resultados nos ayudaron a generar 3 perfiles de usuario:
 **Perfil 1: El turista**
 * Juega 1 o 2 veces a la semana
 * No tiene metas o expectativas del juego. Entra a la App para divertirse y pasar el rato.
