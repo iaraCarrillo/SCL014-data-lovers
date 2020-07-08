@@ -88,11 +88,11 @@ export default {
       "next-evolution": [{
         "num": "002",
         "name": "ivysaur",
-        "candy-cost": "25",
+        "candycost": "25",
         "next-evolution": [{
           "num": "003",
           "name": "venusaur",
-          "candy-cost": "100"
+          "candycost": "100"
         }]
       }]
     }
@@ -186,12 +186,12 @@ export default {
       "next-evolution": [{
         "num": "003",
         "name": "venusaur",
-        "candy-cost": "100"
+        "candycost": "100"
       }],
       "prev-evolution": [{
         "num": "001",
         "name": "bulbasaur",
-        "candy-cost": "25"
+        "candycost": "25"
       }]
     }
   },
@@ -284,11 +284,11 @@ export default {
       "prev-evolution": [{
         "num": "002",
         "name": "ivysaur",
-        "candy-cost": "100",
+        "candycost": "100",
         "prev-evolution": [{
           "num": "001",
           "name": "bulbasaur",
-          "candy-cost": "25"
+          "candycost": "25"
         }]
       }]
     }
@@ -380,11 +380,11 @@ export default {
       "next-evolution": [{
         "num": "005",
         "name": "charmeleon",
-        "candy-cost": "25",
+        "candycost": "25",
         "next-evolution": [{
           "num": "006",
           "name": "charizard",
-          "candy-cost": "100"
+          "candycost": "100"
         }]
       }]
     }
@@ -483,12 +483,12 @@ export default {
       "next-evolution": [{
         "num": "006",
         "name": "charizard",
-        "candy-cost": "100"
+        "candycost": "100"
       }],
       "prev-evolution": [{
         "num": "004",
         "name": "charmander",
-        "candy-cost": "25"
+        "candycost": "25"
       }]
     }
   },
@@ -601,11 +601,11 @@ export default {
       "prev-evolution": [{
         "num": "005",
         "name": "charmeleon",
-        "candy-cost": "100",
+        "candycost": "100",
         "prev-evolution": [{
           "num": "004",
           "name": "charmander",
-          "candy-cost": "25"
+          "candycost": "25"
         }]
       }]
     }
@@ -695,11 +695,11 @@ export default {
       "next-evolution": [{
         "num": "008",
         "name": "wartortle",
-        "candy-cost": "25",
+        "candycost": "25",
         "next-evolution": [{
           "num": "009",
           "name": "blastoise",
-          "candy-cost": "100"
+          "candycost": "100"
         }]
       }]
     }
@@ -789,12 +789,12 @@ export default {
       "next-evolution": [{
         "num": "009",
         "name": "blastoise",
-        "candy-cost": "100"
+        "candycost": "100"
       }],
       "prev-evolution": [{
         "num": "007",
         "name": "squirtle",
-        "candy-cost": "25"
+        "candycost": "25"
       }]
     }
   },
@@ -883,11 +883,11 @@ export default {
       "prev-evolution": [{
         "num": "008",
         "name": "wartortle",
-        "candy-cost": "100",
+        "candycost": "100",
         "prev-evolution": [{
           "num": "007",
           "name": "squirtle",
-          "candy-cost": "25"
+          "candycost": "25"
         }]
       }]
     }
@@ -962,11 +962,11 @@ export default {
       "next-evolution": [{
         "num": "011",
         "name": "metapod",
-        "candy-cost": "12",
+        "candycost": "12",
         "next-evolution": [{
           "num": "012",
           "name": "butterfree",
-          "candy-cost": "50"
+          "candycost": "50"
         }]
       }]
     }
@@ -1041,12 +1041,12 @@ export default {
       "next-evolution": [{
         "num": "012",
         "name": "butterfree",
-        "candy-cost": "50"
+        "candycost": "50"
       }],
       "prev-evolution": [{
         "num": "010",
         "name": "caterpie",
-        "candy-cost": "12"
+        "candycost": "12"
       }]
     }
   },
@@ -1146,11 +1146,11 @@ export default {
       "prev-evolution": [{
         "num": "011",
         "name": "metapod",
-        "candy-cost": "50",
+        "candycost": "50",
         "prev-evolution": [{
           "num": "010",
           "name": "caterpie",
-          "candy-cost": "12"
+          "candycost": "12"
         }]
       }]
     }
@@ -1229,11 +1229,11 @@ export default {
       "next-evolution": [{
         "num": "014",
         "name": "kakuna",
-        "candy-cost": "12",
+        "candycost": "12",
         "next-evolution": [{
           "num": "015",
           "name": "beedrill",
-          "candy-cost": "50"
+          "candycost": "50"
         }]
       }]
     }
@@ -1312,12 +1312,12 @@ export default {
       "next-evolution": [{
         "num": "015",
         "name": "beedrill",
-        "candy-cost": "50"
+        "candycost": "50"
       }],
       "prev-evolution": [{
         "num": "013",
         "name": "weedle",
-        "candy-cost": "12"
+        "candycost": "12"
       }]
     }
   },
@@ -1417,11 +1417,11 @@ export default {
       "prev-evolution": [{
         "num": "014",
         "name": "kakuna",
-        "candy-cost": "50",
+        "candycost": "50",
         "prev-evolution": [{
           "num": "013",
           "name": "weedle",
-          "candy-cost": "12"
+          "candycost": "12"
         }]
       }]
     }
@@ -1512,11 +1512,11 @@ export default {
       "next-evolution": [{
         "num": "017",
         "name": "pidgeotto",
-        "candy-cost": "12",
+        "candycost": "12",
         "next-evolution": [{
           "num": "018",
           "name": "pidgeot",
-          "candy-cost": "50"
+          "candycost": "50"
         }]
       }]
     }
@@ -1607,12 +1607,12 @@ export default {
       "next-evolution": [{
         "num": "018",
         "name": "pidgeot",
-        "candy-cost": "50"
+        "candycost": "50"
       }],
       "prev-evolution": [{
         "num": "016",
         "name": "pidgey",
-        "candy-cost": "12"
+        "candycost": "12"
       }]
     }
   },
@@ -1716,11 +1716,11 @@ export default {
       "prev-evolution": [{
         "num": "017",
         "name": "pidgeotto",
-        "candy-cost": "50",
+        "candycost": "50",
         "prev-evolution": [{
           "num": "016",
           "name": "pidgey",
-          "candy-cost": "12"
+          "candycost": "12"
         }]
       }]
     }
@@ -1806,7 +1806,7 @@ export default {
       "next-evolution": [{
         "num": "020",
         "name": "raticate",
-        "candy-cost": "25"
+        "candycost": "25"
       }]
     }
   },
@@ -1891,7 +1891,7 @@ export default {
       "prev-evolution": [{
         "num": "019",
         "name": "rattata",
-        "candy-cost": "25"
+        "candycost": "25"
       }]
     }
   },
@@ -1988,7 +1988,7 @@ export default {
       "next-evolution": [{
         "num": "022",
         "name": "fearow",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -2085,7 +2085,7 @@ export default {
       "prev-evolution": [{
         "num": "021",
         "name": "spearow",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -2182,7 +2182,7 @@ export default {
       "next-evolution": [{
         "num": "024",
         "name": "arbok",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -2272,7 +2272,7 @@ export default {
       "prev-evolution": [{
         "num": "023",
         "name": "ekans",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -2366,12 +2366,12 @@ export default {
       "next-evolution": [{
         "num": "026",
         "name": "raichu",
-        "candy-cost": "50"
+        "candycost": "50"
       }],
       "prev-evolution": [{
         "num": "172",
         "name": "pichu",
-        "candy-cost": "25"
+        "candycost": "25"
       }]
     }
   },
@@ -2472,11 +2472,11 @@ export default {
       "prev-evolution": [{
         "num": "025",
         "name": "pikachu",
-        "candy-cost": "50",
+        "candycost": "50",
         "prev-evolution": [{
           "num": "172",
           "name": "pichu",
-          "candy-cost": "25"
+          "candycost": "25"
         }]
       }]
     }
@@ -2573,7 +2573,7 @@ export default {
       "next-evolution": [{
         "num": "028",
         "name": "sandslash",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -2662,7 +2662,7 @@ export default {
       "prev-evolution": [{
         "num": "027",
         "name": "sandshrew",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -2752,11 +2752,11 @@ export default {
       "next-evolution": [{
         "num": "030",
         "name": "nidorina",
-        "candy-cost": "25",
+        "candycost": "25",
         "next-evolution": [{
           "num": "031",
           "name": "nidoqueen",
-          "candy-cost": "100"
+          "candycost": "100"
         }]
       }]
     }
@@ -2847,12 +2847,12 @@ export default {
       "next-evolution": [{
         "num": "031",
         "name": "nidoqueen",
-        "candy-cost": "100"
+        "candycost": "100"
       }],
       "prev-evolution": [{
         "num": "029",
         "name": "nidoran ♀ (female)",
-        "candy-cost": "25"
+        "candycost": "25"
       }]
     }
   },
@@ -2945,11 +2945,11 @@ export default {
       "prev-evolution": [{
         "num": "030",
         "name": "nidorina",
-        "candy-cost": "100",
+        "candycost": "100",
         "prev-evolution": [{
           "num": "029",
           "name": "nidoran ♀ (female)",
-          "candy-cost": "25"
+          "candycost": "25"
         }]
       }]
     }
@@ -3040,11 +3040,11 @@ export default {
       "next-evolution": [{
         "num": "033",
         "name": "nidorino",
-        "candy-cost": "25",
+        "candycost": "25",
         "next-evolution": [{
           "num": "034",
           "name": "nidoking",
-          "candy-cost": "100"
+          "candycost": "100"
         }]
       }]
     }
@@ -3135,12 +3135,12 @@ export default {
       "next-evolution": [{
         "num": "034",
         "name": "nidoking",
-        "candy-cost": "100"
+        "candycost": "100"
       }],
       "prev-evolution": [{
         "num": "032",
         "name": "nidoran ♂ (male)",
-        "candy-cost": "25"
+        "candycost": "25"
       }]
     }
   },
@@ -3240,11 +3240,11 @@ export default {
       "prev-evolution": [{
         "num": "033",
         "name": "nidorino",
-        "candy-cost": "100",
+        "candycost": "100",
         "prev-evolution": [{
           "num": "032",
           "name": "nidoran ♂ (male)",
-          "candy-cost": "25"
+          "candycost": "25"
         }]
       }]
     }
@@ -3333,12 +3333,12 @@ export default {
       "next-evolution": [{
         "num": "036",
         "name": "clefable",
-        "candy-cost": "50"
+        "candycost": "50"
       }],
       "prev-evolution": [{
         "num": "173",
         "name": "cleffa",
-        "candy-cost": "25"
+        "candycost": "25"
       }]
     }
   },
@@ -3433,11 +3433,11 @@ export default {
       "prev-evolution": [{
         "num": "035",
         "name": "clefairy",
-        "candy-cost": "50",
+        "candycost": "50",
         "prev-evolution": [{
           "num": "173",
           "name": "cleffa",
-          "candy-cost": "25"
+          "candycost": "25"
         }]
       }]
     }
@@ -3529,7 +3529,7 @@ export default {
       "next-evolution": [{
         "num": "038",
         "name": "ninetales",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -3641,7 +3641,7 @@ export default {
       "prev-evolution": [{
         "num": "037",
         "name": "vulpix",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -3743,12 +3743,12 @@ export default {
       "next-evolution": [{
         "num": "040",
         "name": "wigglytuff",
-        "candy-cost": "50"
+        "candycost": "50"
       }],
       "prev-evolution": [{
         "num": "174",
         "name": "igglybuff",
-        "candy-cost": "25"
+        "candycost": "25"
       }]
     }
   },
@@ -3836,11 +3836,11 @@ export default {
       "prev-evolution": [{
         "num": "039",
         "name": "jigglypuff",
-        "candy-cost": "50",
+        "candycost": "50",
         "prev-evolution": [{
           "num": "174",
           "name": "igglybuff",
-          "candy-cost": "25"
+          "candycost": "25"
         }]
       }]
     }
@@ -3941,11 +3941,11 @@ export default {
       "next-evolution": [{
         "num": "042",
         "name": "golbat",
-        "candy-cost": "50",
+        "candycost": "50",
         "next-evolution": [{
           "num": "169",
           "name": "crobat",
-          "candy-cost": "100"
+          "candycost": "100"
         }]
       }]
     }
@@ -4050,7 +4050,7 @@ export default {
       "prev-evolution": [{
         "num": "041",
         "name": "zubat",
-        "candy-cost": "25"
+        "candycost": "25"
       }]
     }
   },
@@ -4143,17 +4143,17 @@ export default {
       "next-evolution": [{
         "num": "044",
         "name": "gloom",
-        "candy-cost": "25",
+        "candycost": "25",
         "next-evolution": [
           {
             "num": "045",
             "name": "vileplume",
-            "candy-cost": "100"
+            "candycost": "100"
           },
           {
             "num": "182",
             "name": "bellossom",
-            "candy-cost": "100",
+            "candycost": "100",
             "evolution-item": {
               "name": "sun stone",
               "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/sun-stone.png"
@@ -4253,12 +4253,12 @@ export default {
         {
           "num": "045",
           "name": "vileplume",
-          "candy-cost": "100"
+          "candycost": "100"
         },
         {
           "num": "182",
           "name": "bellossom",
-          "candy-cost": "100",
+          "candycost": "100",
           "evolution-item": {
             "name": "sun stone",
             "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/sun-stone.png"
@@ -4268,7 +4268,7 @@ export default {
       "prev-evolution": [{
         "num": "043",
         "name": "oddish",
-        "candy-cost": "25"
+        "candycost": "25"
       }]
     }
   },
@@ -4361,11 +4361,11 @@ export default {
       "prev-evolution": [{
         "num": "044",
         "name": "gloom",
-        "candy-cost": "100",
+        "candycost": "100",
         "prev-evolution": [{
           "num": "043",
           "name": "oddish",
-          "candy-cost": "25"
+          "candycost": "25"
         }]
       }]
     }
@@ -4461,7 +4461,7 @@ export default {
       "next-evolution": [{
         "num": "047",
         "name": "parasect",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -4563,7 +4563,7 @@ export default {
       "prev-evolution": [{
         "num": "046",
         "name": "paras",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -4656,7 +4656,7 @@ export default {
       "next-evolution": [{
         "num": "049",
         "name": "venomoth",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -4763,7 +4763,7 @@ export default {
       "prev-evolution": [{
         "num": "048",
         "name": "venonat",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -4859,7 +4859,7 @@ export default {
       "next-evolution": [{
         "num": "051",
         "name": "dugtrio",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -4955,7 +4955,7 @@ export default {
       "prev-evolution": [{
         "num": "050",
         "name": "diglett",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -5047,7 +5047,7 @@ export default {
       "next-evolution": [{
         "num": "053",
         "name": "persian",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -5139,7 +5139,7 @@ export default {
       "prev-evolution": [{
         "num": "052",
         "name": "meowth",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -5228,7 +5228,7 @@ export default {
       "next-evolution": [{
         "num": "055",
         "name": "golduck",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -5317,7 +5317,7 @@ export default {
       "prev-evolution": [{
         "num": "054",
         "name": "psyduck",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -5406,7 +5406,7 @@ export default {
       "next-evolution": [{
         "num": "057",
         "name": "primeape",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -5509,7 +5509,7 @@ export default {
       "prev-evolution": [{
         "num": "056",
         "name": "mankey",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -5600,7 +5600,7 @@ export default {
       "next-evolution": [{
         "num": "059",
         "name": "arcanine",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -5712,7 +5712,7 @@ export default {
       "prev-evolution": [{
         "num": "058",
         "name": "growlithe",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -5801,17 +5801,17 @@ export default {
       "next-evolution": [{
         "num": "061",
         "name": "poliwhirl",
-        "candy-cost": "25",
+        "candycost": "25",
         "next-evolution": [
           {
             "num": "062",
             "name": "poliwrath",
-            "candy-cost": "100"
+            "candycost": "100"
           },
           {
             "num": "186",
             "name": "politoed",
-            "candy-cost": "100",
+            "candycost": "100",
             "evolution-item": {
               "name": "kings rock",
               "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/kings-rock.png"
@@ -5914,12 +5914,12 @@ export default {
         {
           "num": "062",
           "name": "poliwrath",
-          "candy-cost": "100"
+          "candycost": "100"
         },
         {
           "num": "186",
           "name": "politoed",
-          "candy-cost": "100",
+          "candycost": "100",
           "evolution-item": {
             "name": "kings rock",
             "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/kings-rock.png"
@@ -5929,7 +5929,7 @@ export default {
       "prev-evolution": [{
         "num": "060",
         "name": "poliwag",
-        "candy-cost": "25"
+        "candycost": "25"
       }]
     }
   },
@@ -6037,11 +6037,11 @@ export default {
       "prev-evolution": [{
         "num": "061",
         "name": "poliwhirl",
-        "candy-cost": "100",
+        "candycost": "100",
         "prev-evolution": [{
           "num": "060",
           "name": "poliwag",
-          "candy-cost": "25"
+          "candycost": "25"
         }]
       }]
     }
@@ -6130,11 +6130,11 @@ export default {
       "next-evolution": [{
         "num": "064",
         "name": "kadabra",
-        "candy-cost": "25",
+        "candycost": "25",
         "next-evolution": [{
           "num": "065",
           "name": "alakazam",
-          "candy-cost": "100"
+          "candycost": "100"
         }]
       }]
     }
@@ -6223,12 +6223,12 @@ export default {
       "next-evolution": [{
         "num": "065",
         "name": "alakazam",
-        "candy-cost": "100"
+        "candycost": "100"
       }],
       "prev-evolution": [{
         "num": "063",
         "name": "abra",
-        "candy-cost": "25"
+        "candycost": "25"
       }]
     }
   },
@@ -6330,11 +6330,11 @@ export default {
       "prev-evolution": [{
         "num": "064",
         "name": "kadabra",
-        "candy-cost": "100",
+        "candycost": "100",
         "prev-evolution": [{
           "num": "063",
           "name": "abra",
-          "candy-cost": "25"
+          "candycost": "25"
         }]
       }]
     }
@@ -6431,11 +6431,11 @@ export default {
       "next-evolution": [{
         "num": "067",
         "name": "machoke",
-        "candy-cost": "25",
+        "candycost": "25",
         "next-evolution": [{
           "num": "068",
           "name": "machamp",
-          "candy-cost": "100"
+          "candycost": "100"
         }]
       }]
     }
@@ -6532,12 +6532,12 @@ export default {
       "next-evolution": [{
         "num": "068",
         "name": "machamp",
-        "candy-cost": "100"
+        "candycost": "100"
       }],
       "prev-evolution": [{
         "num": "066",
         "name": "machop",
-        "candy-cost": "25"
+        "candycost": "25"
       }]
     }
   },
@@ -6654,11 +6654,11 @@ export default {
       "prev-evolution": [{
         "num": "067",
         "name": "machoke",
-        "candy-cost": "100",
+        "candycost": "100",
         "prev-evolution": [{
           "num": "066",
           "name": "machop",
-          "candy-cost": "25"
+          "candycost": "25"
         }]
       }]
     }
@@ -6752,11 +6752,11 @@ export default {
       "next-evolution": [{
         "num": "070",
         "name": "weepinbell",
-        "candy-cost": "25",
+        "candycost": "25",
         "next-evolution": [{
           "num": "071",
           "name": "victreebel",
-          "candy-cost": "100"
+          "candycost": "100"
         }]
       }]
     }
@@ -6857,12 +6857,12 @@ export default {
       "next-evolution": [{
         "num": "071",
         "name": "victreebel",
-        "candy-cost": "100"
+        "candycost": "100"
       }],
       "prev-evolution": [{
         "num": "069",
         "name": "bellsprout",
-        "candy-cost": "25"
+        "candycost": "25"
       }]
     }
   },
@@ -6955,11 +6955,11 @@ export default {
       "prev-evolution": [{
         "num": "070",
         "name": "weepinbell",
-        "candy-cost": "100",
+        "candycost": "100",
         "prev-evolution": [{
           "num": "069",
           "name": "bellsprout",
-          "candy-cost": "25"
+          "candycost": "25"
         }]
       }]
     }
@@ -7052,7 +7052,7 @@ export default {
       "next-evolution": [{
         "num": "073",
         "name": "tentacruel",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -7144,7 +7144,7 @@ export default {
       "prev-evolution": [{
         "num": "072",
         "name": "tentacool",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -7239,11 +7239,11 @@ export default {
       "next-evolution": [{
         "num": "075",
         "name": "graveler",
-        "candy-cost": "25",
+        "candycost": "25",
         "next-evolution": [{
           "num": "076",
           "name": "golem",
-          "candy-cost": "100"
+          "candycost": "100"
         }]
       }]
     }
@@ -7353,12 +7353,12 @@ export default {
       "next-evolution": [{
         "num": "076",
         "name": "golem",
-        "candy-cost": "100"
+        "candycost": "100"
       }],
       "prev-evolution": [{
         "num": "074",
         "name": "geodude",
-        "candy-cost": "25"
+        "candycost": "25"
       }]
     }
   },
@@ -7467,11 +7467,11 @@ export default {
       "prev-evolution": [{
         "num": "075",
         "name": "graveler",
-        "candy-cost": "100",
+        "candycost": "100",
         "prev-evolution": [{
           "num": "074",
           "name": "geodude",
-          "candy-cost": "25"
+          "candycost": "25"
         }]
       }]
     }
@@ -7570,7 +7570,7 @@ export default {
       "next-evolution": [{
         "num": "078",
         "name": "rapidash",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -7668,7 +7668,7 @@ export default {
       "prev-evolution": [{
         "num": "077",
         "name": "ponyta",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -7763,12 +7763,12 @@ export default {
         {
           "num": "080",
           "name": "slowbro",
-          "candy-cost": "50"
+          "candycost": "50"
         },
         {
           "num": "199",
           "name": "slowking",
-          "candy-cost": "50",
+          "candycost": "50",
           "evolution-item": {
             "name": "kings rock",
             "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/kings-rock.png"
@@ -7867,7 +7867,7 @@ export default {
       "prev-evolution": [{
         "num": "079",
         "name": "slowpoke",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -7958,7 +7958,7 @@ export default {
       "next-evolution": [{
         "num": "082",
         "name": "magneton",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -8063,7 +8063,7 @@ export default {
       "prev-evolution": [{
         "num": "081",
         "name": "magnemite",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -8253,7 +8253,7 @@ export default {
       "next-evolution": [{
         "num": "085",
         "name": "dodrio",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -8350,7 +8350,7 @@ export default {
       "prev-evolution": [{
         "num": "084",
         "name": "doduo",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -8453,7 +8453,7 @@ export default {
       "next-evolution": [{
         "num": "087",
         "name": "dewgong",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -8564,7 +8564,7 @@ export default {
       "prev-evolution": [{
         "num": "086",
         "name": "seel",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -8661,7 +8661,7 @@ export default {
       "next-evolution": [{
         "num": "089",
         "name": "muk",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -8765,7 +8765,7 @@ export default {
       "prev-evolution": [{
         "num": "088",
         "name": "grimer",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -8854,7 +8854,7 @@ export default {
       "next-evolution": [{
         "num": "091",
         "name": "cloyster",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -8958,7 +8958,7 @@ export default {
       "prev-evolution": [{
         "num": "090",
         "name": "shellder",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -9065,11 +9065,11 @@ export default {
       "next-evolution": [{
         "num": "093",
         "name": "haunter",
-        "candy-cost": "25",
+        "candycost": "25",
         "next-evolution": [{
           "num": "094",
           "name": "gengar",
-          "candy-cost": "100"
+          "candycost": "100"
         }]
       }]
     }
@@ -9177,12 +9177,12 @@ export default {
       "next-evolution": [{
         "num": "094",
         "name": "gengar",
-        "candy-cost": "100"
+        "candycost": "100"
       }],
       "prev-evolution": [{
         "num": "092",
         "name": "gastly",
-        "candy-cost": "25"
+        "candycost": "25"
       }]
     }
   },
@@ -9296,11 +9296,11 @@ export default {
       "prev-evolution": [{
         "num": "093",
         "name": "haunter",
-        "candy-cost": "100",
+        "candycost": "100",
         "prev-evolution": [{
           "num": "092",
           "name": "gastly",
-          "candy-cost": "25"
+          "candycost": "25"
         }]
       }]
     }
@@ -9410,7 +9410,7 @@ export default {
       "next-evolution": [{
         "num": "208",
         "name": "steelix",
-        "candy-cost": "50",
+        "candycost": "50",
         "evolution-item": {
           "name": "metal coat",
           "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/metal-coat.png"
@@ -9502,7 +9502,7 @@ export default {
       "next-evolution": [{
         "num": "097",
         "name": "hypno",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -9604,7 +9604,7 @@ export default {
       "prev-evolution": [{
         "num": "096",
         "name": "drowzee",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -9693,7 +9693,7 @@ export default {
       "next-evolution": [{
         "num": "099",
         "name": "kingler",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -9789,7 +9789,7 @@ export default {
       "prev-evolution": [{
         "num": "098",
         "name": "krabby",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -9883,7 +9883,7 @@ export default {
       "next-evolution": [{
         "num": "101",
         "name": "electrode",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -9977,7 +9977,7 @@ export default {
       "prev-evolution": [{
         "num": "100",
         "name": "voltorb",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -10073,7 +10073,7 @@ export default {
       "next-evolution": [{
         "num": "103",
         "name": "exeggutor",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -10183,7 +10183,7 @@ export default {
       "prev-evolution": [{
         "num": "102",
         "name": "exeggcute",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -10272,7 +10272,7 @@ export default {
       "next-evolution": [{
         "num": "105",
         "name": "marowak",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -10361,7 +10361,7 @@ export default {
       "prev-evolution": [{
         "num": "104",
         "name": "cubone",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -10464,7 +10464,7 @@ export default {
       "prev-evolution": [{
         "num": "236",
         "name": "tyrogue",
-        "candy-cost": "25"
+        "candycost": "25"
       }]
     }
   },
@@ -10574,7 +10574,7 @@ export default {
       "prev-evolution": [{
         "num": "236",
         "name": "tyrogue",
-        "candy-cost": "25"
+        "candycost": "25"
       }]
     }
   },
@@ -10751,7 +10751,7 @@ export default {
       "next-evolution": [{
         "num": "110",
         "name": "weezing",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -10848,7 +10848,7 @@ export default {
       "prev-evolution": [{
         "num": "109",
         "name": "koffing",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -10943,11 +10943,11 @@ export default {
       "next-evolution": [{
         "num": "112",
         "name": "rhydon",
-        "candy-cost": "50",
+        "candycost": "50",
         "next-evolution": [{
           "num": "464",
           "name": "rhyperior",
-          "candy-cost": "100",
+          "candycost": "100",
           "evolution-item": {
             "name": "sinnoh stone",
             "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/sinnoh-stone.png"
@@ -11047,7 +11047,7 @@ export default {
       "next-evolution": [{
         "num": "464",
         "name": "rhyperior",
-        "candy-cost": "100",
+        "candycost": "100",
         "evolution-item": {
           "name": "sinnoh stone",
           "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/sinnoh-stone.png"
@@ -11056,7 +11056,7 @@ export default {
       "prev-evolution": [{
         "num": "111",
         "name": "rhyhorn",
-        "candy-cost": "25"
+        "candycost": "25"
       }]
     }
   },
@@ -11152,7 +11152,7 @@ export default {
       "prev-evolution": [{
         "num": "440",
         "name": "happiny",
-        "candy-cost": "25"
+        "candycost": "25"
       }]
     }
   },
@@ -11430,11 +11430,11 @@ export default {
       "next-evolution": [{
         "num": "117",
         "name": "seadra",
-        "candy-cost": "50",
+        "candycost": "50",
         "next-evolution": [{
           "num": "230",
           "name": "kingdra",
-          "candy-cost": "100",
+          "candycost": "100",
           "evolution-item": {
             "name": "dragon scale",
             "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/dragon-scale.png"
@@ -11535,7 +11535,7 @@ export default {
       "next-evolution": [{
         "num": "230",
         "name": "kingdra",
-        "candy-cost": "100",
+        "candycost": "100",
         "evolution-item": {
           "name": "dragon scale",
           "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/dragon-scale.png"
@@ -11544,7 +11544,7 @@ export default {
       "prev-evolution": [{
         "num": "116",
         "name": "horsea",
-        "candy-cost": "25"
+        "candycost": "25"
       }]
     }
   },
@@ -11633,7 +11633,7 @@ export default {
       "next-evolution": [{
         "num": "119",
         "name": "seaking",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -11736,7 +11736,7 @@ export default {
       "prev-evolution": [{
         "num": "118",
         "name": "goldeen",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -11832,7 +11832,7 @@ export default {
       "next-evolution": [{
         "num": "121",
         "name": "starmie",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -11947,7 +11947,7 @@ export default {
       "prev-evolution": [{
         "num": "120",
         "name": "staryu",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -12037,7 +12037,7 @@ export default {
       "prev-evolution": [{
         "num": "439",
         "name": "mime jr",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -12144,7 +12144,7 @@ export default {
       "next-evolution": [{
         "num": "212",
         "name": "scizor",
-        "candy-cost": "50",
+        "candycost": "50",
         "evolution-item": {
           "name": "metal coat",
           "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/metal-coat.png"
@@ -12254,7 +12254,7 @@ export default {
       "prev-evolution": [{
         "num": "238",
         "name": "smoochum",
-        "candy-cost": "25"
+        "candycost": "25"
       }]
     }
   },
@@ -12341,7 +12341,7 @@ export default {
       "next-evolution": [{
         "num": "466",
         "name": "electivire",
-        "candy-cost": "100",
+        "candycost": "100",
         "evolution-item": {
           "name": "sinnoh stone",
           "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/sinnoh-stone.png"
@@ -12350,7 +12350,7 @@ export default {
       "prev-evolution": [{
         "num": "239",
         "name": "elekid",
-        "candy-cost": "25"
+        "candycost": "25"
       }]
     }
   },
@@ -12441,7 +12441,7 @@ export default {
       "next-evolution": [{
         "num": "467",
         "name": "magmortar",
-        "candy-cost": "100",
+        "candycost": "100",
         "evolution-item": {
           "name": "sinnoh stone",
           "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/sinnoh-stone.png"
@@ -12450,7 +12450,7 @@ export default {
       "prev-evolution": [{
         "num": "240",
         "name": "magby",
-        "candy-cost": "25"
+        "candycost": "25"
       }]
     }
   },
@@ -12695,7 +12695,7 @@ export default {
       "next-evolution": [{
         "num": "130",
         "name": "gyarados",
-        "candy-cost": "400"
+        "candycost": "400"
       }]
     }
   },
@@ -12807,7 +12807,7 @@ export default {
       "prev-evolution": [{
         "num": "129",
         "name": "magikarp",
-        "candy-cost": "400"
+        "candycost": "400"
       }]
     }
   },
@@ -13049,37 +13049,37 @@ export default {
         {
           "num": "134",
           "name": "vaporeon",
-          "candy-cost": "25"
+          "candycost": "25"
         },
         {
           "num": "135",
           "name": "jolteon",
-          "candy-cost": "25"
+          "candycost": "25"
         },
         {
           "num": "136",
           "name": "flareon",
-          "candy-cost": "25"
+          "candycost": "25"
         },
         {
           "num": "196",
           "name": "espeon",
-          "candy-cost": "25"
+          "candycost": "25"
         },
         {
           "num": "197",
           "name": "umbreon",
-          "candy-cost": "25"
+          "candycost": "25"
         },
         {
           "num": "470",
           "name": "leafeon",
-          "candy-cost": "25"
+          "candycost": "25"
         },
         {
           "num": "471",
           "name": "glaceon",
-          "candy-cost": "25"
+          "candycost": "25"
         }
       ]
     }
@@ -13161,7 +13161,7 @@ export default {
       "prev-evolution": [{
         "num": "133",
         "name": "eevee",
-        "candy-cost": "25"
+        "candycost": "25"
       }]
     }
   },
@@ -13248,7 +13248,7 @@ export default {
       "prev-evolution": [{
         "num": "133",
         "name": "eevee",
-        "candy-cost": "25"
+        "candycost": "25"
       }]
     }
   },
@@ -13346,7 +13346,7 @@ export default {
       "prev-evolution": [{
         "num": "133",
         "name": "eevee",
-        "candy-cost": "25"
+        "candycost": "25"
       }]
     }
   },
@@ -13473,7 +13473,7 @@ export default {
       "next-evolution": [{
         "num": "233",
         "name": "porygon2",
-        "candy-cost": "25",
+        "candycost": "25",
         "evolution-item": {
           "name": "up grade",
           "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/up-grade.png"
@@ -13481,7 +13481,7 @@ export default {
         "next-evolution": [{
           "num": "474",
           "name": "porygon-z",
-          "candy-cost": "100",
+          "candycost": "100",
           "evolution-item": {
             "name": "sinnoh stone",
             "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/sinnoh-stone.png"
@@ -13593,7 +13593,7 @@ export default {
       "next-evolution": [{
         "num": "139",
         "name": "omastar",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -13700,7 +13700,7 @@ export default {
       "prev-evolution": [{
         "num": "138",
         "name": "omanyte",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -13793,7 +13793,7 @@ export default {
       "next-evolution": [{
         "num": "141",
         "name": "kabutops",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -13893,7 +13893,7 @@ export default {
       "prev-evolution": [{
         "num": "140",
         "name": "kabuto",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -14074,7 +14074,7 @@ export default {
       "prev-evolution": [{
         "num": "446",
         "name": "munchlax",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -14407,11 +14407,11 @@ export default {
       "next-evolution": [{
         "num": "148",
         "name": "dragonair",
-        "candy-cost": "25",
+        "candycost": "25",
         "next-evolution": [{
           "num": "149",
           "name": "dragonite",
-          "candy-cost": "100"
+          "candycost": "100"
         }]
       }]
     }
@@ -14502,12 +14502,12 @@ export default {
       "next-evolution": [{
         "num": "149",
         "name": "dragonite",
-        "candy-cost": "100"
+        "candycost": "100"
       }],
       "prev-evolution": [{
         "num": "147",
         "name": "dratini",
-        "candy-cost": "25"
+        "candycost": "25"
       }]
     }
   },
@@ -14621,11 +14621,11 @@ export default {
       "prev-evolution": [{
         "num": "148",
         "name": "dragonair",
-        "candy-cost": "100",
+        "candycost": "100",
         "prev-evolution": [{
           "num": "147",
           "name": "dratini",
-          "candy-cost": "25"
+          "candycost": "25"
         }]
       }]
     }
@@ -14917,11 +14917,11 @@ export default {
       "next-evolution": [{
         "num": "153",
         "name": "bayleef",
-        "candy-cost": "25",
+        "candycost": "25",
         "next-evolution": [{
           "num": "154",
           "name": "meganium",
-          "candy-cost": "100"
+          "candycost": "100"
         }]
       }]
     }
@@ -15013,12 +15013,12 @@ export default {
       "next-evolution": [{
         "num": "154",
         "name": "meganium",
-        "candy-cost": "100"
+        "candycost": "100"
       }],
       "prev-evolution": [{
         "num": "152",
         "name": "chikorita",
-        "candy-cost": "25"
+        "candycost": "25"
       }]
     }
   },
@@ -15109,11 +15109,11 @@ export default {
       "prev-evolution": [{
         "num": "153",
         "name": "bayleef",
-        "candy-cost": "100",
+        "candycost": "100",
         "prev-evolution": [{
           "num": "152",
           "name": "chikorita",
-          "candy-cost": "25"
+          "candycost": "25"
         }]
       }]
     }
@@ -15205,11 +15205,11 @@ export default {
       "next-evolution": [{
         "num": "156",
         "name": "quilava",
-        "candy-cost": "25",
+        "candycost": "25",
         "next-evolution": [{
           "num": "157",
           "name": "typhlosion",
-          "candy-cost": "100"
+          "candycost": "100"
         }]
       }]
     }
@@ -15301,12 +15301,12 @@ export default {
       "next-evolution": [{
         "num": "157",
         "name": "typhlosion",
-        "candy-cost": "100"
+        "candycost": "100"
       }],
       "prev-evolution": [{
         "num": "155",
         "name": "cyndaquil",
-        "candy-cost": "25"
+        "candycost": "25"
       }]
     }
   },
@@ -15397,11 +15397,11 @@ export default {
       "prev-evolution": [{
         "num": "156",
         "name": "quilava",
-        "candy-cost": "100",
+        "candycost": "100",
         "prev-evolution": [{
           "num": "155",
           "name": "cyndaquil",
-          "candy-cost": "25"
+          "candycost": "25"
         }]
       }]
     }
@@ -15491,11 +15491,11 @@ export default {
       "next-evolution": [{
         "num": "159",
         "name": "croconaw",
-        "candy-cost": "25",
+        "candycost": "25",
         "next-evolution": [{
           "num": "160",
           "name": "feraligatr",
-          "candy-cost": "100"
+          "candycost": "100"
         }]
       }]
     }
@@ -15585,12 +15585,12 @@ export default {
       "next-evolution": [{
         "num": "160",
         "name": "feraligatr",
-        "candy-cost": "100"
+        "candycost": "100"
       }],
       "prev-evolution": [{
         "num": "158",
         "name": "totodile",
-        "candy-cost": "25"
+        "candycost": "25"
       }]
     }
   },
@@ -15679,11 +15679,11 @@ export default {
       "prev-evolution": [{
         "num": "159",
         "name": "croconaw",
-        "candy-cost": "100",
+        "candycost": "100",
         "prev-evolution": [{
           "num": "158",
           "name": "totodile",
-          "candy-cost": "25"
+          "candycost": "25"
         }]
       }]
     }
@@ -15769,7 +15769,7 @@ export default {
       "next-evolution": [{
         "num": "162",
         "name": "furret",
-        "candy-cost": "25"
+        "candycost": "25"
       }]
     }
   },
@@ -15854,7 +15854,7 @@ export default {
       "prev-evolution": [{
         "num": "161",
         "name": "sentret",
-        "candy-cost": "25"
+        "candycost": "25"
       }]
     }
   },
@@ -15930,7 +15930,7 @@ export default {
       "next-evolution": [{
         "num": "164",
         "name": "noctowl",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -16021,7 +16021,7 @@ export default {
       "prev-evolution": [{
         "num": "163",
         "name": "hoothoot",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -16113,7 +16113,7 @@ export default {
       "next-evolution": [{
         "num": "166",
         "name": "ledian",
-        "candy-cost": "25"
+        "candycost": "25"
       }]
     }
   },
@@ -16205,7 +16205,7 @@ export default {
       "prev-evolution": [{
         "num": "165",
         "name": "ledyba",
-        "candy-cost": "25"
+        "candycost": "25"
       }]
     }
   },
@@ -16298,7 +16298,7 @@ export default {
       "next-evolution": [{
         "num": "168",
         "name": "ariados",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -16391,7 +16391,7 @@ export default {
       "prev-evolution": [{
         "num": "167",
         "name": "spinarak",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -16484,11 +16484,11 @@ export default {
       "prev-evolution": [{
         "num": "042",
         "name": "golbat",
-        "candy-cost": "100",
+        "candycost": "100",
         "prev-evolution": [{
           "num": "041",
           "name": "zubat",
-          "candy-cost": "25"
+          "candycost": "25"
         }]
       }]
     }
@@ -16580,7 +16580,7 @@ export default {
       "next-evolution": [{
         "num": "171",
         "name": "lanturn",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -16671,7 +16671,7 @@ export default {
       "prev-evolution": [{
         "num": "170",
         "name": "chinchou",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -16758,11 +16758,11 @@ export default {
       "next-evolution": [{
         "num": "025",
         "name": "pikachu",
-        "candy-cost": "25",
+        "candycost": "25",
         "next-evolution": [{
           "num": "026",
           "name": "raichu",
-          "candy-cost": "50"
+          "candycost": "50"
         }]
       }]
     }
@@ -16866,11 +16866,11 @@ export default {
       "next-evolution": [{
         "num": "035",
         "name": "clefairy",
-        "candy-cost": "25",
+        "candycost": "25",
         "next-evolution": [{
           "num": "036",
           "name": "clefable",
-          "candy-cost": "50"
+          "candycost": "50"
         }]
       }]
     }
@@ -16968,11 +16968,11 @@ export default {
       "next-evolution": [{
         "num": "039",
         "name": "jigglypuff",
-        "candy-cost": "25",
+        "candycost": "25",
         "next-evolution": [{
           "num": "040",
           "name": "wigglytuff",
-          "candy-cost": "50"
+          "candycost": "50"
         }]
       }]
     }
@@ -17069,11 +17069,11 @@ export default {
       "next-evolution": [{
         "num": "176",
         "name": "togetic",
-        "candy-cost": "50",
+        "candycost": "50",
         "next-evolution": [{
           "num": "468",
           "name": "togekiss",
-          "candy-cost": "100",
+          "candycost": "100",
           "evolution-item": {
             "name": "sinnoh stone",
             "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/sinnoh-stone.png"
@@ -17171,7 +17171,7 @@ export default {
       "next-evolution": [{
         "num": "468",
         "name": "togekiss",
-        "candy-cost": "100",
+        "candycost": "100",
         "evolution-item": {
           "name": "sinnoh stone",
           "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/sinnoh-stone.png"
@@ -17180,7 +17180,7 @@ export default {
       "prev-evolution": [{
         "num": "175",
         "name": "togepi",
-        "candy-cost": "25"
+        "candycost": "25"
       }]
     }
   },
@@ -17272,7 +17272,7 @@ export default {
       "next-evolution": [{
         "num": "178",
         "name": "xatu",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -17364,7 +17364,7 @@ export default {
       "prev-evolution": [{
         "num": "177",
         "name": "natu",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -17451,11 +17451,11 @@ export default {
       "next-evolution": [{
         "num": "180",
         "name": "flaaffy",
-        "candy-cost": "25",
+        "candycost": "25",
         "next-evolution": [{
           "num": "181",
           "name": "ampharos",
-          "candy-cost": "100"
+          "candycost": "100"
         }]
       }]
     }
@@ -17543,12 +17543,12 @@ export default {
       "next-evolution": [{
         "num": "181",
         "name": "ampharos",
-        "candy-cost": "100"
+        "candycost": "100"
       }],
       "prev-evolution": [{
         "num": "179",
         "name": "mareep",
-        "candy-cost": "25"
+        "candycost": "25"
       }]
     }
   },
@@ -17635,11 +17635,11 @@ export default {
       "prev-evolution": [{
         "num": "180",
         "name": "flaaffy",
-        "candy-cost": "100",
+        "candycost": "100",
         "prev-evolution": [{
           "num": "179",
           "name": "mareep",
-          "candy-cost": "25"
+          "candycost": "25"
         }]
       }]
     }
@@ -17731,7 +17731,7 @@ export default {
       "prev-evolution": [{
         "num": "044",
         "name": "gloom",
-        "candy-cost": "100",
+        "candycost": "100",
         "evolution-item": {
           "name": "sun stone",
           "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/sun-stone.png"
@@ -17739,7 +17739,7 @@ export default {
         "prev-evolution": [{
           "num": "043",
           "name": "oddish",
-          "candy-cost": "25"
+          "candycost": "25"
         }]
       }]
     }
@@ -17832,12 +17832,12 @@ export default {
       "next-evolution": [{
         "num": "184",
         "name": "azumarill",
-        "candy-cost": "25"
+        "candycost": "25"
       }],
       "prev-evolution": [{
         "num": "298",
         "name": "azurill",
-        "candy-cost": "25"
+        "candycost": "25"
       }]
     }
   },
@@ -17929,11 +17929,11 @@ export default {
       "prev-evolution": [{
         "num": "183",
         "name": "marill",
-        "candy-cost": "25",
+        "candycost": "25",
         "prev-evolution": [{
           "num": "298",
           "name": "azurill",
-          "candy-cost": "25"
+          "candycost": "25"
         }]
       }]
     }
@@ -18025,7 +18025,7 @@ export default {
       "prev-evolution": [{
         "num": "438",
         "name": "bonsly",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -18114,7 +18114,7 @@ export default {
       "prev-evolution": [{
         "num": "061",
         "name": "poliwhirl",
-        "candy-cost": "100",
+        "candycost": "100",
         "evolution-item": {
           "name": "kings rock",
           "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/kings-rock.png"
@@ -18122,7 +18122,7 @@ export default {
         "prev-evolution": [{
           "num": "060",
           "name": "poliwag",
-          "candy-cost": "25"
+          "candycost": "25"
         }]
       }]
     }
@@ -18215,11 +18215,11 @@ export default {
       "next-evolution": [{
         "num": "188",
         "name": "skiploom",
-        "candy-cost": "25",
+        "candycost": "25",
         "next-evolution": [{
           "num": "189",
           "name": "jumpluff",
-          "candy-cost": "100"
+          "candycost": "100"
         }]
       }]
     }
@@ -18312,12 +18312,12 @@ export default {
       "next-evolution": [{
         "num": "189",
         "name": "jumpluff",
-        "candy-cost": "100"
+        "candycost": "100"
       }],
       "prev-evolution": [{
         "num": "187",
         "name": "hoppip",
-        "candy-cost": "25"
+        "candycost": "25"
       }]
     }
   },
@@ -18409,11 +18409,11 @@ export default {
       "prev-evolution": [{
         "num": "188",
         "name": "skiploom",
-        "candy-cost": "100",
+        "candycost": "100",
         "prev-evolution": [{
           "num": "187",
           "name": "hoppip",
-          "candy-cost": "25"
+          "candycost": "25"
         }]
       }]
     }
@@ -18585,7 +18585,7 @@ export default {
       "next-evolution": [{
         "num": "192",
         "name": "sunflora",
-        "candy-cost": "50",
+        "candycost": "50",
         "evolution-item": {
           "name": "sun stone",
           "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/sun-stone.png"
@@ -18680,7 +18680,7 @@ export default {
       "prev-evolution": [{
         "num": "191",
         "name": "sunkern",
-        "candy-cost": "50",
+        "candycost": "50",
         "evolution-item": {
           "name": "sun stone",
           "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/sun-stone.png"
@@ -18860,7 +18860,7 @@ export default {
       "next-evolution": [{
         "num": "195",
         "name": "quagsire",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -18949,7 +18949,7 @@ export default {
       "prev-evolution": [{
         "num": "194",
         "name": "wooper",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -19037,7 +19037,7 @@ export default {
       "prev-evolution": [{
         "num": "133",
         "name": "eevee",
-        "candy-cost": "25"
+        "candycost": "25"
       }]
     }
   },
@@ -19119,7 +19119,7 @@ export default {
       "prev-evolution": [{
         "num": "133",
         "name": "eevee",
-        "candy-cost": "25"
+        "candycost": "25"
       }]
     }
   },
@@ -19212,7 +19212,7 @@ export default {
       "next-evolution": [{
         "num": "430",
         "name": "honchkrow",
-        "candy-cost": "100",
+        "candycost": "100",
         "evolution-item": {
           "name": "sinnoh stone",
           "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/sinnoh-stone.png"
@@ -19309,7 +19309,7 @@ export default {
       "prev-evolution": [{
         "num": "079",
         "name": "slowpoke",
-        "candy-cost": "50",
+        "candycost": "50",
         "evolution-item": {
           "name": "kings rock",
           "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/kings-rock.png"
@@ -19402,7 +19402,7 @@ export default {
       "next-evolution": [{
         "num": "429",
         "name": "mismagius",
-        "candy-cost": "100",
+        "candycost": "100",
         "evolution-item": {
           "name": "sinnoh stone",
           "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/sinnoh-stone.png"
@@ -19539,7 +19539,7 @@ export default {
       "prev-evolution": [{
         "num": "360",
         "name": "wynaut",
-        "candy-cost": "25"
+        "candycost": "25"
       }]
     }
   },
@@ -19710,7 +19710,7 @@ export default {
       "next-evolution": [{
         "num": "205",
         "name": "forretress",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -19800,7 +19800,7 @@ export default {
       "prev-evolution": [{
         "num": "204",
         "name": "pineco",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -19970,7 +19970,7 @@ export default {
       "next-evolution": [{
         "num": "472",
         "name": "gliscor",
-        "candy-cost": "100",
+        "candycost": "100",
         "evolution-item": {
           "name": "sinnoh stone",
           "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/sinnoh-stone.png"
@@ -20067,7 +20067,7 @@ export default {
       "prev-evolution": [{
         "num": "095",
         "name": "onix",
-        "candy-cost": "50",
+        "candycost": "50",
         "evolution-item": {
           "name": "metal coat",
           "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/metal-coat.png"
@@ -20160,7 +20160,7 @@ export default {
       "next-evolution": [{
         "num": "210",
         "name": "granbull",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -20249,7 +20249,7 @@ export default {
       "prev-evolution": [{
         "num": "209",
         "name": "snubbull",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -20426,7 +20426,7 @@ export default {
       "prev-evolution": [{
         "num": "123",
         "name": "scyther",
-        "candy-cost": "50",
+        "candycost": "50",
         "evolution-item": {
           "name": "metal coat",
           "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/metal-coat.png"
@@ -20694,7 +20694,7 @@ export default {
       "next-evolution": [{
         "num": "461",
         "name": "weavile",
-        "candy-cost": "100",
+        "candycost": "100",
         "evolution-item": {
           "name": "sinnoh stone",
           "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/sinnoh-stone.png"
@@ -20783,7 +20783,7 @@ export default {
       "next-evolution": [{
         "num": "217",
         "name": "ursaring",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -20868,7 +20868,7 @@ export default {
       "prev-evolution": [{
         "num": "216",
         "name": "teddiursa",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -20959,7 +20959,7 @@ export default {
       "next-evolution": [{
         "num": "219",
         "name": "magcargo",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -21052,7 +21052,7 @@ export default {
       "prev-evolution": [{
         "num": "218",
         "name": "slugma",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -21142,7 +21142,7 @@ export default {
       "next-evolution": [{
         "num": "221",
         "name": "piloswine",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -21232,7 +21232,7 @@ export default {
       "prev-evolution": [{
         "num": "220",
         "name": "swinub",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -21409,7 +21409,7 @@ export default {
       "next-evolution": [{
         "num": "224",
         "name": "octillery",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -21498,7 +21498,7 @@ export default {
       "prev-evolution": [{
         "num": "223",
         "name": "remoraid",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -21675,7 +21675,7 @@ export default {
       "prev-evolution": [{
         "num": "458",
         "name": "mantyke",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -21854,7 +21854,7 @@ export default {
       "next-evolution": [{
         "num": "229",
         "name": "houndoom",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -21947,7 +21947,7 @@ export default {
       "prev-evolution": [{
         "num": "228",
         "name": "houndour",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -22036,7 +22036,7 @@ export default {
       "prev-evolution": [{
         "num": "117",
         "name": "seadra",
-        "candy-cost": "100",
+        "candycost": "100",
         "evolution-item": {
           "name": "dragon scale",
           "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/dragon-scale.png"
@@ -22044,7 +22044,7 @@ export default {
         "prev-evolution": [{
           "num": "116",
           "name": "horsea",
-          "candy-cost": "25"
+          "candycost": "25"
         }]
       }]
     }
@@ -22134,7 +22134,7 @@ export default {
       "next-evolution": [{
         "num": "232",
         "name": "donphan",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -22223,7 +22223,7 @@ export default {
       "prev-evolution": [{
         "num": "231",
         "name": "phanpy",
-        "candy-cost": "50"
+        "candycost": "50"
       }]
     }
   },
@@ -22308,7 +22308,7 @@ export default {
       "next-evolution": [{
         "num": "474",
         "name": "porygon-z",
-        "candy-cost": "100",
+        "candycost": "100",
         "evolution-item": {
           "name": "sinnoh stone",
           "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/sinnoh-stone.png"
@@ -22317,7 +22317,7 @@ export default {
       "prev-evolution": [{
         "num": "137",
         "name": "porygon",
-        "candy-cost": "25",
+        "candycost": "25",
         "evolution-item": {
           "name": "up grade",
           "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/up-grade.png"
@@ -22548,17 +22548,17 @@ export default {
         {
           "num": "106",
           "name": "hitmonlee",
-          "candy-cost": "25"
+          "candycost": "25"
         },
         {
           "num": "107",
           "name": "hitmonchan",
-          "candy-cost": "25"
+          "candycost": "25"
         },
         {
           "num": "237",
           "name": "hitmontop",
-          "candy-cost": "25"
+          "candycost": "25"
         }
       ]
     }
@@ -22648,7 +22648,7 @@ export default {
       "prev-evolution": [{
         "num": "236",
         "name": "tyrogue",
-        "candy-cost": "25"
+        "candycost": "25"
       }]
     }
   },
@@ -22745,7 +22745,7 @@ export default {
       "next-evolution": [{
         "num": "124",
         "name": "jynx",
-        "candy-cost": "25"
+        "candycost": "25"
       }]
     }
   },
@@ -22839,11 +22839,11 @@ export default {
       "next-evolution": [{
         "num": "125",
         "name": "electabuzz",
-        "candy-cost": "25",
+        "candycost": "25",
         "next-evolution": [{
           "num": "466",
           "name": "electivire",
-          "candy-cost": "100",
+          "candycost": "100",
           "evolution-item": {
             "name": "sinnoh stone",
             "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/sinnoh-stone.png"
@@ -22946,11 +22946,11 @@ export default {
       "next-evolution": [{
         "num": "126",
         "name": "magmar",
-        "candy-cost": "25",
+        "candycost": "25",
         "next-evolution": [{
           "num": "467",
           "name": "magmortar",
-          "candy-cost": "100",
+          "candycost": "100",
           "evolution-item": {
             "name": "sinnoh stone",
             "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/sinnoh-stone.png"
@@ -23120,11 +23120,11 @@ export default {
       "prev-evolution": [{
         "num": "113",
         "name": "chansey",
-        "candy-cost": "50",
+        "candycost": "50",
         "prev-evolution": [{
           "num": "440",
           "name": "happiny",
-          "candy-cost": "25"
+          "candycost": "25"
         }]
       }]
     }
@@ -23473,11 +23473,11 @@ export default {
       "next-evolution": [{
         "num": "247",
         "name": "pupitar",
-        "candy-cost": "25",
+        "candycost": "25",
         "next-evolution": [{
           "num": "248",
           "name": "tyranitar",
-          "candy-cost": "100"
+          "candycost": "100"
         }]
       }]
     }
@@ -23574,12 +23574,12 @@ export default {
       "next-evolution": [{
         "num": "248",
         "name": "tyranitar",
-        "candy-cost": "100"
+        "candycost": "100"
       }],
       "prev-evolution": [{
         "num": "246",
         "name": "larvitar",
-        "candy-cost": "25"
+        "candycost": "25"
       }]
     }
   },
@@ -23677,11 +23677,11 @@ export default {
       "prev-evolution": [{
         "num": "247",
         "name": "pupitar",
-        "candy-cost": "100",
+        "candycost": "100",
         "prev-evolution": [{
           "num": "246",
           "name": "larvitar",
-          "candy-cost": "25"
+          "candycost": "25"
         }]
       }]
     }
