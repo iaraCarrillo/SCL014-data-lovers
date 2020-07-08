@@ -36,7 +36,9 @@ function toPage() {
     </section>`
     //se imprime llamando a la nueva variable según lo especificado en la variable anterior
     container.innerHTML += imprimir
+  }
 
+  
 
     /////Modal/////
     //Obtener el modal
@@ -47,67 +49,58 @@ function toPage() {
     //foto.addEventListener ('click',modalImpri)
     for (let i = 0; i <foto.length; i++) {
       let img = foto[i];
-      img.addEventListener('click', modalImpri)
+      img.addEventListener('click', printModal)
       //console.log("imprimir", img)
     }
-      
-    function modalImpri(event) {
-      modal.innerHTML ="";
-      //console.log("identificarlo", event.target)
-      const pokemonEncotrado = dataPokemon.find(function (personaje) {
+  
+  function printModal(event){
+    let pokemonEncotrado = dataPokemon.find(function (personaje) {
         return personaje.name === event.target.id
       }
     )
-      //para obtener ataques rapidos
-      
-      //console.log("Hola", pokemonEncotrado)
-      modal.innerHTML +=
-        `<div class="card-modal" id="card-modal">
-            <div class="imgPokemon">
-              <img src=${pokemonEncotrado.img} class="foto">
-              <p>Tipo: ${pokemonEncotrado.type}</p>
-              <p>Huevos: ${pokemonEncotrado.next-evolution["candy-cost"]}</p>
-            </div>
-            <section id="cards">
-              <span class="close">&times;</span>
-              <section id="letras">
-                <div class="numeroNombre">
-                  <p>${pokemonEncotrado.num} ${pokemonEncotrado.name}</p>
-                </div>
-                <div class="generacion">
-                  <p>Generación: ${pokemonEncotrado.generation["name"]}</p>
-                </div>
-                <div class="especificaciones">  
-                  <p>Resistencia: ${pokemonEncotrado.resistant}</p>
-                  <p>Debilidad: ${pokemonEncotrado.weaknesses}</p>`
-                  //cambie el nombre de quick-move en pokemon.js a quickmove
-                  for (let i = 0; i < pokemonEncotrado.quickmove.length; i++){
-                    let movimientoRapido = pokemonEncotrado.quickmove[i];
-                    console.log(movimientoRapido.name);
-                    modal.innerHTML +=`
-                    <p>Movimiento rápido:${movimientoRapido.name}</p>`
-                  }
-                  //cambie el nombre de special-attack en pokemon.js a specialattack
-                  for(let i = 0; i < pokemonEncotrado.specialattack.length; i++){
-                    let movimientoEspecial = pokemonEncotrado.specialattack[i];
-                    console.log(movimientoEspecial.name);
-                    modal.innerHTML +=`
-                    <p>Movimiento especial:${movimientoEspecial.name}</p>`
-                  }
-                  modal.innerHTML +=`
-                </div>
-              </section>
-            </section>
-        </div>`
-        
-        modal.classList.add('modal--show')
+    let infoSelectedPokemon = `
+    <div class="card-modal" id="card-modal">
+      <div class="imgPokemon">
+        <img src=${pokemonEncotrado.img} class="foto">
+        <p>Tipo: ${pokemonEncotrado.type}</p>
+        <p>Huevos: ${pokemonEncotrado.next-evolution["candy-cost"]}</p>
+      </div>
+      <section id="cards">
+        <span class="close">&times;</span>
+        <section id="letras">
+          <div class="numeroNombre">
+            <p>${pokemonEncotrado.num} ${pokemonEncotrado.name}</p>
+          </div>
+          <div class="generacion">
+            <p>Generación: ${pokemonEncotrado.generation["name"]}</p>
+          </div>
+          <div class="especificaciones">  
+            <p>Resistencia: ${pokemonEncotrado.resistant}</p>
+            <p>Debilidad: ${pokemonEncotrado.weaknesses}</p>`
+            //cambie el nombre de quick-move en pokemon.js a quickmove
+            for (let i = 0; i < pokemonEncotrado.quickmove.length; i++){
+              let movimientoRapido = pokemonEncotrado.quickmove[i];
+              console.log(movimientoRapido.name);
+              `<p>Movimiento rápido:${movimientoRapido.name}</p>`
+            }
+            //cambie el nombre de special-attack en pokemon.js a specialattack
+            for(let i = 0; i < pokemonEncotrado.specialattack.length; i++){
+              let movimientoEspecial = pokemonEncotrado.specialattack[i];
+              console.log(movimientoEspecial.name);
+              `<p>Movimiento especial:${movimientoEspecial.name}</p>`
+            }
+            `
+          </div>
+        </section>
+      </section>
+    </div>`;
+    console.log(infoSelectedPokemon);
+    modal.innerHTML = infoSelectedPokemon;
+    
+    modal.classList.add('modal--show')
     
       modal.addEventListener('click', (e) => {
         if (e.target.classList.contains('modal')) modal.classList.remove('modal--show')
     });
-
-    
-  }
-
-  }
-
+  }  
+  
