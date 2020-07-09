@@ -24,14 +24,11 @@ Durante este proyecto utilizamos diferentes herramientas para llegar a nuestro p
 # Fase 1. Descubrimiento e investigación
 
 ## investigación contextual Pokémon GO
-![readme2](https://user-images.githubusercontent.com/66659886/86813020-aca91b80-c04d-11ea-9197-ca1369b01825.png)
-
 El equipo de desarrollo de Niantic, Inc. lanzó al mercado en el año 2016 Pokémon GO, videojuego gratuito que consiste en buscar y capturar personajes de la saga Pokémon escondidos en ubicaciones del mundo real mediante GPS. El jugador debe desplazarse físicamente para capturar un pokémon e ir progresando en la colección. Ya con más experiencia, puede entrar a modo competitivo y luchar con otros usuarios.
 
+![readme2](https://user-images.githubusercontent.com/66659886/86813020-aca91b80-c04d-11ea-9197-ca1369b01825.png)
+
 ## Entrevistas con usuarios
-
-![readme3](https://user-images.githubusercontent.com/66659886/86813026-adda4880-c04d-11ea-907b-0f81fa54df23.png)
-
 Como primer acercamiento al usuario, realizamos una encuesta a más de 20 jugadores de Pokémon Go activos. Nuestras preguntas iban enfocadas en conocer el perfil del entrenador, su nivel y constancia, su meta como jugador y con que data de Pokémon de las dos primeras generaciones debían contar para cumplirla. 
 
 * Nuestro jugador promedio tiene entre 20 y 30 años.
@@ -47,6 +44,8 @@ Como primer acercamiento al usuario, realizamos una encuesta a más de 20 jugado
 * No tienen metas, solo quieren divertirse
 * Completar la Pokédex
 * Competir y estar dentro de los 100 mejores a nivel nacional
+
+![readme3](https://user-images.githubusercontent.com/66659886/86813026-adda4880-c04d-11ea-907b-0f81fa54df23.png)
 
 ## Los resultados nos ayudaron a generar 3 perfiles de usuario:
 **Perfil 1: El turista**
@@ -85,48 +84,45 @@ Por medio de una aplicación web complementaria a Pokémon Go, entregar data Pok
 
 ## Historias de usuario
 
-**Historia 1:** Filtro (Prioridad)
-*“Yo como entrenador quiero filtrar el listado de Pokémon por tipo de pokémon para que sea más fácil encontrarlo”.*
-Criterios de aceptación: La página principal contará con dos filtros de Pokémon, por generación y por tipo.
+**Historia 1:** Ficha de Pokémon (Prioridad)
+
+*“Yo como entrenador quiero ver las fortalezas y debilidades, movimiento rápido y ataque para saber qué Pokémon me sirve contra otro”*
+**Criterios de aceptación:** Al hacer click en un Pokémon en particular se abrirá una ventana en la que aparecerá dicha información.
 
 **Historia 2:** Filtro (Prioridad)
 
 *“Yo como entrenador quiero saber cómo evolucionar a mi Pokémon para tener su versión más poderosa”.*
-Criterios de aceptación: La página principal contará con un tercer filtro donde aparecerá cuántos caramelos necesita tal Pokémon para evolucionar. 
+**Criterios de aceptación:** La página principal contará con un tercer filtro donde aparecerá cuántos caramelos necesita tal Pokémon para evolucionar. 
 
-**Historia 3:** Ficha de Pokémon (Prioridad)
+**Historia 3:** Filtro (Prioridad)
 
-*“Yo como entrenador quiero ver las fortalezas y debilidades, movimiento rápido y ataque para saber qué Pokémon me sirve contra otro”*
-Criterios de aceptación: Al hacer click en un Pokémon en particular se abrirá una ventana en la que aparecerá dicha información.
+*“Yo como entrenador quiero filtrar el listado de Pokémon por tipo de pokémon para que sea más fácil encontrarlo”.*
+**Criterios de aceptación:** La página principal contará con dos filtros de Pokémon, por generación y por tipo.
 
 **Historia 4:** Login
 
 *“Como entrenador quiero ingresar a la App con mi cuenta de Pokémon Go para personalizar mi experiencia en la página”*
-Criterios de aceptación: En el home de la página, el usuario puede ingresar haciendo click en el botón Ingresar usando mi cuenta de Pokémon Go. Al ingresar le aparecerá un mensaje de bienvenida personalizado confirmando que ya está en la página principal. Además, aparecerá su perfil desplegable al costado izquierdo. 
+**Criterios de aceptación:** En el home de la página, el usuario puede ingresar haciendo click en el botón Ingresar usando mi cuenta de Pokémon Go. Al ingresar le aparecerá un mensaje de bienvenida personalizado confirmando que ya está en la página principal. Además, aparecerá su perfil desplegable al costado izquierdo. 
 
 **Historia 5:** Login
 
 *“Yo como usuario quiero entrar a la página registrándome con mi nombre y correo para no dar mis datos a una página tercera”*
-Criterios de aceptación: En la página de bienvenida, el usuario puede ingresar con nombre y correo. Esa será la información que aparecerá en su perfil de usuario.
+**Criterios de aceptación:** En la página de bienvenida, el usuario puede ingresar con nombre y correo. Esa será la información que aparecerá en su perfil de usuario.
 
 **Historia 6:** Búsqueda
 
 *“Yo como entrenador quiero encontrar el Pokémon por su nombre para eficientar la búsqueda”*
-Criterios de aceptación: La página principal contará con un buscador, donde el usuario podrá ingresar el nombre del Pokémon y encontrarlo. 
+**Criterios de aceptación:** La página principal contará con un buscador, donde el usuario podrá ingresar el nombre del Pokémon y encontrarlo. 
 
 **Historia 7:** Filtros
 
 *“Yo como entrenador quiero filtrar el listado de Pokémon por favorito para tener el listado de los que más me interesan”.*
-Criterios de aceptación: La página principal contará con un filtro de favoritos que, al hacer click en el ícono de la estrella, mostrará el listado de Pokémon que el usuario ha seleccionado como los más relevantes para él.
+**Criterios de aceptación:** La página principal contará con un filtro de favoritos que, al hacer click en el ícono de la estrella, mostrará el listado de Pokémon que el usuario ha seleccionado como los más relevantes para él.
 
 **Historia 8:** Actualizaciones
 
 *“Yo como entrenador quiero ver saber los últimos eventos para combatir y mejorar mi nivel”.*
-Criterios de aceptación: La página principal contará con un ítem de “Actualizaciones” en la que Lapras, el Co-anfitrión de PokéGo Dex entregará información de los últimos eventos de Pokémon Go.
-
-**Historia 9:** Datos curiosos
-
-*“Yo como entrenador quiero ver saber datos curiosos de los Pokémon para aumentar mi expertise”.*
+**Criterios de aceptación:** La página principal contará con un ítem de “Actualizaciones” en la que Lapras, el Co-anfitrión de PokéGo Dex entregará información de los últimos eventos de Pokémon Go.
 
 ***
 
@@ -141,9 +137,6 @@ Antes de comenzar con los primeros sketches de nuestra página, realizamos una o
 En este proceso de ideación comenzamos primero con bocetos en papel como brainstorm para así determinar posibles contenidos, flujos y ubicación de los elementos.
 
 Finalmente, ya definidos los conceptos claves de cómo se vería nuestra página comenzamos la marcha hacia nuestro prototipado de baja fidelidad.
-
-## Moodboard. Paleta cromática. Inspiración
-![readme7](https://user-images.githubusercontent.com/66659886/86813080-baf73780-c04d-11ea-96f7-fb2bcae75f80.png)
 
 ***
 
@@ -164,28 +157,30 @@ Enlace de Prototipo de Baja Fidelidad InVision: https://iara298869.invisionapp.c
 **Estructura:**
 * Presentación del proyecto
 * Conociendo al usuario
-* Qué opinas de:
-* -Página de bienvenida
-* -Perfil
-* -Características de Pokémon
-* -Filtros
-* -Sección de favoritos
-* -Volver a página principal
+* Página de bienvenida
+* Perfil
+* Características de Pokémon
+* Filtros
+* Sección de favoritos
+* Volver a página principal
 * Cierre de la actividad
 
 **Observaciones:**
-* -Usuario prefiere tener dos opciones para ingresar a la página, mediante la aplicación Pokémon GO o con su correo y usuario
-* -Evolución y caramelos es de interés del usuario
-* -Usuario necesita tener todos los ataques y movimientos rápidos a la vista
-* -En sección de perfil, el usuario prefiere actualizaciones
-* -Tamaño y peso del Pokémon no es relevante para el usuario
-* -Usuario entiende y aprueba tres filtros de Pokémon, por generación, por tipo y por generación (cantidad de huevos para evolucionar)
-* -Lapras es un elemento interesante para la página.
+* Usuario prefiere tener dos opciones para ingresar a la página, mediante la aplicación Pokémon GO o con su correo y usuario.
+* Evolución y caramelos es de interés del usuario.
+* Usuario necesita tener todos los ataques y movimientos rápidos a la vista.
+* En sección de perfil, el usuario prefiere actualizaciones.
+* Tamaño y peso del Pokémon no es relevante para el usuario.
+* Usuario entiende y aprueba tres filtros de Pokémon, por generación, por tipo y por generación (cantidad de huevos para evolucionar).
+* Lapras es un elemento interesante para la página.
 
 ## Prototipos de alta fidelidad
 Con los feedback obtenidos por parte de los usuarios en la etapa anterior, decidimos tomar acciones que nos llevaran a seguir acercándonos a la solución que encaje en las necesidades y deseos del usuario. 
 
 Primero realizamos un moodboard para obtener la paleta de colores de nuestra página, inspirandonos en la naturaleza y paisajes donde se encuentran los animales de nuestro mundo, enfocándonos también en la aplicación de pokemon go, como su logo y tonalidades de su interfaz, para así obtener el complemento perfecto con el juego.
+
+## Moodboard. Paleta cromática. Inspiración
+![readme7](https://user-images.githubusercontent.com/66659886/86813080-baf73780-c04d-11ea-96f7-fb2bcae75f80.png)
 
 PokéGo Dex al estar enfocada como una complemento de la app Pokémon Go y no como una asociación original, no contará exactamente con los mismos colores o tipografía. Para nuestra página decidimos utilizar una paleta de azules y verdes (#001F75, #557AAF, #9AC4BA9AC4BA) que engloban nuestro moodboard e inspiración del juego, y también utilizamos una paleta de rosados y morados (#A395B7,#D5A0B8) para asemejar la pokedex de pokemon go para nuestra sección de favoritos, como tipografía utilizamos Encode Sans Expanded para los títulos y Montserrat Regular para el contenido.
 

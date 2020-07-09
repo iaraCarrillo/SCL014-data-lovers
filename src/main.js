@@ -23,28 +23,7 @@ function toPage() {
     let name= pokemon.name;
     let img= pokemon.img;
     let num= pokemon.num;
-    //let evolutions= pokemon."next-evolution"."candy-cost";
-    //let eggs= pokemon.egg.next-evolution.candy-cost;
-    /*let quickMoves=[];
-    for (let i = 0; i < pokemon.quickmove.length; i++){
-      let movimientoRapido = pokemon.quickmove[i];
-      //console.log(movimientoRapido.name);
-      quickMoves.push(movimientoRapido.name)
-    }*/
-    /*let specialAttacks=[];
-    for (let i = 0; i < pokemon.specialattack.length; i++){
-      let ataqueEspecial = pokemon.specialattack[i];
-      //console.log(ataqueEspecial.name);
-      specialAttacks.push(ataqueEspecial.name)
-    }*/
-    /*let countOfCandys=[];
-    if(pokemon.evolution["next-evolution"]!=undefined){
-      for (let i = 0; i < pokemon.evolution["next-evolution"].length; i++){
-        let contadorDulces = pokemon.evolution["next-evolution"][i];
-        //console.log(ataqueEspecial.name);
-        countOfCandys.push(contadorDulces.candycost)
-      }
-    }*/
+    
     let imprimir = `
     <section id="tarjetas">
       <div class="starTarjeta">
@@ -97,9 +76,14 @@ function toPage() {
           weaknessesPokemonSelected = personaje.weaknesses;
           resistantPokemonSelected = personaje.resistant;
           if(personaje.evolution["next-evolution"]!=undefined){
-              let contadorDulces = personaje.evolution["next-evolution"];
-              //console.log(ataqueEspecial.name);
-              countOfCandys.push(contadorDulces.candycost)
+            console.log(personaje.evolution["next-evolution"])
+              let contadorDulces = personaje.evolution["next-evolution"][0].candycost;
+            console.log("contador de dulces",contadorDulces);
+              countOfCandys.push(contadorDulces)
+              countOfCandys=contadorDulces;
+            console.log(countOfCandys)
+          }else{
+            countOfCandys="No evoluciona";
           }
           for (let i = 0; i < personaje.quickmove.length; i++){
             let movimientoRapido = personaje.quickmove[i];
