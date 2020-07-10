@@ -1,4 +1,4 @@
-//exportando las función de filtar por evolución
+//exportando las función de filtar por caramelos
 //se fijan los parámetros de la función
 export const evolution = (data, property, evolution) => {
     //console.log("datajs", data);
@@ -25,10 +25,8 @@ export const evolution = (data, property, evolution) => {
   
   
   
-  /////exportando las función de filtar por tipo
+  /////exportando las función de filtar por generacion
   export const generation = (data, property, generation) => {
-    //console.log("datajs", data);
-    //console.log ("datass", selectType)
     const resultado = [];
     for (let i = 0; i < data.length; i++) {
       // let dataType = data[i].type;
@@ -45,16 +43,14 @@ export const evolution = (data, property, evolution) => {
   };
   
   /////exportando las función de filtar por tipo
-  export const type = (data, property, type) => {
-    //console.log("datajs", data);
-    //console.log ("datass", selectType)
+  export const filterType = (data, property, selectType) => {
     const resultado = [];
     for (let i = 0; i < data.length; i++) {
       // let dataType = data[i].type;
       //console.log (dataType);
       for (let a = 0; a < data[i][property].length; a++) {
-        //console.log ("hola",dataType[d]);
-        if (data[i][property][a] === type) {
+        //console.log (data[i][property][a]);
+        if (data[i][property][a] == selectType) {
           resultado.push(data[i])
         }
       }
