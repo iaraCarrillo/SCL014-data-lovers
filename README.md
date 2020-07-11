@@ -12,6 +12,19 @@
 
 ***
 
+## Índice
+
+* [1. Descubrimiento e investigación](#1-Descubrimiento-e-investigación)
+* [2. Síntesis y definición](#2-síntasis-y-definición)
+* [3. Ideación ](#3-ideación)
+* [4. Prototipado / User testing](#4-prototipado-user-testing)
+* [5. Presentación del producto PokéGo Dex](#5-presentación-del-producto-pokégo-dex)
+* [6. Aplicación y anexos complementarios](#6-aplicación-y-anexos-complementarios)
+
+
+***
+
+
 # Proceso de diseño
 Durante este proyecto utilizamos diferentes herramientas para llegar a nuestro producto, donde en cada etapa del proceso exploramos junto con el usuario lo que precisa, anhela y necesita para para resolver sus necesidades, para hacerlo utilizamos la metodología Design Thinking, donde por medio de la empatía, ideación, prototipos y testeos pudimos obtener un diseño final.
 
@@ -222,3 +235,9 @@ En base a un extenso proceso de investigación con usuarios reales de Pokémon G
 ![readme13](https://user-images.githubusercontent.com/66659886/86813136-ca768080-c04d-11ea-8a36-631a91a3c65d.png)
 
 ![readme14](https://user-images.githubusercontent.com/66659886/86813151-cd717100-c04d-11ea-8ba4-2508159b7e09.png)
+
+***
+
+# Fase 6: Aplicación y anexos complementarios
+
+**Trello:** https://trello.com/b/3fWFhJC9/datalovers

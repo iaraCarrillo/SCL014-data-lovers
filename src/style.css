@@ -315,7 +315,7 @@ background: #0080B6;
 
 #generation,
 #type,
-#evolution {
+#candy {
 cursor: pointer;
 display: inline-flex;
 float: right;
@@ -334,7 +334,7 @@ color: #FFFFFF;
 
 #generation:hover,
 #type:hover,
-#evolution:hover {
+#candy:hover {
 background-color: #015B81;
 }
 
