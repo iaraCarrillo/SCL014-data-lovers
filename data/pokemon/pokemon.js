@@ -85,11 +85,11 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "bulbasaur candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "002",
         "name": "ivysaur",
         "candycost": "25",
-        "next-evolution": [{
+        "nextEvolution": [{
           "num": "003",
           "name": "venusaur",
           "candycost": "100"
@@ -183,7 +183,7 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "bulbasaur candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "003",
         "name": "venusaur",
         "candycost": "100"
@@ -377,11 +377,11 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "charmander candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "005",
         "name": "charmeleon",
         "candycost": "25",
-        "next-evolution": [{
+        "nextEvolution": [{
           "num": "006",
           "name": "charizard",
           "candycost": "100"
@@ -480,7 +480,7 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "charmander candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "006",
         "name": "charizard",
         "candycost": "100"
@@ -692,11 +692,11 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "squirtle candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "008",
         "name": "wartortle",
         "candycost": "25",
-        "next-evolution": [{
+        "nextEvolution": [{
           "num": "009",
           "name": "blastoise",
           "candycost": "100"
@@ -786,7 +786,7 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "squirtle candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "009",
         "name": "blastoise",
         "candycost": "100"
@@ -959,11 +959,11 @@ export default {
     "buddy-distance-km": "1",
     "evolution": {
       "candy": "caterpie candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "011",
         "name": "metapod",
         "candycost": "12",
-        "next-evolution": [{
+        "nextEvolution": [{
           "num": "012",
           "name": "butterfree",
           "candycost": "50"
@@ -1038,7 +1038,7 @@ export default {
     "buddy-distance-km": "1",
     "evolution": {
       "candy": "caterpie candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "012",
         "name": "butterfree",
         "candycost": "50"
@@ -1226,11 +1226,11 @@ export default {
     "buddy-distance-km": "1",
     "evolution": {
       "candy": "weedle candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "014",
         "name": "kakuna",
         "candycost": "12",
-        "next-evolution": [{
+        "nextEvolution": [{
           "num": "015",
           "name": "beedrill",
           "candycost": "50"
@@ -1309,7 +1309,7 @@ export default {
     "buddy-distance-km": "1",
     "evolution": {
       "candy": "weedle candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "015",
         "name": "beedrill",
         "candycost": "50"
@@ -1509,11 +1509,11 @@ export default {
     "buddy-distance-km": "1",
     "evolution": {
       "candy": "pidgey candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "017",
         "name": "pidgeotto",
         "candycost": "12",
-        "next-evolution": [{
+        "nextEvolution": [{
           "num": "018",
           "name": "pidgeot",
           "candycost": "50"
@@ -1604,7 +1604,7 @@ export default {
     "buddy-distance-km": "1",
     "evolution": {
       "candy": "pidgey candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "018",
         "name": "pidgeot",
         "candycost": "50"
@@ -1803,7 +1803,7 @@ export default {
     "buddy-distance-km": "1",
     "evolution": {
       "candy": "rattata candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "020",
         "name": "raticate",
         "candycost": "25"
@@ -1985,7 +1985,7 @@ export default {
     "buddy-distance-km": "1",
     "evolution": {
       "candy": "spearow candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "022",
         "name": "fearow",
         "candycost": "50"
@@ -2179,7 +2179,7 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "ekans candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "024",
         "name": "arbok",
         "candycost": "50"
@@ -2363,7 +2363,7 @@ export default {
     "buddy-distance-km": "1",
     "evolution": {
       "candy": "pikachu candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "026",
         "name": "raichu",
         "candycost": "50"
@@ -2570,7 +2570,7 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "sandshrew candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "028",
         "name": "sandslash",
         "candycost": "50"
@@ -2749,11 +2749,11 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "nidoran ♀ (female) candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "030",
         "name": "nidorina",
         "candycost": "25",
-        "next-evolution": [{
+        "nextEvolution": [{
           "num": "031",
           "name": "nidoqueen",
           "candycost": "100"
@@ -2844,7 +2844,7 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "nidoran ♀ (female) candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "031",
         "name": "nidoqueen",
         "candycost": "100"
@@ -3037,11 +3037,11 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "nidoran ♂ (male) candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "033",
         "name": "nidorino",
         "candycost": "25",
-        "next-evolution": [{
+        "nextEvolution": [{
           "num": "034",
           "name": "nidoking",
           "candycost": "100"
@@ -3132,7 +3132,7 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "nidoran ♂ (male) candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "034",
         "name": "nidoking",
         "candycost": "100"
@@ -3330,7 +3330,7 @@ export default {
     "buddy-distance-km": "1",
     "evolution": {
       "candy": "clefairy candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "036",
         "name": "clefable",
         "candycost": "50"
@@ -3526,7 +3526,7 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "vulpix candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "038",
         "name": "ninetales",
         "candycost": "50"
@@ -3740,7 +3740,7 @@ export default {
     "buddy-distance-km": "1",
     "evolution": {
       "candy": "jigglypuff candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "040",
         "name": "wigglytuff",
         "candycost": "50"
@@ -3938,11 +3938,11 @@ export default {
     "buddy-distance-km": "1",
     "evolution": {
       "candy": "zubat candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "042",
         "name": "golbat",
         "candycost": "50",
-        "next-evolution": [{
+        "nextEvolution": [{
           "num": "169",
           "name": "crobat",
           "candycost": "100"
@@ -4043,7 +4043,7 @@ export default {
     "buddy-distance-km": "1",
     "evolution": {
       "candy": "zubat candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "169",
         "name": "crobat"
       }],
@@ -4140,11 +4140,11 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "oddish candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "044",
         "name": "gloom",
         "candycost": "25",
-        "next-evolution": [
+        "nextEvolution": [
           {
             "num": "045",
             "name": "vileplume",
@@ -4249,7 +4249,7 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "oddish candy",
-      "next-evolution": [
+      "nextEvolution": [
         {
           "num": "045",
           "name": "vileplume",
@@ -4458,7 +4458,7 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "paras candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "047",
         "name": "parasect",
         "candycost": "50"
@@ -4653,7 +4653,7 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "venonat candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "049",
         "name": "venomoth",
         "candycost": "50"
@@ -4856,7 +4856,7 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "diglett candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "051",
         "name": "dugtrio",
         "candycost": "50"
@@ -5044,7 +5044,7 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "meowth candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "053",
         "name": "persian",
         "candycost": "50"
@@ -5225,7 +5225,7 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "psyduck candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "055",
         "name": "golduck",
         "candycost": "50"
@@ -5403,7 +5403,7 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "mankey candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "057",
         "name": "primeape",
         "candycost": "50"
@@ -5597,7 +5597,7 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "growlithe candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "059",
         "name": "arcanine",
         "candycost": "50"
@@ -5798,11 +5798,11 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "poliwag candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "061",
         "name": "poliwhirl",
         "candycost": "25",
-        "next-evolution": [
+        "nextEvolution": [
           {
             "num": "062",
             "name": "poliwrath",
@@ -5910,7 +5910,7 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "poliwag candy",
-      "next-evolution": [
+      "nextEvolution": [
         {
           "num": "062",
           "name": "poliwrath",
@@ -6127,11 +6127,11 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "abra candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "064",
         "name": "kadabra",
         "candycost": "25",
-        "next-evolution": [{
+        "nextEvolution": [{
           "num": "065",
           "name": "alakazam",
           "candycost": "100"
@@ -6220,7 +6220,7 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "abra candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "065",
         "name": "alakazam",
         "candycost": "100"
@@ -6428,11 +6428,11 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "machop candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "067",
         "name": "machoke",
         "candycost": "25",
-        "next-evolution": [{
+        "nextEvolution": [{
           "num": "068",
           "name": "machamp",
           "candycost": "100"
@@ -6529,7 +6529,7 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "machop candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "068",
         "name": "machamp",
         "candycost": "100"
@@ -6749,11 +6749,11 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "bellsprout candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "070",
         "name": "weepinbell",
         "candycost": "25",
-        "next-evolution": [{
+        "nextEvolution": [{
           "num": "071",
           "name": "victreebel",
           "candycost": "100"
@@ -6854,7 +6854,7 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "bellsprout candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "071",
         "name": "victreebel",
         "candycost": "100"
@@ -7049,7 +7049,7 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "tentacool candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "073",
         "name": "tentacruel",
         "candycost": "50"
@@ -7236,11 +7236,11 @@ export default {
     "buddy-distance-km": "1",
     "evolution": {
       "candy": "geodude candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "075",
         "name": "graveler",
         "candycost": "25",
-        "next-evolution": [{
+        "nextEvolution": [{
           "num": "076",
           "name": "golem",
           "candycost": "100"
@@ -7350,7 +7350,7 @@ export default {
     "buddy-distance-km": "1",
     "evolution": {
       "candy": "geodude candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "076",
         "name": "golem",
         "candycost": "100"
@@ -7567,7 +7567,7 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "ponyta candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "078",
         "name": "rapidash",
         "candycost": "50"
@@ -7759,7 +7759,7 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "slowpoke candy",
-      "next-evolution": [
+      "nextEvolution": [
         {
           "num": "080",
           "name": "slowbro",
@@ -7955,7 +7955,7 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "magnemite candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "082",
         "name": "magneton",
         "candycost": "50"
@@ -8250,7 +8250,7 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "doduo candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "085",
         "name": "dodrio",
         "candycost": "50"
@@ -8450,7 +8450,7 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "seel candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "087",
         "name": "dewgong",
         "candycost": "50"
@@ -8658,7 +8658,7 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "grimer candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "089",
         "name": "muk",
         "candycost": "50"
@@ -8851,7 +8851,7 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "shellder candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "091",
         "name": "cloyster",
         "candycost": "50"
@@ -9062,11 +9062,11 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "gastly candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "093",
         "name": "haunter",
         "candycost": "25",
-        "next-evolution": [{
+        "nextEvolution": [{
           "num": "094",
           "name": "gengar",
           "candycost": "100"
@@ -9174,7 +9174,7 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "gastly candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "094",
         "name": "gengar",
         "candycost": "100"
@@ -9407,7 +9407,7 @@ export default {
     "buddy-distance-km": "5",
     "evolution": {
       "candy": "onix candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "208",
         "name": "steelix",
         "candycost": "50",
@@ -9499,7 +9499,7 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "drowzee candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "097",
         "name": "hypno",
         "candycost": "50"
@@ -9690,7 +9690,7 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "krabby candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "099",
         "name": "kingler",
         "candycost": "50"
@@ -9880,7 +9880,7 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "voltorb candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "101",
         "name": "electrode",
         "candycost": "50"
@@ -10070,7 +10070,7 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "exeggcute candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "103",
         "name": "exeggutor",
         "candycost": "50"
@@ -10269,7 +10269,7 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "cubone candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "105",
         "name": "marowak",
         "candycost": "50"
@@ -10748,7 +10748,7 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "koffing candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "110",
         "name": "weezing",
         "candycost": "50"
@@ -10940,11 +10940,11 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "rhyhorn candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "112",
         "name": "rhydon",
         "candycost": "50",
-        "next-evolution": [{
+        "nextEvolution": [{
           "num": "464",
           "name": "rhyperior",
           "candycost": "100",
@@ -11044,7 +11044,7 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "rhyhorn candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "464",
         "name": "rhyperior",
         "candycost": "100",
@@ -11145,7 +11145,7 @@ export default {
     "buddy-distance-km": "5",
     "evolution": {
       "candy": "chansey candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "242",
         "name": "blissey"
       }],
@@ -11427,11 +11427,11 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "horsea candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "117",
         "name": "seadra",
         "candycost": "50",
-        "next-evolution": [{
+        "nextEvolution": [{
           "num": "230",
           "name": "kingdra",
           "candycost": "100",
@@ -11532,7 +11532,7 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "horsea candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "230",
         "name": "kingdra",
         "candycost": "100",
@@ -11630,7 +11630,7 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "goldeen candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "119",
         "name": "seaking",
         "candycost": "50"
@@ -11829,7 +11829,7 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "staryu candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "121",
         "name": "starmie",
         "candycost": "50"
@@ -12141,7 +12141,7 @@ export default {
     "buddy-distance-km": "5",
     "evolution": {
       "candy": "scyther candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "212",
         "name": "scizor",
         "candycost": "50",
@@ -12338,7 +12338,7 @@ export default {
     "buddy-distance-km": "5",
     "evolution": {
       "candy": "electabuzz candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "466",
         "name": "electivire",
         "candycost": "100",
@@ -12438,7 +12438,7 @@ export default {
     "buddy-distance-km": "5",
     "evolution": {
       "candy": "magmar candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "467",
         "name": "magmortar",
         "candycost": "100",
@@ -12692,7 +12692,7 @@ export default {
     "buddy-distance-km": "1",
     "evolution": {
       "candy": "magikarp candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "130",
         "name": "gyarados",
         "candycost": "400"
@@ -13045,7 +13045,7 @@ export default {
     "buddy-distance-km": "5",
     "evolution": {
       "candy": "eevee candy",
-      "next-evolution": [
+      "nextEvolution": [
         {
           "num": "134",
           "name": "vaporeon",
@@ -13470,7 +13470,7 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "porygon candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "233",
         "name": "porygon2",
         "candycost": "25",
@@ -13478,7 +13478,7 @@ export default {
           "name": "up grade",
           "img": "https://pokemon.gameinfo.io/images/item/thumbs/200/up-grade.png"
         },
-        "next-evolution": [{
+        "nextEvolution": [{
           "num": "474",
           "name": "porygon-z",
           "candycost": "100",
@@ -13590,7 +13590,7 @@ export default {
     "buddy-distance-km": "5",
     "evolution": {
       "candy": "omanyte candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "139",
         "name": "omastar",
         "candycost": "50"
@@ -13790,7 +13790,7 @@ export default {
     "buddy-distance-km": "5",
     "evolution": {
       "candy": "kabuto candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "141",
         "name": "kabutops",
         "candycost": "50"
@@ -14404,11 +14404,11 @@ export default {
     "buddy-distance-km": "5",
     "evolution": {
       "candy": "dratini candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "148",
         "name": "dragonair",
         "candycost": "25",
-        "next-evolution": [{
+        "nextEvolution": [{
           "num": "149",
           "name": "dragonite",
           "candycost": "100"
@@ -14499,7 +14499,7 @@ export default {
     "buddy-distance-km": "5",
     "evolution": {
       "candy": "dratini candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "149",
         "name": "dragonite",
         "candycost": "100"
@@ -14914,11 +14914,11 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "chikorita candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "153",
         "name": "bayleef",
         "candycost": "25",
-        "next-evolution": [{
+        "nextEvolution": [{
           "num": "154",
           "name": "meganium",
           "candycost": "100"
@@ -15010,7 +15010,7 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "chikorita candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "154",
         "name": "meganium",
         "candycost": "100"
@@ -15202,11 +15202,11 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "cyndaquil candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "156",
         "name": "quilava",
         "candycost": "25",
-        "next-evolution": [{
+        "nextEvolution": [{
           "num": "157",
           "name": "typhlosion",
           "candycost": "100"
@@ -15298,7 +15298,7 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "cyndaquil candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "157",
         "name": "typhlosion",
         "candycost": "100"
@@ -15488,11 +15488,11 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "totodile candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "159",
         "name": "croconaw",
         "candycost": "25",
-        "next-evolution": [{
+        "nextEvolution": [{
           "num": "160",
           "name": "feraligatr",
           "candycost": "100"
@@ -15582,7 +15582,7 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "totodile candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "160",
         "name": "feraligatr",
         "candycost": "100"
@@ -15766,7 +15766,7 @@ export default {
     "buddy-distance-km": "1",
     "evolution": {
       "candy": "sentret candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "162",
         "name": "furret",
         "candycost": "25"
@@ -15927,7 +15927,7 @@ export default {
     "buddy-distance-km": "1",
     "evolution": {
       "candy": "hoothoot candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "164",
         "name": "noctowl",
         "candycost": "50"
@@ -16110,7 +16110,7 @@ export default {
     "buddy-distance-km": "1",
     "evolution": {
       "candy": "ledyba candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "166",
         "name": "ledian",
         "candycost": "25"
@@ -16295,7 +16295,7 @@ export default {
     "buddy-distance-km": "1",
     "evolution": {
       "candy": "spinarak candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "168",
         "name": "ariados",
         "candycost": "50"
@@ -16577,7 +16577,7 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "chinchou candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "171",
         "name": "lanturn",
         "candycost": "50"
@@ -16755,11 +16755,11 @@ export default {
     "buddy-distance-km": "1",
     "evolution": {
       "candy": "pikachu candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "025",
         "name": "pikachu",
         "candycost": "25",
-        "next-evolution": [{
+        "nextEvolution": [{
           "num": "026",
           "name": "raichu",
           "candycost": "50"
@@ -16863,11 +16863,11 @@ export default {
     "buddy-distance-km": "1",
     "evolution": {
       "candy": "clefairy candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "035",
         "name": "clefairy",
         "candycost": "25",
-        "next-evolution": [{
+        "nextEvolution": [{
           "num": "036",
           "name": "clefable",
           "candycost": "50"
@@ -16965,11 +16965,11 @@ export default {
     "buddy-distance-km": "1",
     "evolution": {
       "candy": "jigglypuff candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "039",
         "name": "jigglypuff",
         "candycost": "25",
-        "next-evolution": [{
+        "nextEvolution": [{
           "num": "040",
           "name": "wigglytuff",
           "candycost": "50"
@@ -17066,11 +17066,11 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "togepi candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "176",
         "name": "togetic",
         "candycost": "50",
-        "next-evolution": [{
+        "nextEvolution": [{
           "num": "468",
           "name": "togekiss",
           "candycost": "100",
@@ -17168,7 +17168,7 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "togepi candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "468",
         "name": "togekiss",
         "candycost": "100",
@@ -17269,7 +17269,7 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "natu candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "178",
         "name": "xatu",
         "candycost": "50"
@@ -17448,11 +17448,11 @@ export default {
     "buddy-distance-km": "5",
     "evolution": {
       "candy": "mareep candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "180",
         "name": "flaaffy",
         "candycost": "25",
-        "next-evolution": [{
+        "nextEvolution": [{
           "num": "181",
           "name": "ampharos",
           "candycost": "100"
@@ -17540,7 +17540,7 @@ export default {
     "buddy-distance-km": "5",
     "evolution": {
       "candy": "mareep candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "181",
         "name": "ampharos",
         "candycost": "100"
@@ -17829,7 +17829,7 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "marill candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "184",
         "name": "azumarill",
         "candycost": "25"
@@ -18212,11 +18212,11 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "hoppip candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "188",
         "name": "skiploom",
         "candycost": "25",
-        "next-evolution": [{
+        "nextEvolution": [{
           "num": "189",
           "name": "jumpluff",
           "candycost": "100"
@@ -18309,7 +18309,7 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "hoppip candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "189",
         "name": "jumpluff",
         "candycost": "100"
@@ -18582,7 +18582,7 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "sunkern candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "192",
         "name": "sunflora",
         "candycost": "50",
@@ -18857,7 +18857,7 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "wooper candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "195",
         "name": "quagsire",
         "candycost": "50"
@@ -19209,7 +19209,7 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "murkrow candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "430",
         "name": "honchkrow",
         "candycost": "100",
@@ -19399,7 +19399,7 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "misdreavus candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "429",
         "name": "mismagius",
         "candycost": "100",
@@ -19707,7 +19707,7 @@ export default {
     "buddy-distance-km": "5",
     "evolution": {
       "candy": "pineco candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "205",
         "name": "forretress",
         "candycost": "50"
@@ -19967,7 +19967,7 @@ export default {
     "buddy-distance-km": "5",
     "evolution": {
       "candy": "gligar candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "472",
         "name": "gliscor",
         "candycost": "100",
@@ -20157,7 +20157,7 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "snubbull candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "210",
         "name": "granbull",
         "candycost": "50"
@@ -20691,7 +20691,7 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "sneasel candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "461",
         "name": "weavile",
         "candycost": "100",
@@ -20780,7 +20780,7 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "teddiursa candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "217",
         "name": "ursaring",
         "candycost": "50"
@@ -20956,7 +20956,7 @@ export default {
     "buddy-distance-km": "1",
     "evolution": {
       "candy": "slugma candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "219",
         "name": "magcargo",
         "candycost": "50"
@@ -21139,7 +21139,7 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "swinub candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "221",
         "name": "piloswine",
         "candycost": "50"
@@ -21406,7 +21406,7 @@ export default {
     "buddy-distance-km": "1",
     "evolution": {
       "candy": "remoraid candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "224",
         "name": "octillery",
         "candycost": "50"
@@ -21851,7 +21851,7 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "houndour candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "229",
         "name": "houndoom",
         "candycost": "50"
@@ -22131,7 +22131,7 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "phanpy candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "232",
         "name": "donphan",
         "candycost": "50"
@@ -22305,7 +22305,7 @@ export default {
     "buddy-distance-km": "3",
     "evolution": {
       "candy": "porygon candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "474",
         "name": "porygon-z",
         "candycost": "100",
@@ -22544,7 +22544,7 @@ export default {
     "buddy-distance-km": "5",
     "evolution": {
       "candy": "tyrogue candy",
-      "next-evolution": [
+      "nextEvolution": [
         {
           "num": "106",
           "name": "hitmonlee",
@@ -22742,7 +22742,7 @@ export default {
     "buddy-distance-km": "5",
     "evolution": {
       "candy": "jynx candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "124",
         "name": "jynx",
         "candycost": "25"
@@ -22836,11 +22836,11 @@ export default {
     "buddy-distance-km": "5",
     "evolution": {
       "candy": "electabuzz candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "125",
         "name": "electabuzz",
         "candycost": "25",
-        "next-evolution": [{
+        "nextEvolution": [{
           "num": "466",
           "name": "electivire",
           "candycost": "100",
@@ -22943,11 +22943,11 @@ export default {
     "buddy-distance-km": "5",
     "evolution": {
       "candy": "magmar candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "126",
         "name": "magmar",
         "candycost": "25",
-        "next-evolution": [{
+        "nextEvolution": [{
           "num": "467",
           "name": "magmortar",
           "candycost": "100",
@@ -23470,11 +23470,11 @@ export default {
     "buddy-distance-km": "5",
     "evolution": {
       "candy": "larvitar candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "247",
         "name": "pupitar",
         "candycost": "25",
-        "next-evolution": [{
+        "nextEvolution": [{
           "num": "248",
           "name": "tyranitar",
           "candycost": "100"
@@ -23571,7 +23571,7 @@ export default {
     "buddy-distance-km": "5",
     "evolution": {
       "candy": "larvitar candy",
-      "next-evolution": [{
+      "nextEvolution": [{
         "num": "248",
         "name": "tyranitar",
         "candycost": "100"
