@@ -601,216 +601,215 @@ color: var(--color-hover);
 
 /* MODAL */
 .card-modal {
-display: flex;
-justify-content: center;
-align-items: center;
-position: fixed;
-width: 100vw;
-height: 100vh;
-left: 0;
-top: 0;
-z-index: 1;
-background: rgba(47, 49, 47, 0.719);
-}
-
-.imgPokemon {
-display: flex;
-flex-flow: column;
-color: white;
-font-family: Encode Sans Semi Expanded;
-font-style: normal;
-font-weight: bold;
-font-size: 23px;
-text-align: center;
-width: 250px;
-height: 50%;
-
-background: #F2EDEE;
-}
-
-.imgPokemon img {
-    width: 20%;
-    margin-top: 0%;
-}
-
-#cards {
-background: #0080B6;
-width: 250px;
-height: 20%;
-display: flex;
-flex-flow: column;
-}
-
-#letras {
-padding-left: 2%;
-color:#FFFFFF;
-font-family: Encode Sans Semi Expanded;
-font-style: normal;
-font-weight: bold;
-text-transform:uppercase;
-}
-
-.numeroNombre {
-font-size: 28pt;
-}
-
-.generacion {
-    font-size: 15pt
-}
-
-.especificaciones {
-    margin-top: 50px;
-    font-size: 10pt;
-    margin-right: 280px;
-}
-
-/* Botón cerrar Tarjeta*/
-.close {
-    color: #aaaaaa;
-    float: right;
-    margin-left: 580px;
-    margin-top: 10px;
-    font-size: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  background: rgba(47, 49, 47, 0.719);
+  }
+  
+  .imgPokemon {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+  color: #0080B6;
+  font-family: Encode Sans Semi Expanded;
+  font-style: normal;
+  font-size: 20px;
+  text-align: center;
+  width: 300px;
+  height: 500px;
+  background: #F2EDEE;
+  border-radius: 30px 0px 0px 30px;
+  }
+  
+  .modalInline {
+  border: solid 2px;
+  border-color: #0080B6;
+  border-radius: 15px;
+  padding:0 10px;
+  margin-bottom: 5px;;
+  text-transform:uppercase;
+  font-size: 16px;
+  }
+  
+  .modalInlineWhite {
+  border: solid 1.5px;
+  border-color: #fff;
+  border-radius: 15px;
+  padding:0 20px;
+  margin-bottom: 10px;;
+  text-transform:uppercase;
+  font-size: 16px;
+  width: 90%
+  }
+  
+  
+  .imgModal{
+  margin-left: 20px;;
+  justify-content: center;
+  height: 280px;
+  width: 240px;
+    }
+  
+  
+  .infoPokemonModal {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: white;
+    font-family: Encode Sans Semi Expanded;
+    font-style: normal;
     font-weight: bold;
+    font-size: 23px;
+    text-align: left;
+    width: 430px;
+    height: 500px;
+    background: #0080B6;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 0px 30px 30px 0px;
   }
   
-  .close:hover,
-  .close:focus {
-    color: #0080B6;
-    text-decoration: none;
-    cursor: pointer;
-  }
-
-/* Footer
-section {
-    width: 50%;
-    display: inline-block;
-    background: #ccc;
-    height: 5vh;
-    text-align: center;
-    font-size: 22px;
-    font-weight: 700;
-  }*/
-  
-  .footer-distributed {
-    top: 500px;
-    background-color: #0080B6;
-    box-sizing: border-box;
-    width: 100%;
-    font: normal 16px sans-serif;
-    padding: 50px;
+  #letras {
+  padding-left: 2%;
+  justify-content: left;
+  color:#FFFFFF;
+  font-family: Encode Sans Semi Expanded;
+  font-style: normal;
   }
   
-  .footer-distributed .footer-left p {
-    color: #ffffff;
-    font-size: 12px;
-    margin-left: 50px;
-  }
-  /* Footer links */
-  
-  .footer-distributed p.footer-links {
-    font-size: 18px;
-    color: #ffffff;
-    padding: 0;
-    transition: ease .25s;
-  }
-
-  .footer-distributed p.footer-links a {
-    display: inline-block;
-    line-height: 1.8;
-    text-decoration: none;
-    color: inherit;
-    transition: ease .25s;
-  }
-
-  .footer-distributed p.footer-links a:hover {
-    color:#A0CFC4;
-  }
-
-  
-  .footer-distributed .footer-links a:before {
-    content: "·";
-    left: 0;
-    color: #fff;
-    display: inline-block;
+  .numeroNombre {
+  font-size: 30pt;
+  text-transform:uppercase;
   }
   
-  .footer-distributed .footer-links .link-1:before {
-    content: none;
+  .generacion {
+  font-size: 20pt;
+  justify-content: left;
   }
   
-  .footer-distributed .footer-right {
-    float: right;
-    margin-top: 6px;
-    max-width: 180px;
-    margin-right: 40px;
+  .especificaciones {
+  margin-top: 50px;
+  font-size: 14pt;
+  font-style: normal;
   }
   
-  .footer-distributed .footer-right a {
-    display: inline-block;
-    width: 35px;
-    height: 35px;
-    text-align: center;
-    line-height: 35px;
-    margin-left: 50px;
-    transition:all .25s;
+  /* Botón cerrar Tarjeta*/
+  .close {
+  color: #aaaaaa;
+  float: right;
+  margin-top: 10px;
+  font-size: 28px;
+  font-weight: bold;
   }
-
-  .footer-icon {
-    width: 35px;
-    height: 35px;
-    margin-right: -40px;
-    padding-left: 50px;
-  }
-
-  .line {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 100%;
-    margin-right: 40px;
-    margin-left: 30px;
-  }
-
-  /* Media Queries footer */
-  
-  @media (max-width: 600px) {
-    .footer-distributed .footer-left, .footer-distributed .footer-right {
-      text-align: center;
+    
+    .close:hover,
+    .close:focus {
+      color: #0080B6;
+      text-decoration: none;
+      cursor: pointer;
     }
-    .footer-distributed .footer-right {
-      float: none;
-      margin: 0 auto 40px;
+  
+  /* Footer*/
+  
+    .footer-distributed {
+      background-color: #0080B6;
+      box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+      box-sizing: border-box;
+      width: 100%;
+      text-align: left;
+      margin-left: 40px;
+      margin-right: 60px;
+      font: normal 16px sans-serif;
+      padding: 50px;
     }
-    .footer-distributed .footer-left p.footer-links {
+    
+    .footer-distributed .footer-left p {
+      color: #ffffff;
+      font-size: 12px;
+    }
+    /* Footer links */
+    
+    .footer-distributed p.footer-links {
+      font-size: 18px;
+      color: #ffffff;
+      padding: 0;
+      transition: ease .25s;
+    }
+    
+    .footer-distributed p.footer-links a {
+      display: inline-block;
       line-height: 1.8;
+      text-decoration: none;
+      color: inherit;
+      transition: ease .25s;
     }
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
+    .footer-distributed .footer-links a:before {
+      content: "·";
+      left: 0;
+      color: #fff;
+      display: inline-block;
+    }
+    
+    .footer-distributed .footer-links .link-1:before {
+      content: none;
+    }
+    
+    .footer-distributed .footer-right {
+      float: right;
+      margin-top: 6px;
+      max-width: 180px;
+      margin-right: 40px;
+    }
+    
+    .footer-distributed .footer-right a {
+      display: inline-block;
+      width: 35px;
+      height: 35px;
+      text-align: center;
+      line-height: 35px;
+      margin-left: 50px;
+      transition:all .25s;
+    }
+  
+    .footer-icon {
+      width: 35px;
+      height: 35px;
+      margin-right: 10px;
+    }
+  
+    .footer-icon-one {
+      width: 35px;
+      height: 35px;
+    }
+  
+    .line {
+      float: left;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      width: 100%;
+      margin-right: 40px;
+    }
+  
+    /* Media Queries footer */
+    
+    @media (max-width: 600px) {
+      .footer-distributed .footer-left, .footer-distributed .footer-right {
+        text-align: center;
+      }
+      .footer-distributed .footer-right {
+        float: none;
+        margin: 0 auto 40px;
+      }
+      .footer-distributed .footer-left p.footer-links {
+        line-height: 1.8;
+      }
+    }

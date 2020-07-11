@@ -102,27 +102,39 @@ for (let i = 0; i < dataPokemon.length; i++) {
     })
     
     modal.innerHTML +=
-      `<div class="card-modal" id="card-modal">
-      <div class="imgPokemon">
-        <img src=${imgPokemonSelected} class="foto">
-        <p>Tipo: ${typePokemonSelected}</p>
-        <p>Huevos: ${countOfCandys}</p>
-      </div>
-      <section id="cards">
-        <span class="close">&times;</span>
-        <section id="letras">
-          <div class="numeroNombre">
-            <p>${numPokemonSelected} ${namePokemonSelected}</p>
-          </div>
-          <div class="generacion">
-            <p>Generación: ${generationPokemonSelected}</p>
-          </div>
-          <div class="especificaciones">  
-            <p>Resistencia: ${resistantPokemonSelected}</p>
-            <p>Debilidad: ${weaknessesPokemonSelected}</p>           
-            <p>Movimiento rápido:${quickMoves}</p>
-            <p>Movimiento especial:${specialAttacks}</p>           
-          </div>
+    `<div class="card-modal" id="card-modal">
+    <div class="imgPokemon">
+    <button>
+    <label for="radio2">★</label>
+  </button>
+      <img src=${imgPokemonSelected} class="imgModal">
+      <p>Tipo:</p>
+      <p class="modalInline">${typePokemonSelected}</p>
+      <p>Huevos:</p>
+      <p class="modalInline">${countOfCandys}</p>
+    </div>
+    <div class="infoPokemonModal">
+    <section id="cards">
+      <span class="close">&times;</span>
+      <section id="letras">
+        <div class="numeroNombre">
+          <p>${numPokemonSelected}</p> 
+          <p>${namePokemonSelected}</p>
+        </div>
+        <div class="generacion">
+          <p>Generación: ${generationPokemonSelected}</p>
+        </div>
+        <div class="especificaciones">  
+          <p>Resistencia:</p>
+          <p class="modalInlineWhite">${resistantPokemonSelected}</p>
+          <p>Debilidad:</p>  
+          <p class="modalInlineWhite">${weaknessesPokemonSelected}</p>         
+          <p>Movimiento rápido:</p>
+          <p class="modalInlineWhite">${quickMoves}</p>
+          <p>Movimiento especial:</p>  
+          <p class="modalInlineWhite">${specialAttacks}</p>           
+        </div>
+    </div>
         </section>
       </section>
     </div>`
