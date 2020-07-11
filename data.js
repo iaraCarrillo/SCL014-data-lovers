@@ -1,26 +1,24 @@
 //exportando las función de filtar por caramelos
 //se fijan los parámetros de la función
-export const evolution = (data, property, evolution) => {
-    //console.log("datajs", data);
-    //console.log ("datass", evolution)
+export const filterCandy = (data, property, selectCandy) => {
     ///se declara una constante tipo array
-    const tarjeta = [];
+    const resultado = [];
     //for me recorrerá la data de proyecto
     for (let i = 0; i < data.length; i++) {
      //for que recorrerá el atributo tipo array de debilidad
-      for (let a = 0; a < data[i][property].length; a++) {
-        //console.log ("hola",dataType[d]);
-        //condicional que igual lo encotrado en el atributo el array y lo iguala a la opcién elegida por el usuario
-        if (data[i][property][a] === evolution) {
-  
-          //se llama a la constante tipo array declarada al incio y una vez recorrida la longitud de la data
-         // se hace un push para alamcene todos los elementos los devuelve la nueva longitud del array.
-          tarjeta.push(data[i])
-        }
+    
+      let costOfEvolution =data[i].evolution["nextEvolution"]
+      console.log (data[i].evolution["nextEvolution"]);
+    if(data[i].evolution["nextEvolution"]!=undefined){
+      console.log (costOfEvolution[i].candycost);
+      if(costOfEvolution[i].candycost == selectCandy)
+        //se llama a la constante tipo array declarada al incio y una vez recorrida la longitud de la data
+        // se hace un push para alamcene todos los elementos los devuelve la nueva longitud del array.
+        resultado.push(data[i]) 
       }
     }
-    //console.log(tarjeta)
-    return tarjeta
+    
+    return resultado
   };
   
   
@@ -46,8 +44,6 @@ export const evolution = (data, property, evolution) => {
   export const filterType = (data, property, selectType) => {
     const resultado = [];
     for (let i = 0; i < data.length; i++) {
-      // let dataType = data[i].type;
-      //console.log (dataType);
       for (let a = 0; a < data[i][property].length; a++) {
         //console.log (data[i][property][a]);
         if (data[i][property][a] == selectType) {
@@ -60,15 +56,9 @@ export const evolution = (data, property, evolution) => {
   };
   
   
-  /* exportando la función buscar por nombre de pokémon
-  export const nameSearch = (dataPokemon,finalName) => {
-    const searched = dataPokemon.filter((element) => {
-      return element.name.includes(finalName);
-    });
-    return searched;
-  };*/
-  
-  export const search = (data,text) =>{
+  // exportando la función buscar por nombre de pokémon
+
+  export const filterSearch = (data,text) =>{
     const search = data.filter((element) => {
       return element.name.includes(text);
     });
