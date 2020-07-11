@@ -177,6 +177,13 @@ color: #FFFFFF;
 }
 
 /*Página Principal*/
+
+.arriba {
+top:0px;
+float: left;
+background-color: #FFE600;
+}
+
 .menu {
 position: fixed;
 width: 100%;
@@ -233,22 +240,27 @@ line-height: 24px;
 color: white;
 }
 
-.fondolupa {
+.fondolupa button{
 position: absolute;
 width: 61px;
 height: 48px;
 left: 1406px;
 top: 50px;
+border: none;
     
 background: #0080B6;
 border-radius: 14px;
+}
+
+.fondolupa button:hover {
+    background: #015B81;
 }
 
 .buscadorPokemon img {
 position: absolute;
 width: 35px;
 height: 35px;
-left: 1423px;
+left: 1421px;
 top: 58px;
 z-index: 1;
 }
@@ -303,7 +315,7 @@ background: #0080B6;
 
 #generation,
 #type,
-#evolution {
+#candy {
 cursor: pointer;
 display: inline-flex;
 float: right;
@@ -322,7 +334,7 @@ color: #FFFFFF;
 
 #generation:hover,
 #type:hover,
-#evolution:hover {
+#candy:hover {
 background-color: #015B81;
 }
 
@@ -506,7 +518,7 @@ display: flex;
 justify-content:space-evenly;
 flex-wrap:wrap; 
 justify-content: center;
-padding-bottom:16%;
+padding-bottom:5%;
 padding-top: 16%;
 margin-left: 70px;
 }
@@ -669,7 +681,7 @@ font-size: 28pt;
     cursor: pointer;
   }
 
-/* Footer*/
+/* Footer
 section {
     width: 50%;
     display: inline-block;
@@ -678,16 +690,13 @@ section {
     text-align: center;
     font-size: 22px;
     font-weight: 700;
-  }
+  }*/
   
   .footer-distributed {
+    top: 500px;
     background-color: #0080B6;
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
     box-sizing: border-box;
     width: 100%;
-    text-align: left;
-    margin-left: 40px;
-    margin-right: 60px;
     font: normal 16px sans-serif;
     padding: 50px;
   }
@@ -695,6 +704,7 @@ section {
   .footer-distributed .footer-left p {
     color: #ffffff;
     font-size: 12px;
+    margin-left: 50px;
   }
   /* Footer links */
   
@@ -704,7 +714,7 @@ section {
     padding: 0;
     transition: ease .25s;
   }
-  
+
   .footer-distributed p.footer-links a {
     display: inline-block;
     line-height: 1.8;
@@ -712,6 +722,11 @@ section {
     color: inherit;
     transition: ease .25s;
   }
+
+  .footer-distributed p.footer-links a:hover {
+    color:#A0CFC4;
+  }
+
   
   .footer-distributed .footer-links a:before {
     content: "·";
@@ -744,20 +759,16 @@ section {
   .footer-icon {
     width: 35px;
     height: 35px;
-    margin-right: 10px;
-  }
-
-  .footer-icon-one {
-    width: 35px;
-    height: 35px;
+    margin-right: -40px;
+    padding-left: 50px;
   }
 
   .line {
-    float: left;
     margin-top: 10px;
     margin-bottom: 10px;
     width: 100%;
     margin-right: 40px;
+    margin-left: 30px;
   }
 
   /* Media Queries footer */

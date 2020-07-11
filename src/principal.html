@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded:wght@700&display=swap" rel="stylesheet">
   </head>
   <body>
+    <div class="arriba" id="top"></div>
     <header class="menu">
         <div class="fondoPlano">
         <div class="logo">
@@ -19,7 +20,7 @@
         <div class="buscadorPokemon">
             <input type="search" class="search-box" id="search-pokemon" placeholder="Busca a tu Pokémon!">
             <img src="images/lupa.png" alt="">
-            <div class="fondolupa"></div>
+            <div class="fondolupa"><button id="okBtn"></button></div>
             <div class="valoracion">
                 <button>
                   <label for="radio1">★</label>
@@ -40,27 +41,27 @@
         </select>
         <select id="type">
             <option selected="" disabled="">Tipo</option>
-            <option value="Fire">Fuego</option>
-            <option value="Water">Agua</option>
-            <option value="Grass">Planta</option>
-            <option value="Electric">Eléctrico</option>
-            <option value="Ice">Hielo</option>
-            <option value="Fighting">Lucha</option>
-            <option value="Poison">Veneno</option>
-            <option value="Ground">Tierra</option>
-            <option value="Flying">Volador</option>
-            <option value="Psychic">Psíquico</option>
-            <option value="Bug">Bicho</option>
-            <option value="Rock">Roca</option>
-            <option value="Ghost">Fantasma</option>
-            <option value="Dragon">Dragón</option>   
+            <option value="fire">Fuego</option>
+            <option value="water">Agua</option>
+            <option value="grass">Planta</option>
+            <option value="electric">Eléctrico</option>
+            <option value="ice">Hielo</option>
+            <option value="fighting">Lucha</option>
+            <option value="poison">Veneno</option>
+            <option value="ground">Tierra</option>
+            <option value="flying">Volador</option>
+            <option value="psychic">Psíquico</option>
+            <option value="bug">Bicho</option>
+            <option value="rock">Roca</option>
+            <option value="ghost">Fantasma</option>
+            <option value="dragon">Dragón</option>   
         </select>
-        <select id="evolution">
-            <option selected="" disabled="">Evolución</option>
-            <option value="25egg">25 Huevos</option>
-            <option value="50egg">50 Huevos</option>
-            <option value="100egg">100 Huevos</option>
-            <option value="400egg">400 Huevos</option>
+        <select id="candy">
+            <option selected="" disabled="">Caramelos</option>
+            <option value="25">25 Huevos</option>
+            <option value="50">50 Huevos</option>
+            <option value="100">100 Huevos</option>
+            <option value="400">400 Huevos</option>
             
         </select>
         </div>
@@ -99,13 +100,13 @@
 <footer class="footer-distributed">
 
     <div class="footer-right">
-        <a title="Twitter" href="#top"><img src="images/icon-flecha.png" alt=flecha class="footer-icon"/></a>
+        <a href="#top"><img src="images/icon-flecha.png" alt=flecha class="footer-icon"></a>
     </div>
     
     <div class="footer-left">
-        <a title="Facebook" href="https://www.facebook.com/PokemonGO/" target="_blank"><img src="images/icon-fb.png" alt=Facebook class="footer-icon"/></a>
-        <a title="Twitter" href="https://twitter.com/PokemonGoApp" target="_blank"><img src="images/icon-twitter.png" alt=Twitter class="footer-icon"/></a>
-        <a title="Instagram" href="https://www.instagram.com/" target="_blank"><img src="images/icon-insta.png" alt=Instagram class="footer-icon"/></a>
+        <a title="Facebook" href="https://www.facebook.com/PokemonGO/" target="_blank"><img src="images/icon-fb.png" alt=Facebook class="footer-icon"></a>
+        <a title="Twitter" href="https://twitter.com/PokemonGoApp" target="_blank"><img src="images/icon-twitter.png" alt=Twitter class="footer-icon"></a>
+        <a title="Instagram" href="https://www.instagram.com/" target="_blank"><img src="images/icon-insta.png" alt=Instagram class="footer-icon"></a>
         <hr color= "white" size=1 class="line">   
         <p class="footer-links">
             <a class="link-1" href="https://pokemongolive.com/es/" target="_blank">Pokémon GO oficial</a>
