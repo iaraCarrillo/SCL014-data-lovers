@@ -156,7 +156,6 @@ for (let i = 0; i < dataPokemon.length; i++) {
   } 
 }
 
-
 //Llamar Filtros
 //FILTRO CARAMELOS
   // constante que contiene información del atributo ID
