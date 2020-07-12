@@ -721,7 +721,8 @@ color: var(--color-hover);
   }
   
   /* Footer*/
-    .footer-distributed {
+  
+  .footer-distributed {
       background-color: #0080B6;
       width: 100%;
       text-align: left;
