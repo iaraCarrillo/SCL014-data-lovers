@@ -104,9 +104,6 @@ for (let i = 0; i < dataPokemon.length; i++) {
     modal.innerHTML +=
     `<div class="card-modal" id="card-modal">
     <div class="imgPokemon">
-    <button>
-    <label for="radio2">★</label>
-  </button>
       <img src=${imgPokemonSelected} class="imgModal">
       <p>Tipo:</p>
       <p class="modalInline">${typePokemonSelected}</p>
@@ -115,7 +112,9 @@ for (let i = 0; i < dataPokemon.length; i++) {
     </div>
     <div class="infoPokemonModal">
     <section id="cards">
-      <span class="close">&times;</span>
+      <div>
+      <button id="close" class="close">x</button>
+      </div>
       <section id="letras">
         <div class="numeroNombre">
           <p>${numPokemonSelected}</p> 
@@ -141,12 +140,20 @@ for (let i = 0; i < dataPokemon.length; i++) {
       console.log(quickMoves)
       modal.classList.add('modal--show')
   
-    modal.addEventListener('click', (e) => {
+      modal.addEventListener('click', (e) => {
       if (e.target.classList.contains('modal')) modal.classList.remove('modal--show')
-    });
-  }
+      });
 
-  
+//CERRAR TARJETA
+      function closeModal (){
+        let buttonClose = document.getElementById("close");
+        buttonClose.addEventListener("click", function(){
+        modal.style.display = "none";
+//      container.style.display = "block";
+        });
+    }
+    closeModal();
+  } 
 }
 
 //Llamar Filtros
