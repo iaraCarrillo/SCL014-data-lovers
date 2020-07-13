@@ -98,37 +98,57 @@ function modalImpri(event) {
   })
   //.innerHTML devuelve o establece la sintaxis HTML
   modal.innerHTML += //Operador +=, abreviación de suma
-    `<div class="card-modal" id="card-modal">
-    <div class="imgPokemon">
-      <img src=${imgPokemonSelected} class="foto">
-      <p>Tipo: ${typePokemonSelected}</p>
-      <p>Huevos: ${countOfCandys}</p>
+  `<div class="card-modal" id="card-modal">
+  <div class="imgPokemon">
+    <img src=${imgPokemonSelected} class="imgModal">
+    <p>Tipo:</p>
+    <p class="modalInline">${typePokemonSelected}</p>
+    <p>Huevos:</p>
+    <p class="modalInline">${countOfCandys}</p>
+  </div>
+  <div class="infoPokemonModal">
+  <section id="cards">
+    <div>
+    <button id="close" class="close">x</button>
     </div>
-    <section id="cards">
-      <span class="close">&times;</span>
-      <section id="letras">
-        <div class="numeroNombre">
-          <p>${numPokemonSelected} ${namePokemonSelected}</p>
-        </div>
-        <div class="generacion">
-          <p>Generación: ${generationPokemonSelected}</p>
-        </div>
-        <div class="especificaciones">  
-          <p>Resistencia: ${resistantPokemonSelected}</p>
-          <p>Debilidad: ${weaknessesPokemonSelected}</p>           
-          <p>Movimiento rápido:${quickMoves}</p>
-          <p>Movimiento especial:${specialAttacks}</p>           
-        </div>
+    <section id="letras">
+      <div class="numeroNombre">
+        <p>${numPokemonSelected}</p> 
+        <p>${namePokemonSelected}</p>
+      </div>
+      <div class="generacion">
+        <p>Generación: ${generationPokemonSelected}</p>
+      </div>
+      <div class="especificaciones">  
+        <p>Resistencia:</p>
+        <p class="modalInlineWhite">${resistantPokemonSelected}</p>
+        <p>Debilidad:</p>  
+        <p class="modalInlineWhite">${weaknessesPokemonSelected}</p>         
+        <p>Movimiento rápido:</p>
+        <p class="modalInlineWhite">${quickMoves}</p>
+        <p>Movimiento especial:</p>  
+        <p class="modalInlineWhite">${specialAttacks}</p>           
+      </div>
+  </div>
       </section>
     </section>
-  </div>`
+  </div>` 
+
+  //CERRAR TARJETA
+  function closeModal (){
+    let buttonClose = document.getElementById("close");
+    buttonClose.addEventListener("click", function(){
+    modal.style.display = "none";
+    });
+  }
+  closeModal();
 }
 
 ///LLAMAR FILTROS///
 //FILTRO CARAMELOS
   //Constante que contiene información del atributo ID
   const typeCandy = document.getElementById("candy");
-  //llamando la constante para que cuando escuche el evento ejecute la función
+  //Llamando la constante para que cuando escuche el evento ejecute la función
   typeCandy.addEventListener("change", () => {
   //variable que alamacena el valor de la opción seleccionada por el usuario
   let selectCandy = typeCandy.options[typeCandy.selectedIndex].value
@@ -143,9 +163,6 @@ function modalImpri(event) {
     let nameByCandy = positionCandy[i].name
     let numByCandy = positionCandy[i].num
     let imgByCandy = positionCandy[i].img
-    
-    //variable que me almacena el recorrido el valor del recorrido de la debilidades y todo lo que contiene adentro  de (type)
-    
     //variable que contiene los valores a imprimir
     let prinType = `
     <section id="tarjetas">
@@ -211,7 +228,7 @@ function modalImpri(event) {
     //se imprime llamando a la nueva variable según lo especificado en la variable anterior
     container.innerHTML += `<p>${prinType}<p>`
   }
-  //For que recorre la clase  foto de mi linea de impresión
+  //For que recorre la clase foto de mi linea de impresión
   for (let i = 0; i < foto.length; i++) {
     let img = foto[i];
     img.addEventListener('click', modalImpri)
@@ -230,9 +247,8 @@ document.getElementById('okBtn').addEventListener('click', () => {
   document.getElementById('root').innerHTML = '';
   //variable que almacena el valor el nombre del pokemon escrito por el usuario
   const name = document.getElementById('searchPokemon').value;
-  //charAt muestra caracteres de diferentes localizaciones en la cadena de name y el slice devuelve una copia de una parte del array dentro de un nuevo array
-  //constante que primero (charAt) obtiene con el nombre, al personaje en la cadena + tomo el nombre en array
-  const finalName = name.toLowerCase();
+  //Se asigna variable
+  const finalName = name.toLowerCase();//Se pasan las letras a minusculas para que se puedan buscar en la data
   //variable que almacena la función buscar por nombre de pokemón exportada desde data.js con sus parámetros
   let chosenName = (filterSearch(dataPokemon,finalName));
   //for que recorrerá el largo de la data
@@ -240,8 +256,6 @@ document.getElementById('okBtn').addEventListener('click', () => {
     let nameBySearch = chosenName[i].name
     let numBySearch = chosenName[i].num
     let imgBySearch = chosenName[i].img
-    //variable que me almacena el valor del recorrido hecho por el for
-    //let dataName = chosenName[i]
     //variable que contiene los valores a imprimir
     let printName =`
     <section id="tarjetas">
