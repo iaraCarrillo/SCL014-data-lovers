@@ -712,11 +712,14 @@ color: var(--color-hover);
   font-size: 28px;
   font-weight: bold;
   padding-top: 20px;
+  background: none;
+  border: none;
+  color: #FFFFFF;
   }
     
   .close:hover,
   .close:focus {
-  color: #0080B6;
+  color: #A0CFC4;
   text-decoration: none;
   cursor: pointer;
   }
