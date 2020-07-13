@@ -98,30 +98,50 @@ function modalImpri(event) {
   })
   //.innerHTML devuelve o establece la sintaxis HTML
   modal.innerHTML += //Operador +=, abreviación de suma
-    `<div class="card-modal" id="card-modal">
-    <div class="imgPokemon">
-      <img src=${imgPokemonSelected} class="foto">
-      <p>Tipo: ${typePokemonSelected}</p>
-      <p>Huevos: ${countOfCandys}</p>
+  `<div class="card-modal" id="card-modal">
+  <div class="imgPokemon">
+    <img src=${imgPokemonSelected} class="imgModal">
+    <p>Tipo:</p>
+    <p class="modalInline">${typePokemonSelected}</p>
+    <p>Huevos:</p>
+    <p class="modalInline">${countOfCandys}</p>
+  </div>
+  <div class="infoPokemonModal">
+  <section id="cards">
+    <div>
+    <button id="close" class="close">x</button>
     </div>
-    <section id="cards">
-      <span class="close">&times;</span>
-      <section id="letras">
-        <div class="numeroNombre">
-          <p>${numPokemonSelected} ${namePokemonSelected}</p>
-        </div>
-        <div class="generacion">
-          <p>Generación: ${generationPokemonSelected}</p>
-        </div>
-        <div class="especificaciones">  
-          <p>Resistencia: ${resistantPokemonSelected}</p>
-          <p>Debilidad: ${weaknessesPokemonSelected}</p>           
-          <p>Movimiento rápido:${quickMoves}</p>
-          <p>Movimiento especial:${specialAttacks}</p>           
-        </div>
+    <section id="letras">
+      <div class="numeroNombre">
+        <p>${numPokemonSelected}</p> 
+        <p>${namePokemonSelected}</p>
+      </div>
+      <div class="generacion">
+        <p>Generación: ${generationPokemonSelected}</p>
+      </div>
+      <div class="especificaciones">  
+        <p>Resistencia:</p>
+        <p class="modalInlineWhite">${resistantPokemonSelected}</p>
+        <p>Debilidad:</p>  
+        <p class="modalInlineWhite">${weaknessesPokemonSelected}</p>         
+        <p>Movimiento rápido:</p>
+        <p class="modalInlineWhite">${quickMoves}</p>
+        <p>Movimiento especial:</p>  
+        <p class="modalInlineWhite">${specialAttacks}</p>           
+      </div>
+  </div>
       </section>
     </section>
-  </div>`
+  </div>` 
+
+  //CERRAR TARJETA
+  function closeModal (){
+    let buttonClose = document.getElementById("close");
+    buttonClose.addEventListener("click", function(){
+    modal.style.display = "none";
+    });
+  }
+  closeModal();
 }
 
 ///LLAMAR FILTROS///
