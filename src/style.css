@@ -724,17 +724,7 @@ color: var(--color-hover);
   cursor: pointer;
   }
 
-/* Footer
-section {
-    width: 50%;
-    display: inline-block;
-    background: #ccc;
-    height: 5vh;
-    text-align: center;
-    font-size: 22px;
-    font-weight: 700;
-  }*/
-  
+/* Footer*/
   .footer-distributed {
     top: 500px;
     background-color: #0080B6;
