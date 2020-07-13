@@ -247,13 +247,14 @@ height: 48px;
 left: 1406px;
 top: 50px;
 border: none;
-    
+  
 background: #0080B6;
 border-radius: 14px;
 }
 
 .fondolupa button:hover {
     background: #015B81;
+    cursor: pointer; 
 }
 
 .buscadorPokemon img {

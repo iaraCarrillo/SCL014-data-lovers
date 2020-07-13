@@ -23,7 +23,7 @@ export const filterCandy = (data, property, selectCandy) => {
   
   
   
-  /////exportando las función de filtar por generacion
+  /////exportando las función de filtar por generacion (ESTO NO FUNCIONA)
   export const generation = (data, property, generation) => {
     const resultado = [];
     for (let i = 0; i < data.length; i++) {
@@ -58,10 +58,11 @@ export const filterCandy = (data, property, selectCandy) => {
   
   // exportando la función buscar por nombre de pokémon
 
-  export const filterSearch = (data,text) =>{
+  export const filterSearch = (data,searchBox) =>{
     const search = data.filter((element) => {
-      return element.name.includes(text);
+      return element.name.includes(searchBox);
     });
+console.log(search)
     return search;
   }
  
