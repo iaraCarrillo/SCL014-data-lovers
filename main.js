@@ -38,7 +38,7 @@ for (let i = 0; i < dataPokemon.length; i++) {
   </section>`
   //se imprime llamando a la nueva variable según lo especificado en la variable anterior
   container.innerHTML += imprimir
-
+}
 
   /////Modal/////
   //Obtener el modal
@@ -136,25 +136,17 @@ for (let i = 0; i < dataPokemon.length; i++) {
     </div>
         </section>
       </section>
-    </div>`
-      console.log(quickMoves)
-      modal.classList.add('modal--show')
-  
-      modal.addEventListener('click', (e) => {
-      if (e.target.classList.contains('modal')) modal.classList.remove('modal--show')
-      });
+    </div>` 
 
 //CERRAR TARJETA
       function closeModal (){
-        let buttonClose = document.getElementById("close");
-        buttonClose.addEventListener("click", function(){
-        modal.style.display = "none";
-//      container.style.display = "block";
-        });
+      let buttonClose = document.getElementById("close");
+      buttonClose.addEventListener("click", function(){
+      modal.style.display = "none";
+      });
     }
     closeModal();
   } 
-}
 
 //Llamar Filtros
 //FILTRO CARAMELOS
@@ -217,18 +209,20 @@ for (let i = 0; i < dataPokemon.length; i++) {
   container.innerHTML = "";
   //variable que almacena la función filtar por tipo exportada desde data.js con sus parámetros
   let positionType = filterType(dataPokemon, 'type', selectType);
-  let count = 0;
-//for que recorrerá el largo de la data
+  //let count = 0;
+  //for que recorrerá el largo de la data
   for (let i = 0; i < positionType.length; i++) {
-    count++;
+  //count++;
     let nameByType = positionType[i].name
     let numByType = positionType[i].num
     let imgByType = positionType[i].img
+    //guárdame tal información
+
     //console.log(nameByType)
     //variable que me almacena el recorrido el valor del recorrido de la debilidades y todo lo que contiene adentro  de (type)
     
     //variable que contiene los valores a imprimir
-    let prinType = `
+    container.innerHTML += `
     <section id="tarjetas">
       <div class="starTarjeta">
         <button>
@@ -241,17 +235,7 @@ for (let i = 0; i < dataPokemon.length; i++) {
       </div>
     </section>`
     //se imprime llamando a la nueva variable según lo especificado en la variable anterior
-    container.innerHTML += `<p>${prinType}<p>`
   }
-  //For que recorre la clase  foto de mi linea de impresión
-  for (let i = 0; i < foto.length; i++) {
-    let img = foto[i];
-    img.addEventListener('click', modalImpri)
-   // console.log("imprimir", img)
-  }
-  //se trae la función modal
-  modalImpri
-  console.log(count)
 });
 
 
@@ -294,4 +278,38 @@ document.getElementById('okBtn').addEventListener('click', () => {
     }
     //se trae la función modal
     modalImpri
+});
+
+//FILTRO GENERACIÓN
+  const generationUser = document.getElementById("generation");
+  generationUser.addEventListener("change", () => {
+  let selectGeneration = generationUser.options[generationUser.selectedIndex].value
+  container.innerHTML = "";
+  let positionGeneration = generation(dataPokemon, 'generation', selectGeneration);
+  let count = 0;
+  for (let i = 0; i < positionGeneration.length; i++) {
+    count++;
+    let nameByType = positionType[i].name
+    let numByType = positionType[i].num
+    let imgByType = positionType[i].img
+    let prinType = `
+    <section id="tarjetas">
+      <div class="starTarjeta">
+        <button>
+          <label for="radio2">★</label>
+        </button>
+      </div>
+      <img id="${nameByType}" src=${imgByType} class=foto>
+      <div class="infoPokemon">
+          <p>${numByType}.${nameByType}<p> 
+      </div>
+    </section>`
+    container.innerHTML += `<p>${prinType}<p>`
+  }
+  for (let i = 0; i < foto.length; i++) {
+    let img = foto[i];
+    img.addEventListener('click', modalImpri)
+  }
+  modalImpri
+  console.log(count)
 });
