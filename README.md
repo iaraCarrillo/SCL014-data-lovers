@@ -7,42 +7,41 @@
 * [4. Usuarios](#2-síntasis-y-definición)
    * [4.1 Historias de Usuarios](#2-síntasis-y-definición)
 * [5. Proceso de diseño ](#3-ideación)
-   * [5.1 Primeros Bocetos/Brainstorming ](#3-ideación)
-   * [5.2 Prototipo de Baja Fidelidad ](#3-ideación)
-     * [5.2.1 Testeo de Prototipo de Baja Fidelidad ](#3-ideación)
-   * [5.3 Marca ](#3-ideación)
+   * [5.1 Marca y Logotipo ](#3-ideación)
+   * [5.2 Primeros Bocetos/Brainstorming ](#3-ideación)
+   * [5.3 Prototipo de Baja Fidelidad ](#3-ideación)
+     * [5.3.1 Testeo de Prototipo de Baja Fidelidad ](#3-ideación)
    * [5.4 Prototipo de Alta Fidelidad](#3-ideación)
      * [5.4.1 Testeo de Prototipo de Alta Fidelidad ](#3-ideación)
 * [6. Presentación del producto final: PokéGo Dex](#4-prototipado-user-testing)
-* [7. Conclusión](#5-presentación-del-producto-pokégo-dex)
-* [8. Anexos Complementarios](#6-aplicación-y-anexos-complementarios)
-* [9. Enlaces](#6-aplicación-y-anexos-complementarios)
+* [7. Anexos Complementarios](#6-aplicación-y-anexos-complementarios)
+* [8. Enlaces](#6-aplicación-y-anexos-complementarios)
 
 
 ***
 # 1. Encargo del Proyecto
 
-Construir una página web complementaria al juego Pokémon GO que visualice un conjunto de datos y estadísticas que se adecúe a las necesidades del entrenador. 
+Construir una página web complementaria al juego Pokémon GO que visualice un conjunto de datos y especificaciones que se adecúe a las necesidades del entrenador. 
 
 **Data proporcionada:** Lista con los 251 Pokémon de la región de Kanto y Johto, junto con sus respectivas estadísticas usadas en el juego Pokémon GO.
 
 **Cliente:** Laboratoria (sede Chile)
 
-**Tiempo de desarrollo:** Junio 2020.
+**Tiempo de desarrollo:** Junio-Julio 2020.
 
-**Link de proyecto:**  http://iaracarrillo.github.io/SCL014-data-lovers
+**Link de desarrollo del proyecto:**  http://iaracarrillo.github.io/SCL014-data-lovers
 
 ***
 
 # 2. Introducción
 
-Los juegos nos pueden llevar a otro mundo, sacarnos de la vida cotidiana y la rutina, nos riven para entrenernos, resolver desafíos y entablar amistades.  La recreación siempre a estado presente en la historia y en nuestras vidas, desde los juegos deportivos hasta los primeros videojuegos en consola, conociendo con este último otro tipo de entretenimiento y deporte. 
+Los juegos nos pueden llevar a otro mundo, sacarnos de la vida cotidiana y la rutina, nos sirven para entrenernos, resolver desafíos y entablar amistades.  La recreación siempre a estado presente en la historia y en nuestras vidas, desde los juegos deportivos hasta los primeros videojuegos en consola, conociendo con este último otro tipo de entretenimiento y deporte. 
 
-En este proyecto hablaremos de un videojuego en particular: "Pokémon go!", que nace de juegos como Pokémon Rojo para gameboy y/o Pokémon X para Nintendo 3DS, pero Pokémon Go llega a revolucionar el mundo del entretenimiento, utilizando tecnología de realidad aumentada, basada en la localización para celulares, llevando a los jugadores a explorar las calles de su ciudad para descubrir y atrapar a todos los pokemones, luchando en combate y estableciendo amistades con otros jugadores.
+En este proyecto hablaremos de un videojuego en particular: "Pokémon go!", que nace de juegos como Pokémon Rojo para gameboy y/o Pokémon X para Nintendo 3DS, pero Pokémon Go llega a revolucionar el mundo del entretenimiento, utilizando tecnología de realidad aumentada, basada en la localización por medio de celulares, llevando a los jugadores a explorar las calles de su ciudad para descubrir y atrapar a todos los Pokémones, luchando en combate y estableciendo amistades con otros jugadores.
 
-Pokémon Go, al ser un juego que almacena mucha información, la que el usuario debe aprender para ser un mejor entrenador, nace frente a esta problemática "PokéGo Dex", data que ayudará al jugador para buscar de manera rápida y eficaz la información que necesita el usuario para crecer dentro del juego, como el nombre y/o habilidades del pokémon.
+Pokémon Go, al ser un juego que almacena mucha información, el usuario se ve frente a la problemática de aprender todo este contenido para ser un mejor entrenador, es por eso que frente a esta problemática nace "PokéGo Dex", data que ayudará al jugador a buscar de manera concisa, rápida y eficaz la información que necesita para crecer dentro del juego, la que contendrá información como el nombre y/o habilidades del pokémon, la que servirá para sus combates en gimnasios o evolucionar a sus personajes por medio de huevos para así hacerlos más fuertes.
 
-Detrás de los creadores de PokéGo Dex, se crea la empresa "Dexia", compañia dirigida al mundo de la Tecnología informática enfocada en el estudio, diseño, desarrollo e innovación de páginas webs y aplicaciones para smathphone, la que busca resolver problemas enfocadas en usuarios dentro del mundo tecnológico.
+Detrás de los creadores de PokéGo Dex, se crea la empresa "Dexia", compañia dirigida al mundo de la Tecnología informática enfocada en el estudio, diseño, desarrollo e innovación de páginas webs y aplicaciones para smathphone, la que busca resolver problemas enfocados en usuarios dentro del mundo tecnológico.
 
 Durante este proyecto utilizamos diferentes herramientas para llegar a nuestro producto, donde en cada etapa del proceso exploramos junto con el usuario lo que precisa, anhela y necesita para para resolver sus necesidades, para hacerlo utilizamos la metodología Design Thinking, donde por medio de la empatía, ideación, prototipos y testeos pudimos obtener un diseño final.
 
@@ -52,13 +51,13 @@ Durante este proyecto utilizamos diferentes herramientas para llegar a nuestro p
 
 # 3. Investigación contextual Pokémon GO 
 
-Antes de poder crear nuestro producto final, primero tuvimos que realizar una investigación sobre qué era pokémon go, su exito, funcionalidad y de donde provenía, donde averiguamos que era un videojuego gratuito, creado por Niantic, Inc. lanzado al mercado en el año 2016 y que consiste en buscar y capturar personajes de la saga escondidos en ubicaciones del mundo real mediante GPS, donde el jugador debe desplazarse físicamente para capturar un pokémon e ir progresando en la colección. Ya con más experiencia, puede entrar a modo competitivo y luchar con otros usuarios.
+Antes de poder crear nuestro producto final, primero tuvimos que realizar una investigación sobre qué era pokémon go, el por qué de su exito, funcionalidad y de donde provenía, donde averiguamos que era un videojuego gratuito, creado por Niantic, Inc. lanzado al mercado en el año 2016, el que consiste en buscar y capturar personajes de la saga escondidos en ubicaciones del mundo real mediante GPS, donde el jugador debe desplazarse físicamente para capturar un pokémon e ir progresando en la colección. Ya con más experiencia, puede entrar a modo competitivo y luchar con otros usuarios.
 
 Pero, ¿Por qué su exito?
 
-El exito del juego de Pokémon Go, se da por diversas razones, una por su tecnología y marca patentada, pero también porque es estrenada justo a tiempo, donde Nintendo decide sacar al mercado la aplicación durante el año 2016 justo en la época en la que la primera generación de niños, hace ya 20 años, empezo a disfurtar de su Game Boy con Pokemon Rojo, la que ahora tiene entre 20 y 30 años de edad, produciendo una nostalgia colectiva a todos los usuarios que tuvieron a pokémon en su infancia, pero no solo atrajo a los adultos, sino también a los niños que ya conocián de primera mano el universo de Pokémon a través de sus Nintendo 3DS con juegos como Pokémon X o Pokémon Y. 
+El exito del juego de Pokémon Go, se da por diversas razones, una por su tecnología y marca patentada, pero también porque es estrenada justo a tiempo, donde Nintendo decide sacar al mercado la aplicación durante el año 2016 justo en la época en la que la primera generación de niños, hace ya 20 años, empezo a disfurtar de su Game Boy con Pokémon Rojo, la que ahora tiene entre 20 y 30 años de edad, produciendo una nostalgia colectiva a todos los usuarios que tuvieron a pokémon en su infancia, pero no solo atrajo a los adultos, sino también a los niños que ya conocián de primera mano el universo de Pokémon a través de sus Nintendo 3DS con juegos como Pokémon X o Pokémon Y. 
 
-Los usuarios no solo juegan Pokémon Go por ser la aplicación nueva de Nintendo, sino porque mantiene una historia y trasendencia con el tiempo, convirtiéndolo en un videojuego viral gratuito, alcanzando cada rincón del mundo donde una persona contará con un celular e internet.
+Los usuarios no solo juegan Pokémon Go por ser la aplicación nueva de Nintendo, sino porque mantiene una historia y trasendencia con el tiempo, convirtiéndolo en un videojuego viral gratuito, alcanzando cada rincón del mundo donde una persona solo con contar con un celular e internet puede jugar.
 
 En cuanto a la modalidad de juego e identificación de usuarios hemos podido ver, estudiar y apreciar de primera mano a personas que caminan por las calles utilizando su celular y haciendo un movimiento particular con su mano y muñeca, donde utilizan su dedo índice con movimmientos circulares, el que se hace para atrapar un pokémon con una pokebola, o cuando vemos a un grupo grande de personas en parques o plazas mirando sus celulares y hablando de personajes del juego como Pikachu o Charmander, que deben atrapar en estos eventos masivos que realiza el juego. Con estos dos escenarios podemos identificar facilmente a un jugador del juego y apreciar el cómo juega y cómo se divierte.
 
@@ -108,7 +107,7 @@ Como primer acercamiento al usuario, realizamos una encuesta a más de 20 jugado
 
 ![readme4](https://user-images.githubusercontent.com/66659886/86813031-afa40c00-c04d-11ea-9c51-27310411f34e.png)
 
-Con estos estudios pudimos determinar que el jugador que juega actualmente el juego, fue lo siguiente:
+Con estos estudios pudimos determinar que el usuario que juega actualmente el juego, fueron los siguientes datos:
 
 **Necesidad:** 
 Jugador lleva más de 4 años jugando en la aplicación Pokémon Go y aún no cumple su meta (ej: llegar al nivel más alto, completar la Pokédex, etc).
@@ -121,7 +120,7 @@ Por medio de una aplicación web complementaria a Pokémon Go, entregar data Pok
 
 ## 4.1 Historias de usuario
 
-Gracias a los formularios y estudios realizados a los usuarios se pudieron determinar 8 necesidades que eran de importancia para desarrollar nuestra página, las que nos ayudaron para concretizar nuestro proyecto. En ellas pudimos establecer que el usuario al ser un jugador de nivel intermedio a alto, además de ser de un perfil coleccionista y competitivo, busca especificaciones en los pokemones que los ayuden a ser mejores entrenadores, como mostrar sus debilidades, fortalezas o tipo de pokémon.
+Gracias a los formularios y estudios realizados a los usuarios se pudieron determinar 8 necesidades que eran de importancia para desarrollar nuestra página, las que nos ayudaron para concretizar nuestro proyecto. En ellas pudimos establecer que el usuario al ser un jugador de nivel intermedio a alto, además de ser de un perfil coleccionista y competitivo, busca especificaciones en los Pokémones que los ayuden a ser mejores entrenadores, como mostrar sus debilidades, fortalezas o tipo de pokémon.
 
 **Historia 1:** Ficha de Pokémon (Prioridad)
 
@@ -175,13 +174,25 @@ Gracias a los formularios y estudios realizados a los usuarios se pudieron deter
 
 # 5. Proceso de diseño
 
-## 5.1 Primeros bocetos / Brainstorming
+Para nuestro proceso de diseño nos enfocamos principalmente en las necesidades del usuario para la creación de nuestra aplicación web, para ello utilizamos la metodología Design Thinking, desarrollando el proceso en 5 grandes carácteres: Empatía, Definición, Ideación, Prototipos y Testeos. Por lo que, una vez recolectada toda la información sobre el usuario como sus gustos, perfil, nivel, modalidad de juego y requerimientos, comenzamos con la etapa de Ideación, la que tiene por finalidad generar una diversa cantidad de propuestas, siendo el primer elemento gráfico de nuestro proyecto, para luego comenzar con los primeros prototipos dividos en baja y alta calidad, donde el primero proporciona una primera impresión enfocada a los usuarios con el fin de poder testear la usabilidad y flujo de nuestra página. En cambio, con el prototipo de alta fidelidad lo que buscamos fue llevar el proyecto a ideas más reales, como colores, tipografía y contenido, para así visualizar mejores soluciones, poniendo en manifiesto, por medio del testeo, lo que debemos mejorar o refinar antes de llegar al resultado final.
 
-![readme5](https://user-images.githubusercontent.com/66659886/86813060-b6cb1a00-c04d-11ea-824b-a53484eade65.png)
+## 5.1 Marca y Logotipo
+
+El nombre que le asignamos a nuestra marca fue un juego de palabras entre "Pokédex" y "Pokémon Go", dando así como origen a "PokéGo Dex", que se enfoca en la recopilación de datos de Pokemones con especificaciones que necesita el jugador para ser mejor en el juego. Una vez obtenido el nombre decidimos realizar un imagotipo, donde nos inspiramos en el logo actual, para la creación de nuestra marca.
+
+Para el fondo decidimos utilizar un fondo azul en degrade con estrellas, simulando el cielo estrellado del logo Pokémon Go, además cambiamos el color de la pokébola roja a una amarilla llamada Ultraball, la que es utilizada para atrapar pokemones con mayor dificultad, es por ello, que la utilizamos debido a que apuntamos a usuarios de un nivel intermedio-alto.
+
+![readme-7](https://drive.google.com/file/d/1RIcvA3CfOR20FHC75kSJAKnBpNLCM1kt/view)
+
+***
+
+## 5.2 Primeros bocetos / Brainstorming
 
 Antes de comenzar con los primeros sketches de nuestra página, realizamos una observación e inmersión directa con el usuario, para así poder definir su perfil, infografía y moodboard, donde el formulario y los estudios de mercado realizados nos ayudaron a obtener datos de cómo se debería ver nuestra aplicación.
 
 En este proceso de ideación comenzamos primero con bocetos en papel como brainstorm para así determinar posibles contenidos, flujos y ubicación de los elementos.
+
+![readme5](https://user-images.githubusercontent.com/66659886/86813060-b6cb1a00-c04d-11ea-824b-a53484eade65.png)
 
 Finalmente, ya definidos los conceptos claves de cómo se vería nuestra página comenzamos la marcha hacia nuestro prototipado de baja fidelidad.
 
@@ -189,15 +200,15 @@ Finalmente, ya definidos los conceptos claves de cómo se vería nuestra página
 
 ## 5.2 Prototipos de baja fidelidad
 
-![readme6](https://user-images.githubusercontent.com/66659886/86813072-b92d7400-c04d-11ea-8707-0c512e8aa83f.png)
-
 Una vez realizado el brainstorm recogimos la información más importante y comenzamos a plasmarla en un programa de diseño, en este caso Illustrator, en donde esbozamos diferentes propuestas para cada página, implementando aspectos del sistema sin entrar en detalles. 
 
-Luego de haber seleccionado nuestra guía a seguir realizamos el flujo que debería tomar nuestro prototipo de baja fidelidad (low-fi) respondiendo así a las historias de usuario. Comenzando con un registro (log in) en donde el jugador de pokémon go, puede elegir si ingresar con su cuenta oficial o su nombre, lo que lo llevará a nuestra página principal donde el usuario se encontrará con todos los pokemones y sus especificaciones, donde para poder interactuar con cada uno podrá elegir diferentes caminos, como utilizar el buscador, los filtros o navegar por la pagina hasta encontrar su pokémon, también añadimos una sección de favoritos para que así el usuario pueda guardar libremente esos pokemones que más le gusten, ya sea para combate o colección.
+Luego de haber seleccionado nuestra guía a seguir realizamos el flujo que debería tomar nuestro prototipo de baja fidelidad (low-fi) respondiendo así a las historias de usuario. Comenzando con un registro (log in) en donde el jugador de pokémon go, puede elegir si ingresar con su cuenta oficial o su nombre, lo que lo llevará a nuestra página principal donde el usuario se encontrará con todos los Pokémones y sus especificaciones, donde para poder interactuar con cada uno podrá elegir diferentes caminos, como utilizar el buscador, los filtros o navegar por la pagina hasta encontrar su pokémon, también añadimos una sección de favoritos para que así el usuario pueda guardar libremente esos Pokémones que más le gusten, ya sea para combate o colección.
 
 Para que este flujo se viera reflejado con movimiento lo llevamos a la herramienta InVision, programa que nos ayudó al diseño general de interface, la evaluación de múltiples conceptos del diseño y a realizar los testeos pertinentes para seguir avanzando. 
 
-Enlace de Prototipo de Baja Fidelidad InVision: https://iara298869.invisionapp.com/public/share/ST17XCJ9QW#/screens/478953585
+**Enlace de Prototipo de Baja Fidelidad InVision:** https://iara298869.invisionapp.com/public/share/ST17XCJ9QW#/screens/478953585
+
+![readme6](https://user-images.githubusercontent.com/66659886/86813072-b92d7400-c04d-11ea-8707-0c512e8aa83f.png)
 
 ## 5.2.1 Testeo de Prototipo de Baja Fidelidad
 
@@ -221,31 +232,33 @@ Enlace de Prototipo de Baja Fidelidad InVision: https://iara298869.invisionapp.c
 * Usuario entiende y aprueba tres filtros de Pokémon, por generación, por tipo y por generación (cantidad de huevos para evolucionar).
 * Lapras es un elemento interesante para la página.
 
-## 5.3 Marca
+***
 
-## 5.4 Prototipo de alta fidelidad
+## 5.3 Prototipo de alta fidelidad
+
 Con los feedback obtenidos por parte de los usuarios en la etapa anterior, decidimos tomar acciones que nos llevaran a seguir acercándonos a la solución que encaje en las necesidades y deseos del usuario. 
 
-Primero realizamos un moodboard para obtener la paleta de colores de nuestra página, inspirandonos en la naturaleza y paisajes donde se encuentran los animales de nuestro mundo, enfocándonos también en la aplicación de pokemon go, como su logo y tonalidades de su interfaz, para así obtener el complemento perfecto con el juego.
+Primero realizamos un moodboard para obtener la paleta de colores de nuestra página, inspirandonos en la naturaleza y paisajes donde se encuentran los animales de nuestro mundo, enfocándonos también en la aplicación de Pokémon go, como su logo y tonalidades de su interfaz, para así obtener el complemento perfecto con el juego.
 
-## Moodboard. Paleta cromática. Inspiración
-![readme7](https://user-images.githubusercontent.com/66659886/86813080-baf73780-c04d-11ea-96f7-fb2bcae75f80.png)
+![readme-15](https://drive.google.com/file/d/1nc0NLQLL2m1WZm7Y-ntXoYLlYSO8iH1s/view?usp=sharing)
 
-PokéGo Dex al estar enfocada como una complemento de la app Pokémon Go y no como una asociación original, no contará exactamente con los mismos colores o tipografía. Para nuestra página decidimos utilizar una paleta de azules y verdes (#001F75, #557AAF, #9AC4BA9AC4BA) que engloban nuestro moodboard e inspiración del juego, y también utilizamos una paleta de rosados y morados (#A395B7,#D5A0B8) para asemejar la pokedex de pokemon go para nuestra sección de favoritos, como tipografía utilizamos Encode Sans Expanded para los títulos y Montserrat Regular para el contenido.
+PokéGo Dex al estar enfocada como una complemento de la app Pokémon Go y no como una asociación original, no contará exactamente con los mismos colores o tipografía. Para nuestra página decidimos utilizar una paleta de azules y verdes (#001F75, #557AAF, #9AC4BA9AC4BA) que engloban nuestro moodboard e inspiración del juego, y también utilizamos una paleta de rosados y morados (#A395B7,#D5A0B8) para asemejar la pokedex de Pokémon go para nuestra sección de favoritos, como tipografía utilizamos Encode Sans Expanded para los títulos y Montserrat Regular para el contenido.
 
 Al igual que con el prototipo de baja fidelidad incorporamos las propuestas a Illustrator para así ir acotando la información que íbamos a utilizar para llevar nuestro prototipo de alta fidelidad.
 
 Para imitar el aspecto de nuestro prototipo y ver el comportamiento de nuestra  interfaz utilizamos la herramiento Figma, donde añadimos los colores, iconos, tipografía y lo que queríamos que realizará nuestro usuario como objetivos. 
-Enlace de Prototipo de Alta Fidelidad Figma: https://www.figma.com/proto/66SnQRSfL2KGvUAbGCsEbk/Untitled?node-id=2%3A14&scaling=min-zoom
 
-## 5.4.1 Testeo de Prototipo de Alta Fidelidad
+**Enlace de Prototipo de Alta Fidelidad Figma:** https://www.figma.com/proto/66SnQRSfL2KGvUAbGCsEbk/Untitled?node-id=2%3A14&scaling=min-zoom
+
+## 5.3.1 Testeo de Prototipo de Alta Fidelidad
 
 ![readme8](https://user-images.githubusercontent.com/66659886/86813091-bcc0fb00-c04d-11ea-9590-cb74c3aa7a79.png)
 
 A diferencia del testeo anterior, esta vez quisimos testear otras funciones, como ver el modo en el que el usuario se movía por la página para así revisar que le hiciera sentido la interfaz, además de evaluar el contenido de las tarjetas, los filtros y la sección de favoritos. Para ello, utilizamos Maze, donde testeamos con 9 usuarios el prototipo de alta fidelidad. 
 
 **Enlace de Maze:** https://maze.design/preview/mazes/13844573
-En ella les entregamos diferentes misiones al usuario, la primera era que de qué modo ingresarían a la página, si lo harían directamente con su cuenta de Pokemon Go u otra, donde 8 ingreso con su cuenta y 1 con otra.
+
+En ella les entregamos diferentes misiones al usuario, la primera era que de qué modo ingresarían a la página, si lo harían directamente con su cuenta de Pokémon Go u otra, donde 8 ingreso con su cuenta y 1 con otra.
 
 La segunda tarea era que abrieran una de las tarjetas de pokémon, donde los 9 supieron cómo abrir una y así ver toda la información. La tercera misión era seleccionar un filtro, donde los 9 usuarios se inclinaron por presionar el de tipos. Luego, se les entregó la tarea de revisar la sección de actualizaciones y favoritos, donde todos lograron completar las tareas.
 
@@ -275,10 +288,20 @@ En base a un extenso proceso de investigación con usuarios reales de Pokémon G
 
 ***
 
-# 7. Conclusión
+# 7. Anexos Complementarios
 
-# 8. Anexos Complementarios
+***
 
-# 9. Enlaces
+# 8. Enlaces
+
+**Invision:** https://iara298869.invisionapp.com/public/share/ST17XCJ9QW#/screens/478953585
+
+**Figma:** https://iara298869.invisionapp.com/public/share/ST17XCJ9QW#/screens/478953585
+
+**Maze:** https://maze.design/preview/mazes/13844573
+
+**Proceso fotográfico:** https://drive.google.com/drive/folders/1iJdPxjQc2Sr2AE5byGKMmZXohADoz0CY
 
 **Trello:** https://trello.com/b/3fWFhJC9/datalovers
+
+
