@@ -1,4 +1,4 @@
-//exportando las función de filtar por caramelos
+///EXPORTANDO las función de filtar por caramelos///
 //se fijan los parámetros de la función
 export const filterCandy = (data, property, selectCandy) => {
     ///se declara una constante tipo array
@@ -23,7 +23,7 @@ export const filterCandy = (data, property, selectCandy) => {
   
   
   
-  /////exportando las función de filtar por generacion
+  ///EXPORTANDO las función de filtar por generacion (ESTO NO FUNCIONA)///
   export const generation = (data, property, generation) => {
     const resultado = [];
     for (let i = 0; i < data.length; i++) {
@@ -40,7 +40,7 @@ export const filterCandy = (data, property, selectCandy) => {
     return resultado
   };
   
-  /////exportando las función de filtar por tipo
+  ///EXPORTANDO las función de filtar por tipo///
   export const filterType = (data, property, selectType) => {
     const resultado = [];
     for (let i = 0; i < data.length; i++) {
@@ -56,12 +56,12 @@ export const filterCandy = (data, property, selectCandy) => {
   };
   
   
-  // exportando la función buscar por nombre de pokémon
-
-  export const filterSearch = (data,text) =>{
+  ///EXPORTANDO la función buscar por nombre de pokémon///
+  export const filterSearch = (data,searchBox) =>{
     const search = data.filter((element) => {
-      return element.name.includes(text);
+      return element.name.includes(searchBox);
     });
+console.log(search)
     return search;
   }
  
