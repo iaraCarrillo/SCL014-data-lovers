@@ -1,6 +1,27 @@
 # POKÉGO DEX
 
-**Encargo:** Construir una página web complementaria al juego Pokémon GO que visualice un conjunto de datos y estadísticas que se adecúe a las necesidades del entrenador. 
+## Índice
+* [1. Encargo del proyecto](#1-Descubrimiento-e-investigación)
+* [2. Introducción](#1-Descubrimiento-e-investigación)
+* [3. Investigación Contextual Pokémon Go](#1-Descubrimiento-e-investigación)
+* [4. Usuarios](#2-síntasis-y-definición)
+* [3. Proceso de diseño ](#3-ideación)
+* [3.1 Primeros Bocetos/Brainstorming ](#3-ideación)
+* [3.2 Prototipo de Baja Fidelidad ](#3-ideación)
+* [3.2.1 Testeo de Prototipo de Baja Fidelidad ](#3-ideación)
+* [3.3 Marca ](#3-ideación)
+* [3.4 Prototipo de Alta Fidelidad](#3-ideación)
+* [3.4.1 Testeo de Prototipo de Alta Fidelidad ](#3-ideación)
+* [4. Presentación del producto PokéGo Dex](#4-prototipado-user-testing)
+* [5. Conclusión](#5-presentación-del-producto-pokégo-dex)
+* [6. Anexos Complementarios](#6-aplicación-y-anexos-complementarios)
+* [7. Enlaces](#6-aplicación-y-anexos-complementarios)
+
+
+***
+# Encargo del Proyecto
+
+Construir una página web complementaria al juego Pokémon GO que visualice un conjunto de datos y estadísticas que se adecúe a las necesidades del entrenador. 
 
 **Data proporcionada:** Lista con los 251 Pokémon de la región de Kanto y Johto, junto con sus respectivas estadísticas usadas en el juego Pokémon GO.
 
@@ -12,20 +33,12 @@
 
 ***
 
-## Índice
+# Introducción
 
-* [1. Descubrimiento e investigación](#1-Descubrimiento-e-investigación)
-* [2. Síntesis y definición](#2-síntasis-y-definición)
-* [3. Ideación ](#3-ideación)
-* [4. Prototipado / User testing](#4-prototipado-user-testing)
-* [5. Presentación del producto PokéGo Dex](#5-presentación-del-producto-pokégo-dex)
-* [6. Aplicación y anexos complementarios](#6-aplicación-y-anexos-complementarios)
+Los juegos nos pueden llevar a otro mundo, sacarnos de la vida cotidiana y la rutina, nos riven para entrenernos, resolver desafíos y entablar amistades.  La recreación siempre a estado presente en la historia y en nuestras vidas, desde los juegos deportivos hasta los primeros videojuegos en consola, conociendo con este último otro tipo de entretenimiento y deporte. 
 
+En este proyecto hablaremos de un videojuego en particular: "Pokémon go!", que nace de juegos como Pokémon Rojo para gameboy y/o Pokémon X para Nintendo 3DS, pero Pokémon Go llega a revolucionar el mundo del entretenimiento, utilizando tecnología de realidad aumentada, basada en la localización para celulares, llevando a los jugadores a explorar las calles de su ciudad para descubrir y atrapar a todos los pokemones
 
-***
-
-
-# Proceso de diseño
 Durante este proyecto utilizamos diferentes herramientas para llegar a nuestro producto, donde en cada etapa del proceso exploramos junto con el usuario lo que precisa, anhela y necesita para para resolver sus necesidades, para hacerlo utilizamos la metodología Design Thinking, donde por medio de la empatía, ideación, prototipos y testeos pudimos obtener un diseño final.
 
 ## El proceso constó de 5 fases principales:
