@@ -1,21 +1,21 @@
 # POKÉGO DEX
 
 ## Índice
-* [1. Encargo del proyecto](#1-Descubrimiento-e-investigación)
-* [2. Introducción](#1-Descubrimiento-e-investigación)
-* [3. Investigación Contextual Pokémon Go](#1-Descubrimiento-e-investigación)
-* [4. Usuarios](#2-síntasis-y-definición)
-   * [4.1 Historias de Usuarios](#2-síntasis-y-definición)
-* [5. Proceso de diseño ](#3-ideación)
-   * [5.1 Marca y Logotipo ](#3-ideación)
-   * [5.2 Primeros Bocetos/Brainstorming ](#3-ideación)
-   * [5.3 Prototipo de Baja Fidelidad ](#3-ideación)
-     * [5.3.1 Testeo de Prototipo de Baja Fidelidad ](#3-ideación)
-   * [5.4 Prototipo de Alta Fidelidad](#3-ideación)
-     * [5.4.1 Testeo de Prototipo de Alta Fidelidad ](#3-ideación)
-* [6. Presentación del producto final: PokéGo Dex](#4-prototipado-user-testing)
-* [7. Anexos Complementarios](#6-aplicación-y-anexos-complementarios)
-* [8. Enlaces](#6-aplicación-y-anexos-complementarios)
+* [1. Encargo del proyecto](#1-Encargo-del-proyecto)
+* [2. Introducción](#2-Introducción)
+* [3. Investigación Contextual Pokémon Go](#3-Investigación-Contextual-Pokémon-Go)
+* [4. Usuarios](#4-Usuarios)
+   * [4.1 Historias de Usuarios](#4.1-Historias-de-Usuarios)
+* [5. Proceso de diseño](#5-Proceso-de-diseño)
+   * [5.1 Marca y Logotipo](#5.1-Marca-y-Logotipo)
+   * [5.2 Primeros Bocetos/Brainstorming](#5.2-Primeros-Bocetos-/-Brainstorming)
+   * [5.3 Prototipo de Baja Fidelidad](#5.3-Prototipado-de-baja-fidelidad)
+     * [5.3.1 Testeo de Prototipo de Baja Fidelidad](#5.3.1-testeo-de-prototipo-de-baja-fidelidad)
+   * [5.4 Prototipo de Alta Fidelidad](#5.4-prototipado-de-alta-fidelidad)
+     * [5.4.1 Testeo de Prototipo de Alta Fidelidad ](#5.4.1-testeo-de-prototipo-de-alta-fidelidad)
+* [6. Presentación del producto final: PokéGo Dex](#6-presentación-del-producto-final-pokégo-dex)
+* [7. Anexos Complementarios](#7-anexos-complementarios)
+* [8. Enlaces](#8-enlaces)
 
 
 ***
@@ -182,7 +182,7 @@ El nombre que le asignamos a nuestra marca fue un juego de palabras entre "Poké
 
 Para el fondo decidimos utilizar un fondo azul en degrade con estrellas, simulando el cielo estrellado del logo Pokémon Go, además cambiamos el color de la pokébola roja a una amarilla llamada Ultraball, la que es utilizada para atrapar pokemones con mayor dificultad, es por ello, que la utilizamos debido a que apuntamos a usuarios de un nivel intermedio-alto.
 
-![readme-7](https://drive.google.com/file/d/1RIcvA3CfOR20FHC75kSJAKnBpNLCM1kt/view)
+![readme-7](https://user-images.githubusercontent.com/66659886/87488213-cc23e380-c60d-11ea-8664-cc7b14149496.jpg)
 
 ***
 
@@ -240,7 +240,7 @@ Con los feedback obtenidos por parte de los usuarios en la etapa anterior, decid
 
 Primero realizamos un moodboard para obtener la paleta de colores de nuestra página, inspirandonos en la naturaleza y paisajes donde se encuentran los animales de nuestro mundo, enfocándonos también en la aplicación de Pokémon go, como su logo y tonalidades de su interfaz, para así obtener el complemento perfecto con el juego.
 
-![readme-15](https://drive.google.com/file/d/1nc0NLQLL2m1WZm7Y-ntXoYLlYSO8iH1s/view?usp=sharing)
+![readme-15](https://user-images.githubusercontent.com/66659886/87488225-d0e89780-c60d-11ea-86c4-07e170022e44.jpg)
 
 PokéGo Dex al estar enfocada como una complemento de la app Pokémon Go y no como una asociación original, no contará exactamente con los mismos colores o tipografía. Para nuestra página decidimos utilizar una paleta de azules y verdes (#001F75, #557AAF, #9AC4BA9AC4BA) que engloban nuestro moodboard e inspiración del juego, y también utilizamos una paleta de rosados y morados (#A395B7,#D5A0B8) para asemejar la pokedex de Pokémon go para nuestra sección de favoritos, como tipografía utilizamos Encode Sans Expanded para los títulos y Montserrat Regular para el contenido.
 
@@ -252,8 +252,6 @@ Para imitar el aspecto de nuestro prototipo y ver el comportamiento de nuestra  
 
 ## 5.3.1 Testeo de Prototipo de Alta Fidelidad
 
-![readme8](https://user-images.githubusercontent.com/66659886/86813091-bcc0fb00-c04d-11ea-9590-cb74c3aa7a79.png)
-
 A diferencia del testeo anterior, esta vez quisimos testear otras funciones, como ver el modo en el que el usuario se movía por la página para así revisar que le hiciera sentido la interfaz, además de evaluar el contenido de las tarjetas, los filtros y la sección de favoritos. Para ello, utilizamos Maze, donde testeamos con 9 usuarios el prototipo de alta fidelidad. 
 
 **Enlace de Maze:** https://maze.design/preview/mazes/13844573
@@ -263,6 +261,8 @@ En ella les entregamos diferentes misiones al usuario, la primera era que de qu�
 La segunda tarea era que abrieran una de las tarjetas de pokémon, donde los 9 supieron cómo abrir una y así ver toda la información. La tercera misión era seleccionar un filtro, donde los 9 usuarios se inclinaron por presionar el de tipos. Luego, se les entregó la tarea de revisar la sección de actualizaciones y favoritos, donde todos lograron completar las tareas.
 
 Como sexta misión, queríamos comprobar si el usuario relacionaba el logo con volver a inicio o si lo hacía por medio de la estrella como o había hecho anteriormente para ingresar, donde 2 usuarios apretaron la estrella y 5 el logo.
+
+![readme8](https://user-images.githubusercontent.com/66659886/86813091-bcc0fb00-c04d-11ea-9590-cb74c3aa7a79.png)
 
 Finalmente, le hicimos una serie de preguntas a los usuarios para saber si les ayudaban los filtros, las tarjetas y la sección de favoritos para ser mejores jugadores.
 

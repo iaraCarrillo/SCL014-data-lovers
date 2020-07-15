@@ -3,6 +3,9 @@
     padding: 0; 
 }
 
+*{font-family: Encode Sans Expanded;
+}
+
 /*Log in*/
 .index {
 background-image: url("images/backgroundLog.png");
@@ -64,10 +67,9 @@ background-color: #015B81;
 }
 
 #botonGo a {
-font-family: 'Montserrat', sans-serif;
 font-style: normal;
 font-weight: bold;
-font-size: 26px;
+font-size: 24px;
 line-height: 32px;
 text-align: center;
 color: #FFFFFF;
@@ -90,7 +92,6 @@ height: 26px;
 left: 204px;
 top: 430px;
 
-font-family: 'Montserrat', sans-serif;
 font-style: normal;
 font-weight: bold;
 font-size: 19.9px;
@@ -101,12 +102,11 @@ color: #FFFFFF;
 
 .contenido input {
 position: absolute;
-cursor: pointer;
 width: 510px;
 height: 52px;
 left: 120px;
 top: 480px;
-
+font-size: 19.9px;
 background: #FFFFFF;
 mix-blend-mode: normal;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -114,11 +114,11 @@ border-radius: 20px;
 }
 
 .contenido input::placeholder {
-font-family: Montserrat;
 font-style: normal;
 font-weight: normal;
 font-size: 19.9px;
 line-height: 24px;
+padding-left: 10px;
 }
 
 .password input{
@@ -127,10 +127,10 @@ width: 510px;
 height: 52px;
 left: 120px;
 top: 550px;
+font-size:19.9px;
 }
 
 .password input::placeholder {
-font-family: Montserrat;
 font-style: normal;
 font-weight: normal;
 font-size: 19.9px;
@@ -139,6 +139,7 @@ line-height: 24px;
 
 .send input {
 position: absolute;
+cursor: pointer;
 width: 510px;
 height: 52px;
 left: 120px;
@@ -148,10 +149,9 @@ mix-blend-mode: normal;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 20px;
 color: #FFFFFF;
-font-family: 'Montserrat', sans-serif;
 font-style: normal;
 font-weight: bold;
-font-size: 26px;
+font-size: 24px;
 line-height: 32px;
 text-align: center;
 }
@@ -164,10 +164,10 @@ background-color: #015B81;
 
 .extension {
 position: absolute;
-left: 1100px;
+left: 1095px;
 top: 715px;
 
-font-family: Montserrat;
+
 font-style: normal;
 font-weight: normal;
 font-size: 12px;
@@ -215,7 +215,6 @@ font-style: normal;
 font-weight: 800;
 font-size: 50px;
 line-height: 62px;
-    
 color: #FFFFFF;
 }
 
@@ -229,10 +228,13 @@ background-color: transparent;
 border: 2px solid #FFFFFF;
 box-sizing: border-box;
 border-radius: 15px;
+color: #FFFFFF;
+font-style: bold;
+font-size: 19.9px; ;
 }
 
 .buscadorPokemon input::placeholder {
-font-family: Montserrat;
+padding-left: 10px;
 font-style: normal;
 font-weight: normal;
 font-size: 19.9px;
@@ -324,7 +326,6 @@ margin-right: 4%;
 margin-top: 12px;
 border: transparent;
 background-color: #0080B6;
-font-family: Montserrat;
 font-style: normal;
 font-weight: bold;
 font-size: 26px;
@@ -472,7 +473,6 @@ color: white;
 top:190px;
 font-size: 12px;
 margin-left: -50px;
-font-family: montserrat;
 font-style: normal;
 }
 
@@ -483,7 +483,6 @@ top: 220px;
 margin-left: -160px;
 margin-right: 170px;
 color: #0080B6;
-font-family: montserrat;
 font-style: normal;
 }
 
@@ -493,7 +492,6 @@ color: white;
 top:270px;
 font-size: 12px;
 margin-left: -50px;
-font-family: montserrat;
 font-style: normal;
 }
     
@@ -504,7 +502,6 @@ top: 300px;
 margin-left: -170px;
 margin-right: 170px;
 color: #0080B6;
-font-family: montserrat;
 font-style: normal;
 }
 
@@ -519,8 +516,8 @@ display: flex;
 justify-content:space-evenly;
 flex-wrap:wrap; 
 justify-content: center;
-padding-bottom:4%;
-padding-top: 18%;
+padding-bottom:5%;
+padding-top: 17%;
 margin-left: 70px;
 }
 
