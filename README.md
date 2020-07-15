@@ -118,7 +118,7 @@ Mejorar el nivel y captura de Pokémon en la App Pokémon Go.
 **Solución:** 
 Por medio de una aplicación web complementaria a Pokémon Go, entregar data Pokémon relevante para el jugador que aporte en su entrenamiento diario.
 
-## 4.1 Historias de usuario
+## 4.1 Historias de usuarios
 
 Gracias a los formularios y estudios realizados a los usuarios se pudieron determinar 8 necesidades que eran de importancia para desarrollar nuestra página, las que nos ayudaron para concretizar nuestro proyecto. En ellas pudimos establecer que el usuario al ser un jugador de nivel intermedio a alto, además de ser de un perfil coleccionista y competitivo, busca especificaciones en los Pokémones que los ayuden a ser mejores entrenadores, como mostrar sus debilidades, fortalezas o tipo de pokémon.
 
@@ -186,7 +186,7 @@ Para el fondo decidimos utilizar un fondo azul en degrade con estrellas, simulan
 
 ***
 
-## 5.2 Primeros bocetos / Brainstorming
+## 5.2 Primeros bocetos/Brainstorming
 
 Antes de comenzar con los primeros sketches de nuestra página, realizamos una observación e inmersión directa con el usuario, para así poder definir su perfil, infografía y moodboard, donde el formulario y los estudios de mercado realizados nos ayudaron a obtener datos de cómo se debería ver nuestra aplicación.
 
@@ -198,7 +198,7 @@ Finalmente, ya definidos los conceptos claves de cómo se vería nuestra página
 
 ***
 
-## 5.2 Prototipos de baja fidelidad
+## 5.3 Prototipo de baja fidelidad
 
 Una vez realizado el brainstorm recogimos la información más importante y comenzamos a plasmarla en un programa de diseño, en este caso Illustrator, en donde esbozamos diferentes propuestas para cada página, implementando aspectos del sistema sin entrar en detalles. 
 
@@ -210,7 +210,7 @@ Para que este flujo se viera reflejado con movimiento lo llevamos a la herramien
 
 ![readme6](https://user-images.githubusercontent.com/66659886/86813072-b92d7400-c04d-11ea-8707-0c512e8aa83f.png)
 
-## 5.2.1 Testeo de Prototipo de Baja Fidelidad
+## 5.3.1 Testeo de Prototipo de Baja Fidelidad
 
 **Estructura:**
 * Presentación del proyecto
@@ -234,7 +234,7 @@ Para que este flujo se viera reflejado con movimiento lo llevamos a la herramien
 
 ***
 
-## 5.3 Prototipo de alta fidelidad
+## 5.4 Prototipo de alta fidelidad
 
 Con los feedback obtenidos por parte de los usuarios en la etapa anterior, decidimos tomar acciones que nos llevaran a seguir acercándonos a la solución que encaje en las necesidades y deseos del usuario. 
 
@@ -250,7 +250,7 @@ Para imitar el aspecto de nuestro prototipo y ver el comportamiento de nuestra  
 
 **Enlace de Prototipo de Alta Fidelidad Figma:** https://www.figma.com/proto/66SnQRSfL2KGvUAbGCsEbk/Untitled?node-id=2%3A14&scaling=min-zoom
 
-## 5.3.1 Testeo de Prototipo de Alta Fidelidad
+## 5.4.1 Testeo de Prototipo de Alta Fidelidad
 
 A diferencia del testeo anterior, esta vez quisimos testear otras funciones, como ver el modo en el que el usuario se movía por la página para así revisar que le hiciera sentido la interfaz, además de evaluar el contenido de las tarjetas, los filtros y la sección de favoritos. Para ello, utilizamos Maze, donde testeamos con 9 usuarios el prototipo de alta fidelidad. 
 
@@ -289,7 +289,7 @@ En base a un extenso proceso de investigación con usuarios reales de Pokémon G
 ***
 
 # 7. Anexos Complementarios
-
+![readme16](https://user-images.githubusercontent.com/66659886/87491613-9a634a80-c616-11ea-929a-3bec05685ad0.jpg)
 ***
 
 # 8. Enlaces
