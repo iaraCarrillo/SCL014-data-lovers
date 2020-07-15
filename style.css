@@ -283,21 +283,27 @@ z-index: 1;
 }
 
 .valoracion button {
-    background-color: initial;
-    border: 0;
-    color: var(--color-inactivo);
-    transition: 1s all;
+  background-color: initial;
+  border: 0;
+  transition: 1s all;
+}
+
+.valoracion button a {
+  text-decoration: none;
+  color: var(--color-inactivo);
 }
 
 .valoracion button label {
-    font-size: 50px;
-     
+  font-size: 50px;
 } 
 
 .valoracion button:hover {
-    cursor: pointer;
-    color: var(--color-hover);
-    transform: rotate(360deg);
+  cursor: pointer;
+  transform: rotate(360deg);
+}
+
+.valoracion button a:hover {
+  color: var(--color-hover);
 }
 
 button:nth-child(1):hover ~ button { /*Cambian de color la etiqueda precedida (~) por aquella que que tiene el ratón encima (hover)*/
@@ -522,6 +528,7 @@ margin-left: 70px;
 }
 
 #tarjetas {    
+cursor: pointer;
 float: left;
 width: 175px;
 height: 85px;
