@@ -5,7 +5,7 @@ import { filterCandy, filterGeneration, filterType, filterSearch} from './data.j
 //Se convierte el objeto pokemon en un array
 const dataPokemon = basePokemon.pokemon;
 //crear otra constante de data Pokémon
-//const dataGeneration = basePokemon.filter('pokemon' => ('generation.name'));
+//const dataGeneration = basePokemon.filter('pokemon' => 'pokemon.generation.name' === "kanto";
 
 ///IMPRIMIR TARJETAS en Contenedor (root)///
 //Se crean constantes que contienen información del atributo ID, donde se va a imprimir html por medio de Javascript
@@ -290,13 +290,13 @@ const typeGeneration = document.getElementById("generation");
 typeGeneration.addEventListener("change", () => {
   let selectGeneration = typeGeneration.options[typeGeneration.selectedIndex].value
   container.innerHTML = "";
-  let positionGeneration = filterGeneration(dataGeneration, 'generation.name', selectGeneration);
+  let positionGeneration = filterGeneration(dataPokemon, selectGeneration);
   console.log(positionGeneration)
   for (let i = 0; i < positionGeneration.length; i++) {
     let nameByGeneration = positionGeneration[i].name
     let numByGeneration = positionGeneration[i].num
     let imgByGeneration = positionGeneration[i].img
-    let prinType = `
+    let printGeneration = `
     <section id="tarjetas">
       <div class="starTarjeta">
         <button>
@@ -308,12 +308,11 @@ typeGeneration.addEventListener("change", () => {
           <p>${numByGeneration}.${nameByGeneration}<p> 
       </div>
     </section>`
-  container.innerHTML += `${prinType}`
+  container.innerHTML += `${printGeneration}`
   }
   for (let i = 0; i < foto.length; i++) {
     let img = foto[i];
     img.addEventListener('click', modalImpri)
   modalImpri
-  console.log(count)
   }
 });

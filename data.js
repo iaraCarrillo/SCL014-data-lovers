@@ -21,18 +21,10 @@ export const filterCandy = (data, property, selectCandy) => {
     return resultado
   };
   
-  
-  
   ///EXPORTANDO las función de filtrar por generacion///
-  export const filterGeneration = (data, property, selectGeneration) => {
-    const resultado = [];
-    for (let i = 0; i < data.length; i++) {
-      for (let a = 0; a < data[i][property].length; a++) {
-        if (data[i][property][a] === selectGeneration) {
-          resultado.push(data[i])
-        }
-      }
-    }
+  export const filterGeneration = (data, selectGeneration) => {
+    console.log(selectGeneration);
+    const resultado = data.filter(pokemon => pokemon.generation.name === selectGeneration);
    // console.log(resultado)
     return resultado
   };
