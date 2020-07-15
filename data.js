@@ -23,15 +23,12 @@ export const filterCandy = (data, property, selectCandy) => {
   
   
   
-  ///EXPORTANDO las función de filtar por generacion (ESTO NO FUNCIONA)///
-  export const generation = (data, property, generation) => {
+  ///EXPORTANDO las función de filtrar por generacion///
+  export const filterGeneration = (data, property, selectGeneration) => {
     const resultado = [];
     for (let i = 0; i < data.length; i++) {
-      // let dataType = data[i].type;
-      //console.log (dataType);
       for (let a = 0; a < data[i][property].length; a++) {
-        //console.log ("hola",dataType[d]);
-        if (data[i][property][a] === generation) {
+        if (data[i][property][a] === selectGeneration) {
           resultado.push(data[i])
         }
       }
