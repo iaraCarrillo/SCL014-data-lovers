@@ -1,9 +1,11 @@
 //Se impora (llama) la data a main.js
 import basePokemon from './data/pokemon/pokemon.js';
 //Se importan las funciones (Filtros) que se encuentran ubicados en data.js a main.js
-import { filterCandy, generation, filterType, filterSearch} from './data.js'
+import { filterCandy, filterGeneration, filterType, filterSearch} from './data.js'
 //Se convierte el objeto pokemon en un array
 const dataPokemon = basePokemon.pokemon;
+//crear otra constante de data Pokémon
+//const dataGeneration = basePokemon.filter('pokemon' => ('generation.name'));
 
 ///IMPRIMIR TARJETAS en Contenedor (root)///
 //Se crean constantes que contienen información del atributo ID, donde se va a imprimir html por medio de Javascript
@@ -202,10 +204,10 @@ typeUser.addEventListener("change", () => {
   container.innerHTML = "";
   //variable que almacena la función filtar por tipo exportada desde data.js con sus parámetros
   let positionType = filterType(dataPokemon, 'type', selectType);
-  let count = 0;
+//  let count = 0;
   //for que recorrerá el largo de la data
   for (let i = 0; i < positionType.length; i++) {
-    count++;
+//  count++;
     let nameByType = positionType[i].name
     let numByType = positionType[i].num
     let imgByType = positionType[i].img
@@ -226,7 +228,7 @@ typeUser.addEventListener("change", () => {
       </div>
     </section>`
     //se imprime llamando a la nueva variable según lo especificado en la variable anterior
-    container.innerHTML += `<p>${prinType}<p>`
+    container.innerHTML += `${prinType}`
   }
   //For que recorre la clase foto de mi linea de impresión
   for (let i = 0; i < foto.length; i++) {
@@ -270,7 +272,7 @@ document.getElementById('okBtn').addEventListener('click', () => {
       </div>
     </section>`
     //se imprime llamando a la nueva variable según lo especificado en la variable anterior
-    container.innerHTML += `<p>${printName}<p>`
+    container.innerHTML += `${printName}`
   }
   console.log(foto)
   //For que recorre la clase  foto de mi linea de impresión
@@ -281,4 +283,37 @@ document.getElementById('okBtn').addEventListener('click', () => {
   }
   //se trae la función modal
   modalImpri
+});
+
+//FILTRO GENERACIÓN
+const typeGeneration = document.getElementById("generation");
+typeGeneration.addEventListener("change", () => {
+  let selectGeneration = typeGeneration.options[typeGeneration.selectedIndex].value
+  container.innerHTML = "";
+  let positionGeneration = filterGeneration(dataGeneration, 'generation.name', selectGeneration);
+  console.log(positionGeneration)
+  for (let i = 0; i < positionGeneration.length; i++) {
+    let nameByGeneration = positionGeneration[i].name
+    let numByGeneration = positionGeneration[i].num
+    let imgByGeneration = positionGeneration[i].img
+    let prinType = `
+    <section id="tarjetas">
+      <div class="starTarjeta">
+        <button>
+          <label for="radio2">★</label>
+        </button>
+      </div>
+      <img id="${nameByGeneration}" src=${imgByGeneration} class=foto>
+      <div class="infoPokemon">
+          <p>${numByGeneration}.${nameByGeneration}<p> 
+      </div>
+    </section>`
+  container.innerHTML += `${prinType}`
+  }
+  for (let i = 0; i < foto.length; i++) {
+    let img = foto[i];
+    img.addEventListener('click', modalImpri)
+  modalImpri
+  console.log(count)
+  }
 });
