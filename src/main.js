@@ -1,7 +1,7 @@
 //Se impora (llama) la data a main.js
 import basePokemon from './data/pokemon/pokemon.js';
 //Se importan las funciones (Filtros) que se encuentran ubicados en data.js a main.js
-import { filterCandy, generation, filterType, filterSearch} from './data.js'
+import { filterCandy, filterGeneration, filterType, filterSearch} from './data.js'
 //Se convierte el objeto pokemon en un array
 const dataPokemon = basePokemon.pokemon;
 
@@ -281,4 +281,36 @@ document.getElementById('okBtn').addEventListener('click', () => {
   }
   //se trae la función modal
   modalImpri
+});
+
+//FILTRO GENERACIÓN
+const typeGeneration = document.getElementById("generation");
+typeGeneration.addEventListener("change", () => {
+  let selectGeneration = typeGeneration.options[typeGeneration.selectedIndex].value
+  container.innerHTML = "";
+  let positionGeneration = filterGeneration(dataPokemon, selectGeneration);
+  console.log(positionGeneration)
+  for (let i = 0; i < positionGeneration.length; i++) {
+    let nameByGeneration = positionGeneration[i].name
+    let numByGeneration = positionGeneration[i].num
+    let imgByGeneration = positionGeneration[i].img
+    let printGeneration = `
+    <section id="tarjetas">
+      <div class="starTarjeta">
+        <button>
+          <label for="radio2">★</label>
+        </button>
+      </div>
+      <img id="${nameByGeneration}" src=${imgByGeneration} class=foto>
+      <div class="infoPokemon">
+          <p>${numByGeneration}.${nameByGeneration}<p> 
+      </div>
+    </section>`
+  container.innerHTML += `${printGeneration}`
+  }
+  for (let i = 0; i < foto.length; i++) {
+    let img = foto[i];
+    img.addEventListener('click', modalImpri)
+  modalImpri
+  }
 });
