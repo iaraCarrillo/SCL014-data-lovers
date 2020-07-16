@@ -329,7 +329,7 @@ float: right;
 margin-right: 4%;
 margin-top: 12px;
 border: transparent;
-background-color: #0080B6;
+background-color:transparent;
 font-style: normal;
 font-weight: bold;
 font-size: 26px;
@@ -595,11 +595,15 @@ font-size: 30px;
 float: left;
 margin-left: 180px;
 margin-top: -50px;
+cursor: pointer;
 } 
 
 .starTarjeta button:hover {
-cursor: pointer;
 color: var(--color-hover);
+}
+
+label {
+  cursor: pointer;
 }
 
 /* MODAL */
@@ -727,9 +731,13 @@ color: var(--color-hover);
   }
 
 /* Footer*/
+.fondoPrincipal {
+  background-color: #0080B6;
+}
+
   .footer-distributed {
     top: 500px;
-    background-color: #0080B6;
+    
     box-sizing: border-box;
     width: 100%;
     font: normal 16px sans-serif;
@@ -794,7 +802,7 @@ color: var(--color-hover);
   .footer-icon {
     width: 35px;
     height: 35px;
-    margin-right: -40px;
+    padding-right: -100px;
     padding-left: 50px;
   }
 
@@ -841,6 +849,21 @@ color: var(--color-hover);
     background: #8E90B9;
     }
 
+ .fondoFavoritos {
+  background: #8E90B9;
+ }
+
+.actualizacionesFavoritos label{
+  background: #8E90B9;
+}
+
+.maqueta img{
+  width: 94%;
+  margin-top: 230px;
+  margin-left: 80px;
+  margin-bottom: -190px;
+}
+ 
   /* Media Queries footer */
   
   @media (max-width: 600px) {
