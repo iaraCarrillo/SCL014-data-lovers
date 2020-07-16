@@ -4,6 +4,8 @@ import basePokemon from './data/pokemon/pokemon.js';
 import { filterCandy, filterGeneration, filterType, filterSearch} from './data.js'
 //Se convierte el objeto pokemon en un array
 const dataPokemon = basePokemon.pokemon;
+//crear otra constante de data Pokémon
+//const dataGeneration = basePokemon.filter('pokemon' => 'pokemon.generation.name' === "kanto";
 
 ///IMPRIMIR TARJETAS en Contenedor (root)///
 //Se crean constantes que contienen información del atributo ID, donde se va a imprimir html por medio de Javascript
@@ -202,10 +204,10 @@ typeUser.addEventListener("change", () => {
   container.innerHTML = "";
   //variable que almacena la función filtar por tipo exportada desde data.js con sus parámetros
   let positionType = filterType(dataPokemon, 'type', selectType);
-  let count = 0;
+//  let count = 0;
   //for que recorrerá el largo de la data
   for (let i = 0; i < positionType.length; i++) {
-    count++;
+//  count++;
     let nameByType = positionType[i].name
     let numByType = positionType[i].num
     let imgByType = positionType[i].img
@@ -226,7 +228,7 @@ typeUser.addEventListener("change", () => {
       </div>
     </section>`
     //se imprime llamando a la nueva variable según lo especificado en la variable anterior
-    container.innerHTML += `<p>${prinType}<p>`
+    container.innerHTML += `${prinType}`
   }
   //For que recorre la clase foto de mi linea de impresión
   for (let i = 0; i < foto.length; i++) {
@@ -270,7 +272,7 @@ document.getElementById('okBtn').addEventListener('click', () => {
       </div>
     </section>`
     //se imprime llamando a la nueva variable según lo especificado en la variable anterior
-    container.innerHTML += `<p>${printName}<p>`
+    container.innerHTML += `${printName}`
   }
   console.log(foto)
   //For que recorre la clase  foto de mi linea de impresión
