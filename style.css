@@ -1,25 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded:wght@300;500;700;800&display=swap");
+
 *{
     margin: 0;
     padding: 0; 
 }
 
-*{font-family: Encode Sans Expanded;
+/*Log in*/
+.containerIndex {
+font-family:'Encode Sans Expanded', sans-serif;
+width: 750px;
+height: 100%;
 }
 
-/*Log in*/
-.index {
-background-image: url("images/backgroundLog.png");
+#fondo {
 background-position: center;
 background-attachment: fixed;
 background-size: cover;
 background-repeat: no-repeat;
-height: 100%;
+width: 1600px;
 }
 
 .contenido {
 position: absolute;
-width: 750px;
-height: 100%;
+width: 800px;
+height: 900px;
 left: 0px;
 top: 0px;
 background: linear-gradient(180deg, #0080B6 0%, rgba(160, 207, 196, 0.53) 100%);
@@ -28,26 +32,25 @@ mix-blend-mode: normal;
 
 #logo {
 position: absolute;
-width: 154px;
-height: 154px;
+width: 140px;
+height: 140px;
 left: 298px;
 top: 80px;
 }
 
 .contenido h1 {
 position: absolute;
-width: 311px;
+width: 400px;
 height: 44px;
-left: 220px;
-top: 265px;
-    
-font-family: Encode Sans Expanded;
+left: 210px;
+top: 240px;
+font-family: Encode Sans Semi Expanded;
 font-style: normal;
-font-weight: bold;
-font-size: 41.17px;
-line-height: 51px;
-    
+font-weight: 800;
+font-size: 46px;
+line-height: 62px;
 color: #FFFFFF;
+
 }
 
 #botonGo {
@@ -67,7 +70,6 @@ background-color: #015B81;
 }
 
 #botonGo a {
-font-style: normal;
 font-weight: bold;
 font-size: 24px;
 line-height: 32px;
@@ -106,7 +108,7 @@ width: 510px;
 height: 52px;
 left: 120px;
 top: 480px;
-font-size: 19.9px;
+font-size: 20px;
 background: #FFFFFF;
 mix-blend-mode: normal;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -114,8 +116,6 @@ border-radius: 20px;
 }
 
 .contenido input::placeholder {
-font-style: normal;
-font-weight: normal;
 font-size: 19.9px;
 line-height: 24px;
 padding-left: 10px;
@@ -127,19 +127,17 @@ width: 510px;
 height: 52px;
 left: 120px;
 top: 550px;
-font-size:19.9px;
+font-size:20px;
 }
 
 .password input::placeholder {
 font-style: normal;
 font-weight: normal;
-font-size: 19.9px;
 line-height: 24px;
 }
 
 .send input {
 position: absolute;
-cursor: pointer;
 width: 510px;
 height: 52px;
 left: 120px;
@@ -150,9 +148,8 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 20px;
 color: #FFFFFF;
 font-style: normal;
-font-weight: bold;
+font-weight: 300;
 font-size: 24px;
-line-height: 32px;
 text-align: center;
 }
 
@@ -160,19 +157,13 @@ text-align: center;
 background-color: #015B81;
 }
     
-
-
 .extension {
 position: absolute;
 left: 1095px;
-top: 715px;
-
-
-font-style: normal;
-font-weight: normal;
-font-size: 12px;
+top: 755px;
+font-weight: 300;
+font-size: 10px;
 line-height: 22px;
-
 color: #FFFFFF;
 }
 
@@ -206,8 +197,7 @@ position: absolute;
 width: 395px;
 height: 42px;
 left: 153px;
-top: 50px;
-    
+top: 50px;   
 font-family: Encode Sans Semi Expanded;
 font-style: normal;
 font-weight: 800;
@@ -335,11 +325,10 @@ margin-top: 12px;
 border: transparent;
 background-color:transparent;
 font-style: normal;
-font-weight: bold;
+font-weight: 500;
 font-size: 26px;
-
 line-height: 32px;
-text-align: center;
+text-align: right;
 color: #FFFFFF;
 }
 
@@ -364,10 +353,10 @@ label[for="abrir-cerrar"] {
     display: inline-block;
     width: 20%;
     font-family: Encode Sans Semi Expanded;
-    font-weight: bold;
+    font-weight: 500;
     margin-top: 150px;
     padding-left: 60%;
-    font-size: 30px;
+    font-size: 26px;
     transform: rotate(-90deg);
     margin-left: -39%;
     margin-top: 50%;
@@ -385,7 +374,7 @@ label[for="abrir-cerrar"] {
 }
 
 input#abrir-cerrar:checked ~ #sidebar {
-    width:340px;
+    width:360px;
 }
 
 /*El selector "+" selecciona el elemento que esté inmediatamente a continuación en el marcado html*/
@@ -404,17 +393,17 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
 }
 
 .sidebar { /*Contenido de Actualizaciones*/
-    position: fixed;
-    width: 340px;
-    height:100%;
-    top:200px;
-    left: 0;
-    z-index: 1;
-    background-color: #0080B6;
-    overflow-x: hidden;
-    transition: 0.4s;
-    padding: 1rem 0;
-    box-sizing:border-box;
+  position: fixed;
+  width: 340px;
+  height:100%;
+  top:200px;
+  left: 0;
+  z-index: 1;
+  background-color: #0080B6;
+  overflow-x: hidden;
+  transition: 0.4s;
+  padding: 1rem 0;
+  box-sizing:border-box;
 }
 
 .sidebar h1 { 
@@ -424,7 +413,7 @@ height: 143px;
 left: 26px;
 top: 0px;
 font-family: Encode Sans Semi Expanded;
-color: white;
+color: rgb(255, 255, 255);
 font-style: normal;
 font-weight: bold;
 font-size: 28px;
@@ -482,7 +471,7 @@ color: white;
 top:190px;
 font-size: 12px;
 margin-left: -50px;
-font-style: normal;
+font-family: Encode Sans Semi Expanded;
 }
 
 .actualizacion1 a{
@@ -492,7 +481,7 @@ top: 220px;
 margin-left: -160px;
 margin-right: 170px;
 color: #0080B6;
-font-style: normal;
+font-family: Encode Sans Semi Expanded;
 }
 
 .actualizacion2 h3 {
@@ -501,7 +490,7 @@ color: white;
 top:270px;
 font-size: 12px;
 margin-left: -50px;
-font-style: normal;
+font-family: Encode Sans Semi Expanded;
 }
     
 .actualizacion2 a{
@@ -511,7 +500,7 @@ top: 300px;
 margin-left: -170px;
 margin-right: 170px;
 color: #0080B6;
-font-style: normal;
+font-family: Encode Sans Semi Expanded;
 }
 
 
@@ -525,7 +514,7 @@ display: flex;
 justify-content:space-evenly;
 flex-wrap:wrap; 
 justify-content: center;
-padding-bottom:5%;
+padding-bottom:10px;
 padding-top: 17%;
 margin-left: 70px;
 }
@@ -539,9 +528,7 @@ padding: 50px ;
 background: rgba(255, 255, 255, 0.85);
 box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
 border-radius: 10px;
-margin: 1% auto;
-margin-left: 1%;
-margin-right: 1%;
+margin: 20px;
 background: #F1F1F0;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 15px;
@@ -553,12 +540,13 @@ flex-flow: column wrap;
 color: white;
 font-family: Encode Sans Semi Expanded;
 font-style: normal;
-font-weight: bold;
-font-size: 23px;
+font-weight: 700;
+font-size: 24px;
 text-align: center;
 width: 276px;  
 height: 39px;
 margin-left: -29%;
+margin-top: 10px;
 background: #A0CFC4;
 border-radius: 0px 0px 15px 15px;
 }
@@ -632,8 +620,8 @@ label {
   flex-flow: column;
   color: #0080B6;
   font-family: Encode Sans Semi Expanded;
-  font-style: normal;
   font-size: 20px;
+  font-weight: 800;
   text-align: center;
   width: 300px;
   height: 500px;
@@ -649,6 +637,7 @@ label {
   margin-bottom: 5px;
   text-transform:uppercase;
   font-size: 16px;
+  font-weight: 500;
   }
   
   .modalInlineWhite {
@@ -659,6 +648,7 @@ label {
   margin-bottom: 10px;;
   text-transform:uppercase;
   font-size: 16px;
+  font-weight: 500;
   width: 90%
   }
   
@@ -690,23 +680,17 @@ label {
     border-radius: 0px 30px 30px 0px;
   }
   
-  #letras {
-  padding-left: 2%;
-  justify-content: left;
-  color:#FFFFFF;
-  font-family: Encode Sans Semi Expanded;
-  font-style: normal;
-  }
-  
   .numeroNombre {
-  font-size: 30pt;
+  font-size: 32pt;
   text-transform:uppercase;
   padding-top: 25px;
+  font-weight: 800;
   }
   
   .generacion {
   font-size: 20pt;
   justify-content: left;
+  font-weight: 500;
   }
   
   .especificaciones {
@@ -738,6 +722,7 @@ label {
 /* Footer*/
 .fondoPrincipal {
   background-color: #0080B6;
+  margin-top: 80px;
 }
 
   .footer-distributed {
@@ -872,15 +857,54 @@ label {
   /* Media Queries footer */
   
   @media (max-width: 600px) {
-    .footer-distributed .footer-left, .footer-distributed .footer-right {
-      text-align: center;
-    }
-    .footer-distributed .footer-right {
-      float: none;
-      margin: 0 auto 40px;
-    }
-    .footer-distributed .footer-left p.footer-links {
-      line-height: 1.8;
-    }
+
   }
 
+/* SMARTPHONE */
+@media screen and (max-width: 599px) and (min-width: 200px) {
+
+  /* Página de inicio*/
+    .containerIndex {
+    font-family:'Encode Sans Expanded', sans-serif;
+    width: 320px;
+    display: flex;
+    }
+    
+    #fondo {
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 800px;
+    }
+    
+    .contenido {
+    position: absolute;
+    width: 400px;
+    height: 900px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(180deg, #0080B6 0%, rgba(160, 207, 196, 0.53) 100%);
+    mix-blend-mode: normal;
+    }
+
+    /* Footer */
+  .footer-distributed .footer-left, .footer-distributed .footer-right {
+    text-align: center; 
+    }
+    .footer-distributed .footer-right {
+    float: none;
+    margin: 0 auto 40px;
+    }
+    .footer-distributed .footer-left p.footer-links {
+    line-height: 1.8;
+    }
+}
+
+
+
+
+/* Tablet */
+@media screen and (max-width: 900px) and (min-width: 600px) {
+}
+  

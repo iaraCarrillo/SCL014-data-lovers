@@ -3,16 +3,17 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HOLA</title>
+    <title>POKÉGO DEX</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="shortcut icon" type="image/x-icon" href="/images/logoprincipal.png">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded:wght@300;500;700;800&display=swap" rel="stylesheet"> 
   </head>
-  <body class="index">
-    <form action="principal.html" method="GET" id="form" class="contenido">
+  <body>
+    <div class= "containerIndex">
+      <img id="fondo" src="images/backgroundLog.png">
+      <form action="principal.html" method="GET" id="form" class="contenido">
       <img id="logo" src="/images/logoprincipal.png">
-      <h1>POKÉGO DEX</h1>
+      <h1 class="logoPoke">POKÉGO DEX</h1>
       <button id="botonGo">
         <a href="principal.html"><img src="images/logogo.jpg" alt=""> Ingresa con Pokémon Go!</a>
       </button>
@@ -24,10 +25,11 @@
       <div class="send">
         <input type="submit" value="Continuar" onclick="submitForm()"/> 
       </div>
-    </form>
-  <div class="extension">
-    <h3>PokéGo Dex es una extensión del juego de Pokémon Go</h3>
-  </div>
-    <script src="main.js" type="text/javascript"></script>
+      </form>
+      <div class="extension">
+      <h3>©2020 Dexia, Inc. ©2020 Pokémon. ©1995-2020 Nintendo / Creatures Inc.©</h3>
+      </div>
+      <script src="main.js" type="text/javascript"></script>
+    </div>
   </body>
 </html>
