@@ -6,10 +6,28 @@
 }
 
 /*Log in*/
+.index {
+background-image: url("images/backgroundLog.png");
+background-position: center;
+background-attachment: fixed;
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+}
+
 .containerIndex {
 font-family:'Encode Sans Expanded', sans-serif;
 width: 750px;
 height: 100%;
+}
+
+.extension {
+position: absolute;
+left: 1095px;
+top: 755px;
+font-weight: 300;
+font-size: 13px;
+color: #FFFFFF;
 }
 
 #fondo {
@@ -50,7 +68,6 @@ font-weight: 800;
 font-size: 46px;
 line-height: 62px;
 color: #FFFFFF;
-
 }
 
 #botonGo {
@@ -157,15 +174,7 @@ text-align: center;
 background-color: #015B81;
 }
     
-.extension {
-position: absolute;
-left: 1095px;
-top: 755px;
-font-weight: 300;
-font-size: 10px;
-line-height: 22px;
-color: #FFFFFF;
-}
+
 
 /*Página Principal*/
 
@@ -675,7 +684,7 @@ label {
     width: 430px;
     height: 500px;
     background: #0080B6;
-    padding-left: 1%;
+    padding-left: 2%;
     padding-right: 1%;
     border-radius: 0px 30px 30px 0px;
   }
@@ -726,92 +735,91 @@ label {
 }
 
   .footer-distributed {
-    top: 500px;
-    
-    box-sizing: border-box;
-    width: 100%;
-    font: normal 16px sans-serif;
-    padding: 50px;
+  top: 500px;  
+  box-sizing: border-box;
+  width: 100%;
+  font: normal 16px sans-serif;
+  padding: 50px;
   }
   
   .footer-distributed .footer-left p {
-    color: #ffffff;
-    font-size: 12px;
-    margin-left: 50px;
+  color: #ffffff;
+  font-size: 12px;
+  margin-left: 50px;
   }
   /* Footer links */
   
   .footer-distributed p.footer-links {
-    font-size: 18px;
-    color: #ffffff;
-    padding: 0;
-    transition: ease .25s;
+  font-size: 18px;
+  color: #ffffff;
+  padding: 0;
+  transition: ease .25s;
   }
 
   .footer-distributed p.footer-links a {
-    display: inline-block;
-    line-height: 1.8;
-    text-decoration: none;
-    color: inherit;
-    transition: ease .25s;
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+  transition: ease .25s;
   }
 
   .footer-distributed p.footer-links a:hover {
-    color:#A0CFC4;
+  color:#A0CFC4;
   }
 
   
   .footer-distributed .footer-links a:before {
-    content: "·";
-    left: 0;
-    color: #fff;
-    display: inline-block;
+  content: "·";
+  left: 0;
+  color: #fff;
+  display: inline-block;
   }
   
   .footer-distributed .footer-links .link-1:before {
-    content: none;
+  content: none;
   }
   
   .footer-distributed .footer-right {
-    float: right;
-    margin-top: 6px;
-    max-width: 180px;
-    margin-right: 40px;
+  float: right;
+  margin-top: 6px;
+  max-width: 180px;
+  margin-right: 40px;
   }
   
   .footer-distributed .footer-right a {
-    display: inline-block;
-    width: 35px;
-    height: 35px;
-    text-align: center;
-    line-height: 35px;
-    margin-left: 50px;
-    transition:all .25s;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  margin-left: 50px;
+  transition:all .25s;
   }
 
   .footer-icon {
-    width: 35px;
-    height: 35px;
-    padding-right: -100px;
-    padding-left: 50px;
+  width: 35px;
+  height: 35px;
+  padding-right: -100px;
+  padding-left: 50px;
   }
 
   .line {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 100%;
-    margin-right: 40px;
-    margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  margin-right: 40px;
+  margin-left: 30px;
   }
 
 /*FAVORITOS*/
  .menuFavoritos {
-   background:linear-gradient(90deg, #8E90B9 0%, #DBA2BF 100%);
-   position: fixed;
-   width: 100%;
-   height: 152px;
-   left: 0px;
-   top: 0px;
+  background:linear-gradient(90deg, #8E90B9 0%, #DBA2BF 100%);
+  position: fixed;
+  width: 100%;
+  height: 152px;
+  left: 0px;
+  top: 0px;
   }
 
  .lupa button{
@@ -826,18 +834,18 @@ label {
   }
     
   .lupa button:hover {
-    background: #6E71A1;
-    cursor: pointer; 
+  background: #6E71A1;
+  cursor: pointer; 
   }
 
   .filtrosFavoritos {
-    position: absolute;
-    width: 100%;
-    height: 60px;
-    left: 0px;
-    top: 150px;
-    background: #8E90B9;
-    }
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  left: 0px;
+  top: 150px;
+  background: #8E90B9;
+  }
 
  .fondoFavoritos {
   background: #8E90B9;
@@ -854,57 +862,436 @@ label {
   margin-bottom: -190px;
 }
  
-  /* Media Queries footer */
-  
-  @media (max-width: 600px) {
-
-  }
+  /* Media Queries */
 
 /* SMARTPHONE */
-@media screen and (max-width: 599px) and (min-width: 200px) {
+@media screen and (max-width: 736px) and (min-width: 200px) {
 
-  /* Página de inicio*/
-    .containerIndex {
-    font-family:'Encode Sans Expanded', sans-serif;
-    width: 320px;
-    display: flex;
-    }
+  /* PÁGINA DE INICIO*/
+
+  .index {
+  background-image: none;
+  height: 20%;
+  }
+
+  #logo {
+  width: 80px;
+  height: 80px;
+  left: 155px;
+  }
+
+  .contenido h1 {
+  left: 90px;
+  top: 160px;
+  font-size: 30px;
+  }
+
+  #botonGo {
+  width: 320px;
+  height: 34px;
+  left: 30px;
+  top: 240px;
+  font-size: 16px;
+  }
+
+  #botonGo a {
+  font-size: 16px;
+  }
+
+  .contenido h3 {
+  position: absolute;
+  width: 342px;
+  height: 26px;
+  left: 28px;
+  top: 300px;
+  font-size: 16px;
+  }   
+
+  #botonGo img {
+  visibility: hidden; 
+  }
     
-    #fondo {
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 800px;
-    }
+  .password input {
+  width: 320px;
+  height: 34px;
+  font-size: 6px;
+  left: 30px;
+  top: 400px;
+  }
+
+  .password input::placeholder{
+  font-size: 12px;
+  } 
     
-    .contenido {
-    position: absolute;
-    width: 400px;
-    height: 900px;
-    left: 0px;
-    top: 0px;
-    background: linear-gradient(180deg, #0080B6 0%, rgba(160, 207, 196, 0.53) 100%);
-    mix-blend-mode: normal;
-    }
+  #nameUser::placeholder{
+  font-size: 12px;
+  }  
+      
+  #nameUser {
+  width: 320px;
+  height: 34px;
+  left: 30px;
+  top: 350px;
+  }  
 
-    /* Footer */
-  .footer-distributed .footer-left, .footer-distributed .footer-right {
-    text-align: center; 
-    }
-    .footer-distributed .footer-right {
-    float: none;
-    margin: 0 auto 40px;
-    }
-    .footer-distributed .footer-left p.footer-links {
-    line-height: 1.8;
-    }
-}
+  .send input {
+  width: 320px;
+  height: 34px;
+  font-size: 16px;
+  left: 30px;
+  top: 470px;
+  }
 
+/* PÁGINA PRINCIPAL*/
 
+/* Header*/
 
+  .logo img{
+  width: 60px;
+  height: 60px;
+  top: 20px;
+  }
+        
+  .logo h1 {
+  left: 110px;
+  top: 21px;   
+  font-size: 30px;
+  }
 
-/* Tablet */
-@media screen and (max-width: 900px) and (min-width: 600px) {
-}
+  .menu {
+  left: 0px;
+  top: 0px;
+  }
+
+  .filtros {
+  height: 50px;
+  top: 100px;
+  }
+
+  #generation,
+  #type,
+  #candy {
+  font-size: 16px;
+  line-height: 32px;
+  }
+
+  /*Actualizaciones*/
+  input#abrir-cerrar,
+  label[for="abrir-cerrar"], 
+  .cerrar, 
+  #sidebar, 
+  #contenido, 
+  input#abrir-cerrar:checked ~ #sidebar, 
+  input#abrir-cerrar:checked + label[for="abrir-cerrar"], input#abrir-cerrar:checked ~ #contenido,
+  input#abrir-cerrar:checked + label[for="abrir-cerrar"] .cerrar,
+  input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir 
+  .sidebar 
+  .sidebar h1
+  .sidebar h1 span
+  .sidebar h2 
+  .sidebar h3 
+  .mensaje 
+  .mensaje img 
+  .actualizacion1 h3 
+  .actualizacion1 a
+  .actualizacion2 h3 
+  .actualizacion2 a{
+  visibility: hidden;
+  }
+
+  /*Tarjetas*/
+  #root {
+  padding-top: 45%;
+  margin-left: 0px;
+  }
+
+  /* MODAL */
+  .card-modal {
+  flex-flow: column;
+  }
   
+  .imgPokemon {
+  font-size: 12px;
+  width: 300px;
+  height: 250px;
+  border-radius: 15px 15px 0px 0px;
+  padding-top: 10px;
+  }
+  
+  .modalInline {
+  font-size: 12px;
+  border: solid 0.75px;
+  }
+  
+  .modalInlineWhite {
+  font-size: 12px;
+  border: solid 0.75px;
+  }
+  
+  .imgModal{
+  margin-left: 20px;;
+  justify-content: center;
+  height: 140px;
+  width: 120px;
+  padding-bottom: 2px;
+  }
+  
+  .infoPokemonModal {
+  font-size: 12px;
+  width: 300px;
+  height: 350px;
+  padding-left: 0%;
+  padding-right: 0%;
+  border-radius: 0px 0px 15px 15px;
+  }
+  
+  .numeroNombre {
+  font-size: 20pt;
+  padding-left: 5%;
+  padding-top: 3%;
+  }
+  
+  .generacion {
+  font-size: 14pt;
+  padding-left: 5%;
+  }
+  
+  .especificaciones {
+  margin-top: 20px;
+  font-size: 10pt;
+  width: 260px;
+  padding-left: 5%;
+  }
+
+  .close {
+  float: center;
+  margin-top: 10px;
+  font-size: 28px;
+  font-weight: bold;
+  padding-top: 20px;
+  background: none;
+  border: none;
+  color: #FFFFFF;
+  }
+
+  /* FOOTER */
+  .fondoPrincipal {
+  margin-top: 60px;
+  }
+
+  .footer-distributed {
+  padding: 20px;
+  }
+  
+  .footer-distributed .footer-left p {
+  text-align: center;
+  font-size: 8px;
+  margin-left: 5px;
+  }
+  
+  /* Footer links */
+  
+  .footer-distributed p.footer-links {
+  font-size: 17px;
+  }
+
+  .footer-distributed .footer-links a:before {
+  left: 0;
+  }
+  
+  .footer-distributed .footer-right a {
+  width: 25px;
+  height: 25px;
+  }
+
+  .footer-icon {
+  width: 25px;
+  height: 25px;
+  padding-right: 0px;
+  padding-left: 0px;
+  }
+
+  .line {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  margin-right: 0px;
+  margin-left: 0px;
+  }
+}
+
+/* Ipad */
+@media screen and (max-width: 1024px) and (min-width:768px) {
+
+/* PÁGINA DE INICIO*/
+
+  .index {
+  height: 20%;
+  }
+
+  #logo {
+  width: 70px;
+  height: 70px;
+  left: 155px;
+  top: 50px;
+  }
+
+  .contenido h1 {
+  left: 95px;
+  top: 115px;
+  font-size: 26px;
+  }
+
+  #botonGo {
+  width: 300px;
+  height: 34px;
+  left: 38px;
+  top: 190px;
+  font-size: 14px;
+  }
+
+  #botonGo a {
+  font-size: 16px;
+  font-weight: 800;
+  }
+
+  .contenido h3 {
+  position: absolute;
+  width: 300px;
+  height: 34px;
+  left: 38px;
+  top: 240px;
+  font-size: 14px;
+  }   
+
+  #botonGo img {
+  visibility: hidden; 
+  }
+    
+  .password input {
+  width: 300px;
+  height: 34px;
+  left: 38px;
+  top: 280px;
+  }
+
+  .password input::placeholder{
+  font-size: 12px;
+  } 
+    
+  #nameUser::placeholder{
+  font-size: 12px;
+  }  
+      
+  #nameUser {
+  width: 300px;
+  height: 34px;
+  left: 38px;
+  top: 330px;
+  }  
+
+  .send input {
+  width: 300px;
+  height: 34px;
+  left: 38px;
+  font-size: 16px;
+  top: 380px;
+  font-weight: 800;
+  }
+
+  .filtros {
+  height: 70px;
+  top: 150px;
+  }
+  
+  #generation,
+  #type,
+  #candy {
+  float: left;
+  font-size: 30px;
+  margin-left: 50px;
+  }
+
+/*Actualizaciones*/
+  input#abrir-cerrar,
+  label[for="abrir-cerrar"], 
+  .cerrar, 
+  #sidebar, 
+  #contenido, 
+  input#abrir-cerrar:checked ~ #sidebar, 
+  input#abrir-cerrar:checked + label[for="abrir-cerrar"], input#abrir-cerrar:checked ~ #contenido,
+  input#abrir-cerrar:checked + label[for="abrir-cerrar"] .cerrar,
+  input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir 
+  .sidebar 
+  .sidebar h1
+  .sidebar h1 span
+  .sidebar h2 
+  .sidebar h3 
+  .mensaje 
+  .mensaje img 
+  .actualizacion1 h3 
+  .actualizacion1 a
+  .actualizacion2 h3 
+  .actualizacion2 a{
+  visibility: hidden;
+  }
+  
+  /*Tarjetas*/
+  #root {
+  padding-top: 35%;
+  margin-left: 0px;
+  }
+
+  /* MODAL */
+  .imgPokemon {
+  width: 250px;
+  height: 500px;
+  background: #F2EDEE;
+  border-radius: 30px 0px 0px 30px;
+  }
+
+  .infoPokemonModal {
+  padding-left: 4%;
+  }
+  
+  /* FOOTER */
+  .fondoPrincipal {
+    margin-top: 60px;
+    }
+    .footer-distributed {
+    padding: 20px;
+    height: 250px;
+    }
+
+    .footer-distributed .footer-left p {
+    text-align: left;
+    font-size: 12px;
+    margin-left: 10px;
+    }
+    
+    /* Footer links */
+    
+    .footer-distributed p.footer-links {
+    font-size: 30px;
+    }
+  
+    .footer-distributed .footer-right a {
+    width: 25px;
+    height: 25px;
+    }
+  
+    .footer-icon {
+    width: 45px;
+    height: 45px;
+    padding-right: 0px;
+    padding-left: 0px;
+    }
+  
+    .line {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+    }
+}
