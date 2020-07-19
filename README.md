@@ -310,7 +310,7 @@ Para la planificación de este proyecto utilizamos la herramiento Trello, con la
 
 **Trello:** https://trello.com/b/3fWFhJC9/datalovers
 
-**Presentación:** https://iaracarrillo.github.io/SCL014-data-lovers/
+**Presentación:** https://drive.google.com/file/d/1SfGpBa79bi-J7L1I8xu_wrIWgriCNFAb/view?usp=sharing
 
 **App PokéGo Dex:** https://iaracarrillo.github.io/SCL014-data-lovers/
 
