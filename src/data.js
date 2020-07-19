@@ -31,11 +31,6 @@ export const filterCandy = (data, property, selectCandy) => {
     return resultado
   };
   
-
-
-
-
-  
   ///EXPORTANDO las función de filtar por tipo///
   export const filterType = (data, property, selectType) => {
     const resultado = [];

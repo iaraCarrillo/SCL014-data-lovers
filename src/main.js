@@ -285,13 +285,6 @@ document.getElementById('okBtn').addEventListener('click', () => {
   modalImpri
 });
 
-
-
-
-
-
-
-
 //FILTRO GENERACIÓN
 const typeGeneration = document.getElementById("generation");
 typeGeneration.addEventListener("change", () => {

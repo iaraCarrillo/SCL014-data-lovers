@@ -3,11 +3,10 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PokéGo Dex</title>
+    <title>POKÉGO DEX</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="shortcut icon" type="image/x-icon" href="/images/logoprincipal.png">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded:wght@300;500;700;800&display=swap" rel="stylesheet"> 
   </head>
   <body>
     <div class="arriba" id="top"></div>
@@ -28,18 +27,13 @@
             </div>
         </div>
         <div class="filtros">
-        <select id="generation">
-            <option selected="" disabled="">Generación</option>
-            <option>generation</option> 
-            <option value="kanto">Kanto</option>
-            <option value="johto">Johto</option>
-            <option value="gn3">Hoenn</option>
-            <option value="gn4">Sinnoh</option>
-            <option value="gn5">Teselia</option>
-            <option value="gn6">Kalos</option>
-            <option value="gn7">Alola</option>
-            <option value="gn8">Galar</option>     
-        </select>
+            <select id="candy">
+                <option selected="" disabled="">Caramelos</option>
+                <option value="25">25 Huevos</option>
+                <option value="50">50 Huevos</option>
+                <option value="100">100 Huevos</option>
+                <option value="400">400 Huevos</option>
+            </select>
         <select id="type">
             <option selected="" disabled="">Tipo</option>
             <option value="fire">Fuego</option>
@@ -57,13 +51,16 @@
             <option value="ghost">Fantasma</option>
             <option value="dragon">Dragón</option>   
         </select>
-        <select id="candy">
-            <option selected="" disabled="">Caramelos</option>
-            <option value="25">25 Huevos</option>
-            <option value="50">50 Huevos</option>
-            <option value="100">100 Huevos</option>
-            <option value="400">400 Huevos</option>
-            
+        <select id="generation">
+            <option selected="" disabled="">Generación</option>
+            <option value="kanto">Kanto</option>
+            <option value="johto">Johto</option>
+            <option value="gn3">Hoenn</option>
+            <option value="gn4">Sinnoh</option>
+            <option value="gn5">Teselia</option>
+            <option value="gn6">Kalos</option>
+            <option value="gn7">Alola</option>
+            <option value="gn8">Galar</option>     
         </select>
         </div>
     </div>
@@ -75,18 +72,18 @@
           <span class="cerrar">▲ Actualizaciones</span>
         </label>
         <div id="sidebar" class="sidebar">
-            <h1>HOLA <span id="writeName"></span> </h1>
-            <h2>SOY LAPRAS,</h2>
-            <h3>Mira las últimas actualizaciones de Pokémon Go!</h3>
+            <h1>BIENVENIDO ENTRENADOR<span id="writeName"></span> </h1>
+            <h2>¡SOY LAPRAS!</h2>
+            <h3>Últimas actualizaciones de Pokémon Go!</h3>
             <div class="mensaje">
                 <img src="images/laprasmensaje.png" />
                 <div class="actualizacion1">
-                    <h3>2/7/20</h3>
-                    <a href="https://pokemongolive.com/es/post/communityday-july20/">¡El Pokémon destacado del Día de la Comunidad de julio es Gastly!</a>
+                    <h3>14/7/20</h3>
+                    <a href="https://pokemongolive.com/es/post/communityday-july20/">¿Listos para el Pokémon GO Fest con el kit para imprimir en casa?</a>
                 </div>
                 <div class="actualizacion2">
-                    <h3>2/7/20</h3>
-                    <a href="https://pokemongolive.com/es/post/willowreport-strangescraps/">Informe del Profesor Willow: Recortes extraños</a>
+                    <h3>9/7/20</h3>
+                    <a href="https://pokemongolive.com/es/post/willowreport-strangescraps/">¡El Team GO Rocket se ha apoderado del GO Fest!</a>
                 </div>
             </div>
         </div>
@@ -95,13 +92,6 @@
     <!--Tarjeta Pokémon-->
     <div id="root" class="all-pokemones"></div>
     <div id="modal" class="modal"></div>
-    
-
-
-
-
-
-
     
   
 <!--Footer-->
@@ -115,11 +105,11 @@
         <div class="footer-left">
             <a title="Facebook" href="https://www.facebook.com/PokemonGO/" target="_blank"><img src="images/icon-fb.png" alt=Facebook class="footer-icon"></a>
             <a title="Twitter" href="https://twitter.com/PokemonGoApp" target="_blank"><img src="images/icon-twitter.png" alt=Twitter class="footer-icon"></a>
-            <a title="Instagram" href="https://www.instagram.com/pokego.dex/?igshid=1ih9h8mrdavcw" target="_blank"><img src="images/icon-insta.png" alt=Instagram class="footer-icon"></a>
+            <a title="Instagram" href="https://instagram.com/pokego.dex?igshid=1ih9h8mrdavcw" target="_blank"><img src="images/icon-insta.png" alt=Instagram class="footer-icon"></a>
             <hr color= "white" size=1 class="line">   
             <p class="footer-links">
                 <a class="link-1" href="https://pokemongolive.com/es/" target="_blank">Pokémon GO oficial</a>
-                <a href="formulario" target="_blank"> Ayúdanos a mejorar</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeg0cLW47WAqx1OpXkY4lyspsJg_cIfX_QwHyV5d8h6t6sc5Q/viewform?vc=0&c=0&w=1" target="_blank"> Ayúdanos a mejorar</a>
             </p>
             <p>©2020 Dexia, Inc. ©2020 Pokémon. ©1995-2020 Nintendo / Creatures Inc. / GAME FREAK inc.
                 Pokémon and Pokémon character names are trademarks of Nintendo. During gameplay, please be aware of your surroundings and play safely. &copy;</p>
