@@ -14,7 +14,7 @@
    * [5.4 Prototipo de Alta Fidelidad](#5.4-prototipado-de-alta-fidelidad)
      * [5.4.1 Testeo de Prototipo de Alta Fidelidad ](#5.4.1-testeo-de-prototipo-de-alta-fidelidad)
 * [6. Presentación del producto final: PokéGo Dex](#6-presentación-del-producto-final-pokégo-dex)
-* [7. Anexos Complementarios](#7-anexos-complementarios)
+* [7. Planificación del proyecto](#7-planificación-del-proyecto)
 * [8. Enlaces](#8-enlaces)
 
 
@@ -29,7 +29,7 @@ Construir una página web complementaria al juego Pokémon GO que visualice un c
 
 **Tiempo de desarrollo:** Junio-Julio 2020.
 
-**Link de desarrollo del proyecto:**  http://iaracarrillo.github.io/SCL014-data-lovers
+**Link de desarrollo del proyecto:**  https://iaracarrillo.github.io/SCL014-data-lovers/
 
 ***
 
@@ -266,7 +266,7 @@ Como sexta misión, queríamos comprobar si el usuario relacionaba el logo con v
 
 Finalmente, le hicimos una serie de preguntas a los usuarios para saber si les ayudaban los filtros, las tarjetas y la sección de favoritos para ser mejores jugadores.
 
-Con toda esta información pudimos determinar que lo que ellos entendían como filtro de evolución lo relacionaban con la cantidad de huevos necesarios para evolucionar un pokémon y no por la cadena evolutiva, que los colores de las tarjetas en la página principal las relacionaban con los tipos y no por color de pokémon, y que le faltaba la especificación de ataques rápidos a la tarjeta. Todos estos cambios fueron incorporados al producto final
+Con toda esta información pudimos determinar que lo que ellos entendían como filtro de evolución lo relacionaban con la cantidad de huevos necesarios para evolucionar un pokémon y no por la cadena evolutiva, que los colores de las tarjetas en la página principal las relacionaban con los tipos y no por color de pokémon, y que le faltaba la especificación de ataques rápidos a la tarjeta. Todos estos cambios fueron incorporados al producto final.
 
 ***
 
@@ -288,8 +288,12 @@ En base a un extenso proceso de investigación con usuarios reales de Pokémon G
 
 ***
 
-# 7. Anexos Complementarios
+# 7. Planificación del proyecto
+
+Para la planificación de este proyecto utilizamos la herramiento Trello, con la que como grupo organizamos tareas para cada dia de la semana hasta la fecha final de entrega. En cada una de las listas añadimos tarjetas con los trabajos a realizar en la descripción y comentarios junto con fotos de lo realizado, además asignamos etiquetas de colores para cada actividad en particular como UX, código y readme.
+
 ![readme16](https://user-images.githubusercontent.com/66659886/87491613-9a634a80-c616-11ea-929a-3bec05685ad0.jpg)
+
 ***
 
 # 8. Enlaces
@@ -300,8 +304,16 @@ En base a un extenso proceso de investigación con usuarios reales de Pokémon G
 
 **Maze:** https://maze.design/preview/mazes/13844573
 
+**Formulario "Ayudános a mejorar":** https://docs.google.com/forms/d/e/1FAIpQLSeg0cLW47WAqx1OpXkY4lyspsJg_cIfX_QwHyV5d8h6t6sc5Q/viewform?vc=0&c=0&w=1
+
 **Proceso fotográfico:** https://drive.google.com/drive/folders/1iJdPxjQc2Sr2AE5byGKMmZXohADoz0CY
 
 **Trello:** https://trello.com/b/3fWFhJC9/datalovers
+
+**Presentación:** https://iaracarrillo.github.io/SCL014-data-lovers/
+
+**App PokéGo Dex:** https://iaracarrillo.github.io/SCL014-data-lovers/
+
+
 
 

@@ -1,7 +1,6 @@
-//Se impora (llama) la data a main.js
-import basePokemon from './data/pokemon/pokemon.js';
+import basePokemon from './data/pokemon/pokemon.js'; //Se impora (llama) la data a main.js
 //Se importan las funciones (Filtros) que se encuentran ubicados en data.js a main.js
-import { filterCandy, filterGeneration, filterType, filterSearch} from './data.js'
+import { filterCandy, filterGeneration, filterType, filterSearch} from './data.js' 
 //Se convierte el objeto pokemon en un array
 const dataPokemon = basePokemon.pokemon;
 //crear otra constante de data Pokémon
@@ -53,7 +52,7 @@ let imgPokemonSelected;//Imagen
 let typePokemonSelected;//Tipo
 let countOfCandys;//un string de candys
 let quickMoves=[];//son listas de movimientos rapidos, tambien se les llama arrays
-let specialAttacks=[];//son listas de ataques especiales, tambien se les llama arrays
+let specialAttacks=[]; //son listas de ataques especiales, tambien se les llama arrays
 let generationPokemonSelected;//Generación
 let weaknessesPokemonSelected;//Debilidad
 let resistantPokemonSelected;//Resistencia
@@ -166,7 +165,7 @@ typeCandy.addEventListener("change", () => {
     let numByCandy = positionCandy[i].num
     let imgByCandy = positionCandy[i].img
     //variable que contiene los valores a imprimir
-    let prinType = `
+    let printCandy = `
     <section id="tarjetas">
       <div class="starTarjeta">
         <button>
@@ -179,7 +178,7 @@ typeCandy.addEventListener("change", () => {
       </div>
     </section>`
     //se imprime llamando a la nueva variable según lo especificado en la variable anterior
-    container.innerHTML += `<p>${prinType}<p>`
+    container.innerHTML += `<p>${printCandy}<p>`
   }
   //For que recorre la clase  foto de mi linea de impresión
   for (let i = 0; i < foto.length; i++) {
@@ -284,13 +283,6 @@ document.getElementById('okBtn').addEventListener('click', () => {
   //se trae la función modal
   modalImpri
 });
-
-
-
-
-
-
-
 
 //FILTRO GENERACIÓN
 const typeGeneration = document.getElementById("generation");
